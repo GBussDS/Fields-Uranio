@@ -49,6 +49,7 @@ existing_numbers = [1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
 
 
 for i in existing_numbers:
+    print(i)
     try:
         url = base_url + str(i)
 
@@ -87,7 +88,6 @@ for i in existing_numbers:
                 load_fac_cumul.append(float(cols[8].text.strip()) if cols[8].text.strip() != '' and cols[8].text.strip() != 'NC' else None)
             else:
                 continue
-        existing_numbers.append(i)
     except:
         not_existing_numbers.append(i)
         continue
