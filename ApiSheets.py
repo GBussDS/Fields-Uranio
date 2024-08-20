@@ -8,7 +8,7 @@ import pygsheets
 
 SPREADSHEET_TITLE = "Fields"
 
-class SheetsAPI():
+class Sheets():
 
     CURRENT = os.path.dirname(__file__)
     KEYS_FOLDER = "keys"
@@ -37,7 +37,8 @@ class SheetsAPI():
     def reatores_ano(self, df):
         self.__set_df("Reatores/Ano", df)
 
-sheet = SheetsAPI()
-df = pd.read_csv('Reactors_Info.csv')
-df_novo = df.where(pd.notnull(df), '')
-sheet.reatores_ano = df_novo
+if __name__ == "__main__":
+    sheet = Sheets()
+    df = pd.read_csv('Reactors_Info.csv')
+    df_novo = df.where(pd.notnull(df), '')
+    sheet.reatores_ano = df_novo
