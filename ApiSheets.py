@@ -37,6 +37,15 @@ class Sheets():
     def reatores_ano(self, df):
         self.__set_df("Reatores/Ano", df)
 
+    @property
+    def reatores_info(self):
+        ws = self.sh.worksheet_by_title("Reatores Info")
+        return ws.get_as_df(value_render=self.VALUE_RENDER)
+    
+    @reatores_info.setter
+    def reatores_info(self, df):
+        self.__set_df("Reatores Info", df)
+
 if __name__ == "__main__":
     sheet = Sheets()
     df = pd.read_csv('Reactors_Info.csv')

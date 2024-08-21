@@ -1,7 +1,6 @@
 import sys
 import pandas as pd
 import datetime
-import Levenshtein
 import logging
 import os
 
@@ -27,16 +26,20 @@ class ScrapperToSheets:
         self.sheets = Sheets()
         self.scrapper = Scrapper()
 
-    def __set_reatores_ano(self):
-        logger.info("Starting reatores_ano")
-        df = self.scrapper.reactors_ano()
-        df = df.sort_values(by="Name")
-        self.sheets.reatores_ano = df
-    
+    def __set_reatores(self):
+        logger.info("Starting reatores")
+        df_ano, df_info = self.scrapper.reactors()
+
+        df_ano = df_ano.sort_values(by="Name")
+        df_info = df_info.sort_values(by="Name")
+
+        self.sheets.reatores_ano = df_ano
+        self.sheets.reatores_info = df_info
+
     def start(self):
         logger.info("Starting start")
 
-        self.__set_reatores_ano()
+        self.__set_reatores()
 
 if __name__ == "__main__":
     
