@@ -149,7 +149,7 @@ class Scrapper:
             if len(cols) == 9:
                 name.append(reactor_name)
                 year.append(int(cols[0].text.strip()) if cols[0].text.strip() != '' else None)
-                elet_sup.append(int(cols[1].text.strip().replace('.', '')) if cols[1].text.strip() != '' else None)
+                elet_sup.append(float(cols[1].text.strip()) if cols[1].text.strip() != '' else None)
                 ref_unit_pow.append(int(cols[2].text.strip()) if cols[2].text.strip() != '' else None)
                 annual_time_on.append(int(cols[3].text.strip()) if cols[3].text.strip() != '' else None)
                 oper_fac.append(float(cols[4].text.strip()) if cols[4].text.strip() != '' else None)
