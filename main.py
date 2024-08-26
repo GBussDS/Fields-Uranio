@@ -35,11 +35,19 @@ class ScrapperToSheets:
 
         self.sheets.reatores_ano = df_ano
         self.sheets.reatores_info = df_info
+    
+    def __set_uranio(self):
+        logger.info("Starting uranio")
+        df_uranium = self.scrapper.uranium_demand()
+
+        self.sheets.demanda_uranio = df_uranium
 
     def start(self):
         logger.info("Starting start")
 
+        self.__set_uranio()
         self.__set_reatores()
+        
 
 if __name__ == "__main__":
     

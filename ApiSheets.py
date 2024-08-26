@@ -46,6 +46,15 @@ class Sheets():
     def reatores_info(self, df):
         self.__set_df("Reatores Info", df)
 
+    @property
+    def demanda_uranio(self):
+        ws = self.sh.worksheet_by_title("Reatores Info")
+        return ws.get_as_df(value_render=self.VALUE_RENDER)
+    
+    @demanda_uranio.setter
+    def demanda_uranio(self, df):
+        self.__set_df("Demanda Urânio", df)
+
 if __name__ == "__main__":
     sheet = Sheets()
     df = pd.read_csv('Reactors_Info.csv')

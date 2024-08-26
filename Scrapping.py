@@ -5,6 +5,7 @@ import ssl
 from requests.adapters import HTTPAdapter
 from urllib3.poolmanager import PoolManager
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 class SSLAdapter(HTTPAdapter):
     def __init__(self, ssl_context=None, **kwargs):
@@ -183,10 +184,88 @@ class Scrapper:
 
         return df
     
+    def uranium_demand(self):
+        """
+        Função para obter a demanda de urânio por país por ano.
+
+        Returns:
+            pandas.DataFrame: Uranium Demand
+        """
+
+        url_most_recent = "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-and-uranium-requireme"
+        url_rest = "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-archive/world-nuclear-power-reactors-and-uranium-requ-"
+        
+        country = []
+        uranium = []
+        year = []
+
+        for i in range(16):
+            if i == 0:
+                url = url_most_recent
+            else:
+                url = url_rest + "(" + str(i) + ")"
+
+            try:
+                response = self.SESSION.get(url, headers=self.HEADERS)
+            except requests.exceptions.RequestException as e:
+                print(f"An error occurred: {e}")
+                print(f"Exception type: {type(e).__name__}")
+                print(f"Request headers: {self.HEADERS}")
+                continue
+
+            try:
+                response.raise_for_status()
+            except:
+                continue
+            
+            return_html = BeautifulSoup(response.text, 'html.parser')
+
+            #Para esse tipo de página os dados ficam na div de id 'tablestyle'
+            table = return_html.find('table', {'id': 'tablestyle'})
+
+            #Para os reatores que não tem histórico
+            try:
+                rows = table.find('tbody').find_all('tr')
+            except:
+                return
+            
+            if i == 0:
+                current_year = datetime.now().strftime("%B %Y")
+            else:
+                current_year = return_html.find('div',{'class':'col-12 col-xl-9 country_content mb-4'}).find_all('p')[0].text.strip()
+
+            #Itera sobre a tabela, os dados ficam armazenados em linha por <tr></tr>
+            for row in rows:
+                # e por coluna em <td></td>
+                cols = row.find_all('td')
+
+                year.append(current_year)
+                #replace para remover anotação que o site usa
+                country.append(row.find('th').text.strip().replace('\u00A0', '').replace('\u2021', '').replace('\u2020', ''))
+                
+                if len(cols) == 11:
+                    uranium.append(int(cols[10].text.strip().replace(',','')) if cols[0].text.strip() != '' else None)
+                else:
+                    continue
+            
+        #Cria o df pandas
+        df = pd.DataFrame({
+            'Country': country,
+            'Uranium Required [T]': uranium,
+            'Year': year
+        })
+
+        #Substituo os None novamente por nada para que não ocorra erro ao ir para o Sheets
+        df = df.where(pd.notnull(df), '')
+
+        return df
+    
     def download_csv(self):
         df_ano, df_info = self.reactors()
+        df_uranium = self.uranium_demand
         df_ano.to_csv('planilhas/Reactors_Ano.csv', index=False)
         df_info.to_csv('planilhas/Reactors_Info.csv', index=False)
+        df_uranium.to_csv('planilhas/Uranium_demand.csv', index=False)
     
 if __name__ == "__main__":
     scrapper = Scrapper()
