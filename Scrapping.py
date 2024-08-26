@@ -85,11 +85,13 @@ class Scrapper:
         reactor_status = return_html.find('span', {'id': 'MainContent_MainContent_lblReactorStatus'}).text.strip()
         reactor_type = return_html.find('span', {'id': 'MainContent_MainContent_lblType'}).text.strip()
         reference_unit_power = return_html.find('span', {'id': 'MainContent_MainContent_lblNetCapacity'}).text.strip()
-        cons_st_date = return_html.find('span', {'id': 'MainContent_MainContent_lblConstructionStartDate'}).text.strip()
-        fst_grid_date = return_html.find('span', {'id': 'MainContent_MainContent_lblGridConnectionDate'}).text.strip()
-        comm_oper_date = return_html.find('span', {'id': 'MainContent_MainContent_lblCommercialOperationDate'}).text.strip()
-        per_shut_date = return_html.find('span', {'id': 'MainContent_MainContent_lblPermanentShutdownDate'}).text.strip()
-
+        cons_st_date = return_html.find('span', {'id': 'MainContent_MainContent_lblConstructionStartDate'}).text.strip().replace('N/A', '')
+        fst_grid_date = return_html.find('span', {'id': 'MainContent_MainContent_lblGridConnectionDate'}).text.strip().replace('N/A', '')
+        comm_oper_date = return_html.find('span', {'id': 'MainContent_MainContent_lblCommercialOperationDate'}).text.strip().replace('N/A', '')
+        per_shut_date = return_html.find('span', {'id': 'MainContent_MainContent_lblPermanentShutdownDate'}).text.strip().replace('N/A', '')
+        susp_date = return_html.find('span', {'id': 'MainContent_MainContent_lblLongTermShutdownDate'}).text.strip().replace('N/A', '')
+        back_date = return_html.find('span', {'id': 'MainContent_MainContent_lblRestartDate'}).text.strip().replace('N/A', '')
+        
         # Cria o df pandas
         df = pd.DataFrame({
             'Name': [reactor_name],
@@ -100,11 +102,13 @@ class Scrapper:
             'Construction Start Date': [cons_st_date],
             'First Grid Connection': [fst_grid_date],
             'Commercial Operation Date': [comm_oper_date],
-            'Permanent Shutdown Date': [per_shut_date]
+            'Permanent Shutdown Date': [per_shut_date],
+            'Suspended Operation Date': [susp_date],
+            'Restart Date': [back_date]
         })
 
-        # Substitui os None novamente por nada para que não ocorra erro ao ir para o Sheets
-        df = df.where(pd.notnull(df), '')
+        # # Substitui os None novamente por nada para que não ocorra erro ao ir para o Sheets
+        # df = df.where(pd.notnull(df), '')
 
         return df
 
