@@ -85,6 +85,7 @@ class Scrapper:
         reactor_country = return_html.find('a', {'id': 'MainContent_litCaption'}).text.replace('\n', '').replace('\r', '').strip()
         reactor_status = return_html.find('span', {'id': 'MainContent_MainContent_lblReactorStatus'}).text.strip()
         reactor_type = return_html.find('span', {'id': 'MainContent_MainContent_lblType'}).text.strip()
+        reactor_model = return_html.find('span', {'id': 'MainContent_MainContent_lblModel'}).text.strip()
         reference_unit_power = return_html.find('span', {'id': 'MainContent_MainContent_lblNetCapacity'}).text.strip()
         cons_st_date = return_html.find('span', {'id': 'MainContent_MainContent_lblConstructionStartDate'}).text.strip().replace('N/A', '')
         fst_grid_date = return_html.find('span', {'id': 'MainContent_MainContent_lblGridConnectionDate'}).text.strip().replace('N/A', '')
@@ -99,6 +100,7 @@ class Scrapper:
             'Country': [reactor_country],
             'Status': [reactor_status],
             'Reactor Type': [reactor_type],
+            'Reactor Model': [reactor_model],
             'Reference Unit Power (Net Capacity)': [reference_unit_power],
             'Construction Start Date': [cons_st_date],
             'First Grid Connection': [fst_grid_date],
