@@ -1,0 +1,888 @@
+Country,Facility Name,Facility Type,Fuel Type,Facility Status,Scale,Design Capacity,Start of Operation,End of Operation
+Albania,RWSF - Radioactive Waste Storage Facility,"LLW, ILW, DSRS Storage",,In Operation,Laboratory,300 m3,2000,
+Argentina,Los Colorados2,Uranium Ore Processing,,Shutdown,Commercial,30 t U/year,1993,1995
+Argentina,Arroyito HW Production Facility,Heavy Water Production,,In Operation,Commercial,200 t/year,1993,
+Argentina,Atucha HW Production Facility,Heavy Water Production,,Shutdown,Pilot plant,2 t/year,1988,
+Argentina,Cordoba Conversion Facility,Conversion to UO2,,In Operation,Commercial,175 t HM/year,1982,
+Argentina,Ezeiza - Nuclear Fuel Manufacture Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,240 t HM/year,1982,
+Argentina,Ezeiza - Special Alloy Fabrication,Zirconium Alloy Production,,In Operation,Commercial,10 t/year,1987,
+Argentina,Ezeiza - SF Reprocessing Facility,Spent Fuel Reprocessing - aqueous route,,Others,Pilot plant,5 t HM/year,,
+Argentina,La Estela,Uranium Ore Processing,,Shutdown,Commercial,20 t U/year,1985,1990
+Argentina,Los Gigantes,Uranium Ore Processing,,Decommissioned,Commercial,45 t U/year,1982,1989
+Argentina,Malargue,Uranium Ore Processing,,Shutdown,Commercial,85 t U/year,1954,1988
+Argentina,Pilcaniyeu Enrichment Facility,Uranium Enrichment,,In Operation,Pilot plant,20 MTSWU/year,1990,
+Argentina,Ezeiza - Special Alloy Fabrication,Zirconium Alloy Tubing,,In Operation,Commercial,300 km/year,1987,
+Argentina,San Rafael,Uranium Ore Processing,,Stand By,Commercial,120 t U/year,1979,
+Argentina,Pilcaniyeu Conversion Facility,Conversion to UF6,,In Operation,Commercial,62 t HM/year,1984,
+Argentina,Don Otto,Uranium Ore Processing,,Stand By,Commercial,40 t U/year,1964,1981
+Argentina,Los Adobes,Uranium Ore Processing,,Shutdown,Commercial,55 t U/year,1977,1985
+Argentina,Atucha SF Storage Facility,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,986 t HM,1988,
+Argentina,Embalse SF Storage Facility,AFR Dry Spent Fuel Storage,,In Operation,Commercial,2000 t HM,1993,
+Argentina,CTP Low-level Radioactive Waste Deposit.,Predisposal (LLW),,In Operation,Commercial, ,,
+Argentina,Research Reactors Irradiated Fuel Storage Facility (FACIRI),AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial, ,,
+Armenia,Dry Storage of Spent Nuclear Fuel Assemblies,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,74 t HM,2000,2050
+Armenia,Dry storage of Spent Nuclear Fuel Assemblies-Metzamor NPP Site,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,161.28 t HM,2008,2058
+Armenia,Solid LLW storage facility,Predisposal (LLW),,In Operation,Commercial,17051 m3,,
+Armenia,Solid ILLW storage facility,Predisposal (ILW),,In Operation,Commercial,1001 m3,,
+Armenia,DEF containers temporary storage site,Other-Waste Management Facilities,,In Operation,Commercial, ,,
+Armenia,Solid HLLW storage facility,Predisposal (HLW),,In Operation,Commercial,78 m3,,
+Armenia,Liquid RW storage facilities (ECT and HLST-1),Liquid RW storage facility,,In Operation,Commercial,3170 m3,,
+Armenia,Liquid RW storage facility (HLST-2),Liquid RW storage facility,,In Operation,Commercial,350 ,,
+Australia,Ben Lomond,Uranium Ore Processing,,Others,Commercial,424 t U/year,,
+Australia,Beverley,Uranium Ore Processing,,In Operation,Commercial,1100 t U/year,2001,
+Australia,Honeymoon,Uranium Ore Processing,,Refurbishment,Commercial,1272 t U/year,2011,
+Australia,Kintyre,Uranium Ore Processing,,Others,Commercial,4400 t U/year,,
+Australia,Koongarra,Uranium Ore Processing,,Others,Commercial,1100 t U/year,,
+Australia,Lake Way,Uranium Ore Processing,,Others,Commercial,424 t U/year,,
+Australia,Nabarlek,Uranium Ore Processing,,Decommissioned,Commercial,1145 t U/year,1980,1988
+Australia,Olympic Dam,Uranium Ore Processing,,In Operation,Commercial,4500 t U/year,1988,
+Australia,Ranger,Uranium Ore Processing,,Decommissioning,Commercial,6000 ,1981,2021
+Australia,Rum Jungle,Uranium Ore Processing,,Decommissioned,Commercial,3500 t U/year,1954,1971
+Australia,Silex,Uranium Enrichment,,Decommissioned,Laboratory,0 MTSWU/year,1992,2007
+Australia,Four Mile,Uranium Mining,,In Operation,Commercial,2307 t U/year,2014,
+Australia,Oban,Uranium Ore Processing,,Others,Pilot plant, ,,
+Australia,Crocker Well,Uranium Ore Processing,,Others,Commercial, ,,
+Australia,Lake Maitland,Uranium Ore Processing,,Others,Commercial,750 t U/year,2013,2023
+Australia,Wiluna/Yeeline,Uranium Ore Processing,,Others,Commercial,6360 t U/year,,
+Australia,Mulga Rock,Uranium Ore Processing,,Others,Commercial,1360 t/year,2020,2036
+Austria,Seibersdorf NES,Predisposal (LLW),,In Operation,Commercial, ,,
+Belarus,Specialized Enterprise for Radioactive Waste Management UE “Ekores”,Other-Waste Management Facilities,,In Operation,Commercial, ,1963,
+Belgium,Belgonucleaire PO Plant,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","MOX for PWR, MOX for BWR",Decommissioned,Commercial,40 t HM/year,1973,2006
+Belgium,FBFC International - LWR Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Decommissioned,Commercial,500 t HM/year,1961,2012
+Belgium,B102 (Belgoprocess Site),AFR Wet Spent Fuel Storage (Pool),"UOX for PWR, Fuel for Research Reactor",Decommissioning,Commercial,370 t HM,1965,1975
+Belgium,Prayon,Uranium Recovery from Phosphates,,Decommissioned,Commercial,45 t U/year,1980,1998
+Belgium,Eurochemic (Belgoprocess Site),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,60 t HM/year,1966,1975
+Belgium,Doel NPP Site,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,2100 t HM,1995,
+Belgium,Tihange NPP Site,AFR Wet Spent Fuel Storage (Pool),UOX for PWR,In Operation,Commercial,1760 t HM,1997,
+Belgium,FBFC International - MOX,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","MOX for PWR, MOX for BWR",Decommissioned,Commercial,100 t HM/year,1997,2015
+Belgium,Belgian Reactor 3,AR Spent Fuel Storage,UOX for PWR,Decommissioning,Pilot plant, ,1962,1987
+Belgium,Spent Fuel Storage Facility Doel,AFR Dry Spent Fuel Storage,,Under Construction,Commercial, ,,
+Belgium,Spent Fuel Storage Facility Tihange,AFR Dry Spent Fuel Storage,,Under Construction,Commercial, ,2023,
+Bosnia and Herzegovina,Rakovica Central temporary storage facility,Predisposal (LLW),,In Operation,Commercial, ,,
+Brazil,INB-Santa Quiteria Mining and Ore Plant,Uranium Recovery from Phosphates,,Others,Commercial,2300 t U/year,2020,
+Brazil,URA-Caetite Uranium Mining and Milling facility,Uranium Ore Processing,,In Operation,Commercial,400 t U/year,1999,
+Brazil,UDC-Caldas Decommissioning Unit,Uranium Ore Processing,,Shutdown,Commercial,360 t U/year,1981,1995
+Brazil,FCN components and Assembly,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,240 t HM/year,1982,
+Brazil,FCN Pilot Plant,Uranium Enrichment,,Decommissioned,Pilot plant,500 MTSWU/year,,1989
+Brazil,IPEN - Conversion Unit,Conversion to UF6,,Shutdown,Pilot plant,90 t HM/year,1984,1993
+Brazil,IPEN - Reprocessing,Spent Fuel Reprocessing - aqueous route,,Shutdown,Laboratory,0 t HM/year,1982,1993
+Brazil,IPEN - Zirconium Metal,Zirconium Alloy Production,,Shutdown,Pilot plant,5 t/year,1988,1992
+Brazil,IPEN - U Reduction Unit,Conversion to U Metal,,Shutdown,Pilot plant,30 t HM/year,1986,1990
+Brazil,IPEN - Zirconium Oxide,Zirconium Alloy Production,,Shutdown,Pilot plant,1 t HM/year,1988,1992
+Brazil,Uranium  Enrichment Industrial Demonstration Pilot Plant,Uranium Enrichment,,Stand By,Pilot plant,4 MTSWU/year,1998,2016
+Brazil,FCN Enrichment Plant,Uranium Enrichment,,In Operation,Commercial,120 MTSWU/year,2005,
+Brazil,Aerospace Technical Center,Uranium Enrichment,,Stand By,Laboratory,0 MTSWU/year,1981,
+Brazil,Pilot Uranium Enrichment Plant,Uranium Enrichment,,Decommissioned,Pilot plant,0 MTSWU/year,1979,1989
+Brazil,FCN Reconversion and Pellets,Re-conversion to UO2 Powder,UOX for PWR,In Operation,Commercial,120 t HM/year,2000,
+Brazil,Isotopic  Enrichment Laboratory,Uranium Enrichment,,In Operation,Laboratory,5 MTSWU/year,1988,
+Brazil, Conversion Facility,Conversion to UF6,,Commissioning,Pilot plant,40 t HM/year,,
+Brazil,Nuclear Materials laboratory,Re-conversion to UO2 Powder,,In Operation,Laboratory,2.55 t HM/year,1993,
+Brazil,Instrumentation and Nuclear  Fuel Development laboratory,Fuel Assembly Component Manufacturing (hardware),,In Operation,Laboratory,21 Elements/year,1985,
+Brazil,IPEN-Nuclear Fuel Center,Fuel Fabrication (Research Reactors),,Stand By,Laboratory,30 Elements/year,2004,
+Brazil,Irradiated fuel dry complementary Storage unit,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial, ,2021,
+Brazil,Nuclear materials Laboratory,"Fuel Fabrication (U Pellet, Pin, FA)",,Commissioning,Laboratory, ,2013,
+Brazil,Nuclear Fuel Laboratory,"Fuel Fabrication (U Pellet, Pin, FA)",,Stand By,Laboratory,0 t HM/year,1978,
+Brazil,Isotopic Separation Element Development Laboratory,Other-Related Industrial Activities,,In Operation,Laboratory,0 t HM/year,1980,
+Brazil,OLD STEAM GENERATORS STORAGE FACILITY (ANGRA-1),Other-Waste Management Facilities,,In Operation,Commercial, ,,
+Brazil,internal storage facility (KPE located in UKA Building ANGRA-2),AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,1644 t HM,2001,
+Bulgaria,Bukhovo,Uranium Ore Processing,,Shutdown,Commercial,300 t U/year,,1994
+Bulgaria,Kozloduy NPP Site - Wet Storage,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,600 t HM,2004,
+Bulgaria,Eleshnitza,Uranium Ore Processing,,Shutdown,Commercial,200 t U/year,,1994
+Bulgaria,Plovdiv (Rosen),Uranium Ore Processing,,Shutdown,Commercial,100 t U/year,,1995
+Bulgaria,Kozloduy NPP Site - Dry Storage,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,300 t HM,2012,
+Burkina Faso,ARSN,Disposal (LILW),,In Operation,Commercial,1.5 m3,2019,2030
+Burkina Faso,agricultural and environmental research centre,Disposal (LLW),,Commissioning,Commercial, ,2020,2030
+Burkina Faso,TAPARKO,Disposal (LILW),,Commissioning,Commercial,3 m3,2020,2030
+Canada,BHWP - A,Heavy Water Production,,Decommissioned,Commercial,800 t/year,1973,1984
+Canada,BHWP - B,Heavy Water Production,,Decommissioning,Commercial,800 t/year,1979,1997
+Canada,BHWP - D,Heavy Water Production,,Others,Commercial,800 t/year,,
+Canada,Calgary,Uranium Recovery from Phosphates,,Decommissioned,Commercial,70 t U/year,1980,1987
+Canada,Cluff Lake,Uranium Ore Processing,,Decommissioning,Commercial,1900 t U/year,1980,2002
+Canada,Denison,Uranium Ore Processing,,Decommissioned,Commercial,2700 t U/year,1957,1992
+Canada,Rabbit Lake,Uranium Ore Processing,,Stand By,Commercial,4615 t U/year,1975,
+Canada,Cameco - Blind River (UO3),Conversion to UO3,,In Operation,Commercial,18000 t HM/year,1983,
+Canada,Cameco - Port Hope (U),Conversion to U Metal,,In Operation,Commercial,2000 t HM/year,1985,
+Canada,Cameco - Port Hope (UF6),Conversion to UF6,,In Operation,Commercial,12500 t HM/year,1984,
+Canada,Cameco - Port Hope (UO2),Conversion to UO2,,In Operation,Commercial,2800 t HM/year,1980,
+Canada,General Electric Canada Inc. - Arnprior,Zirconium Alloy Tubing,,In Operation,Commercial,1350 km/year,1981,
+Canada,Key Lake/McArthur River,Uranium Ore Processing,,Stand By,Commercial,11350 t U/year,1983,
+Canada,Moncton,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,Decommissioned,Commercial,250 t HM/year,,1986
+Canada,N. Fuel PLLT. OP. - Toronto,"Fuel Fabrication (U Pellet, Pin, FA)",,In Operation,Commercial,1300 t HM/year,1955,
+Canada,Nuclear Product Department - Cobourgh,Zirconium Alloy Tubing,,In Operation,Commercial,950 km/year,1976,
+Canada,Cameco Fuel Manufacturing Inc - Port Hope,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,1650 t HM/year,1957,
+Canada,Panel,Uranium Ore Processing,,Decommissioned,Commercial,800 t U/year,1979,1990
+Canada,Peterborough Facility,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,1200 t HM/year,1955,
+Canada,"Port Hawkesbury, Point Tupper",Heavy Water Production,,Decommissioned,Commercial,400 t/year,1967,1986
+Canada,Quirke,Uranium Ore Processing,,Decommissioned,Commercial,1400 t U/year,1956,1990
+Canada,Stanleigh,Uranium Ore Processing,,Decommissioned,Commercial,600 t U/year,1983,1996
+Canada,Point Lepreau NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,3078 t HM,1991,
+Canada,Kiggavik,Uranium Ore Processing,,Others,Commercial,1200 t U/year,,
+Canada,Beaverlodge,Uranium Ore Processing,,Decommissioned,Commercial,1000 t U/year,1952,1982
+Canada,Agnew Lake,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,,1983
+Canada,Madawaska (Faraday),Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,,1982
+Canada,Stanrock,Uranium Ore Processing,,Decommissioned,Commercial,300 t U/year,,
+Canada,McClean Lake,Uranium Ore Processing,,In Operation,Commercial,9240 t U/year,1999,
+Canada,Gentilly 1 NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,1985,
+Canada,Douglas Point NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,1987,
+Canada,Whiteshell Laboratories,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,1977,
+Canada,NPD Spent Fuel Storage,AFR Dry Spent Fuel Storage,,In Operation,Commercial,75 t HM,1987,
+Canada,"Pickering Waste Management Facility, Buildings 1&2",AFR Dry Spent Fuel Storage,,In Operation,Commercial, t HM,1996,
+Canada,BHWP - C,Heavy Water Production,,Others,Commercial,800 t/year,,
+Canada,"Chalk River Laboratories, NFFF",Fuel Fabrication (Research Reactors),,Stand By,Commercial, t HM/year,1990,2018
+Canada,Port Hope Eldorado,Zirconium Alloy Production,,Decommissioned,Commercial,300 t/year,1968,1970
+Canada,Gentilly 2 NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,1995,
+Canada,Western Waste Management Facility,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,2003,
+Canada,Glace Bay,Heavy Water Production,,Decommissioned,Commercial,250 t/year,1964,1985
+Canada,Recycle Fuel Fabr. Lab. (RFFL),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Stand By,Laboratory,0 t HM/year,1979,2018
+Canada,Pu and Thorium Processing Facility,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Laboratory,0 t HM/year,1952,1957
+Canada,Darlington Used Fuel Storage Facility,AFR Dry Spent Fuel Storage,,In Operation,Commercial,10944 t HM,2008,
+Canada,Cigar lake Mine,Uranium Ore Processing,,In Operation,Commercial,8200 t/year,2014,
+Canada,Waste Management Area A,Disposal (LILW),,Shutdown,Laboratory, ,1946,
+Canada,Waste Management Area B,Disposal (LILW),,In Operation,Commercial, ,2024,
+Canada,Waste Management Area C,Disposal (LLW),,In Operation,Commercial, ,2024,
+Canada,Waste Management Area D,Other-Waste Management Facilities,,In Operation,Commercial, ,1976,
+Chile,Radioactive Waste Facility-La Reina (Storage Room),Disposal (LILW),,In Operation,Commercial, ,1998,
+Chile,Radioactive Waste Facility-La Reina (Modular Storage),Disposal (LILW),,In Operation,Commercial, ,2012,
+Chile,Radioactive Waste Facility-La Reina (Storage Pit),Disposal (LILW),,In Operation,Commercial, ,1978,
+Chile,RECH-1,AFR Wet Spent Fuel Storage (Pool),,In Operation,Laboratory, ,1974,
+Chile,Radioactive Waste Facility-Lo Aguirre (Treatment Plant),Disposal (LILW),,Commissioning,Commercial, ,1992,
+Chile,Conditioning Storage Facility,Disposal (LILW),,In Operation,Commercial,48 m3,1992,
+Chile,Radioactive Waste Facility-Lo Aguirre (Treatment Plant),Disposal (LILW),,In Operation,Commercial, ,1992,
+Chile,Radioactive Waste Facility-Lo Aguirre (Temporary Container),Disposal (LILW),,In Operation,Commercial, ,2016,
+Chile,Radioactive Waste Facility-Lo Aguirre (Operative Storage) DSRS,Disposal (LLW),,In Operation,Commercial, ,2024,
+Chile,Radioactive Waste Facility-Lo Aguirre (Operative Storage),Disposal (LILW),,In Operation,Commercial, ,2007,
+Chile,Radioactive Waste Facility-Lo Aguirre (Shipping Container),Disposal (LILW),,In Operation,Commercial, ,2014,
+Chile,Conditioning Storage Facility (DSRS),Disposal (LILW),,In Operation,Commercial,48 m3,1992,
+Chile,Radioactive Waste Facility-Lo Aguirre (Liquid Storage),Disposal (LILW),,In Operation,Commercial, ,2000,
+Chile,Radioactive Waste Facility-Lo Aguirre (SEACL-Treatment Liquid Plant),Disposal (LILW),,In Operation,Commercial, ,2015,
+China,Hengyang,Uranium Ore Processing,,Stand By,Commercial,1000 t U/year,1963,1996
+China,"Lanzhou Nuclear Fuel Complex(LNFC,Gansu)",Conversion to UF6,,In Operation,Commercial,3000 t HM/year,1980,
+China,"Jianzhong Nuclear Fuel, Sichuan","Fuel Fabrication (U Pellet, Pin, FA)","UOX for VVER, MOX for PWR",In Operation,Commercial,800 t U/year,1998,
+China,Fuzhou,Uranium Ore Processing,,In Operation,Commercial,350 t U/year,1966,
+China,Baimadong,Uranium Ore Processing,,Shutdown,Commercial,40 t U/year,1965,1989
+China,Yining,Uranium Ore Processing,,In Operation,Commercial,480 t U/year,1993,
+China,"Hanzhong Uranium Enrichment Plant,Shaanxi",Uranium Enrichment,,In Operation,Commercial,1000 MTSWU/year,1997,
+China,Centralized Wet Storage Facility (CWSF),AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,1300 t U/year,2003,
+China,Lanzhou Reprocessing Pilot Plant(RPP),Spent Fuel Reprocessing - aqueous route,,Under Construction,Pilot plant,0.1 t HM/year,,
+China,Chongyi,Uranium Ore Processing,,In Operation,Commercial,120 t U/year,1979,
+China,Tengchong,Uranium Ore Processing,,In Operation,Pilot plant,20 t U/year,1991,
+China,Lantian,Uranium Ore Processing,,In Operation,Commercial,100 t U/year,1993,
+China,Benxi,Uranium Ore Processing,,In Operation,Commercial,120 t U/year,1996,
+China,"Lanzhou Nuclear Fuel Complex(LNFC), Gansu-Enrichment",Uranium Enrichment,,In Operation,Commercial,500 MTSWU/year,2005,
+China,Candu Fuel Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,200 t HM/year,2003,
+China,Qinglong,Uranium Ore Processing,,In Operation,Commercial,100 t U/year,2007,
+China,Shaoguan,Uranium Ore Processing,,In Operation,Commercial,160 t U/year,2008,
+China,PWR Fuel Plant,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,600 t U/year,2012,
+China,HTR Fuel Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for HTR/GHTR,In Operation,Commercial,300000 Spheres/year,2016,
+China,"Hengyang Uranium Plant, Hunan",Conversion to UF6,,In Operation,Commercial,3000 t U/year,2016,
+China,Demonstration Reprocessing plant,Spent Fuel Reprocessing - aqueous route,UOX for PWR,Under Construction,Pilot plant,200 t HM/year,2025,
+Czech Republic,TUU Straz pod Ralskem: Processing Plant and ISL Plan,Uranium Ore Processing,,Decommissioning,Commercial,250 t U/year,1967,1995
+Czech Republic,MAPE Mydlovary Processing Plant,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1962,1991
+Czech Republic,GEAM Dolni Rozinka,Uranium Ore Processing,,Shutdown,Commercial,400 t U/year,1957,2017
+Czech Republic,ISFSF Dukovany,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,600 t HM,1995,
+Czech Republic,SFSF Dukovany,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,1340 t HM,2008,
+Czech Republic,SFSF Temelin,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,1370 t HM,2012,
+Denmark,Danish Decommissioning,Fuel Fabrication (Research Reactors),,Decommissioned,Pilot plant,0 t HM/year,1988,2000
+Egypt,Inchas Nuclear Fuel Laboratory,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Laboratory,0.1 t HM/year,1990,
+Egypt,Fuel Element Fabrication Plant,Fuel Fabrication (Research Reactors),Fuel for MTR,In Operation,Pilot plant,40 Elements/year,1998,
+Estonia,Sillamae,Uranium Ore Processing,,Shutdown,Commercial,1000 t U/year,1948,1977
+Estonia,Interim storage,Disposal (LILW),,Commissioning,Commercial,417 m3,2015,2040
+Estonia,Interim storage,Disposal (LILW),,In Operation,Commercial,671 m3,2015,
+Estonia,Interim storage,Disposal (LILW),,In Operation,Commercial, ,2024,
+Finland,"Olkiluoto NPP Site, TVO KPA",AFR Wet Spent Fuel Storage (Pool),UOX for BWR,In Operation,Commercial,1750 t HM,1987,
+Finland,Loviisa NPP Site (Spent Fuel Storage 1),AFR Wet Spent Fuel Storage (Pool),UOX for VVER,In Operation,Commercial,60 t HM,1980,
+Finland,Loviisa NPP Site (Spent Fuel Storage 2),AFR Wet Spent Fuel Storage (Pool),UOX for VVER,In Operation,Commercial,716 t HM,1985,
+Finland,"Solid waste storage LLW(silos, MAJ)",Disposal (LLW),,In Operation,Commercial,8060 m3,1992,2080
+Finland,Solid waste storage (RCA),Other-Waste Management Facilities,,In Operation,Commercial,805 m3,1997,2065
+Finland,Solid waste storage (on site),Other-Waste Management Facilities,Others,In Operation,Commercial,1000 m3,2021,2065
+Finland,Liquid waste storage (TW),Disposal (HLW),UOX for VVER,In Operation,Commercial,2400 m3,1997,2065
+Finland,"Solid waste storage (silos, RCA)",Other-Waste Management Facilities,UOX for VVER,In Operation,Commercial,74 m3,1977,2033
+Finland,Maintenance waste hall 1,Disposal (HLW),UOX for VVER,In Operation,Commercial,1270 m3,1997,2068
+Finland,Solid waste storage(KAJ),Disposal (LLW),,In Operation,Commercial,14000 m3,1985,2038
+Finland,Solid waste storage(MAJ),Disposal (HLW),,In Operation,Commercial,11000 m3,1985,2038
+Finland,Liquid waste storage(OL1 and OL2),Other-Waste Management Facilities,,In Operation,Commercial,380 m3,1978,2038
+Finland,"Solid waste storage ILW(silos,KAJ)",Disposal (ILW),,In Operation,Commercial,5642 m3,1992,2080
+Finland,Solid waste drum storage(OL1 and 0L2),Other-Waste Management Facilities,,In Operation,Commercial,410 m3,1978,2080
+Finland,"Liquid waste storage OL3 (KPE,KPK)",Other-Waste Management Facilities,,In Operation,Commercial,122 m3,2020,2060
+Finland,Solid waste storage OL3 (KPA),Predisposal (HLW),,In Operation,Commercial,156 m3,2020,2060
+Finland,Maintenance waste hall 2,Disposal (HLW),UOX for VVER,In Operation,Commercial,1270 m3,2005,2068
+Finland,Maintenance waste hall 3,Other-Waste Management Facilities,,In Operation,Commercial,2000 m3,2012,2068
+Finland,Solidified waste hall 1,Disposal (HLW),,In Operation,Commercial,8650 m3,2019,2068
+Finland,FiR 1 site,Disposal (LILW),,Shutdown,Commercial, ,1962,2023
+Finland,FiR 1 DSRS,Disposal (LILW),,Decommissioned,Commercial,2 m3,1962,2023
+Finland,Interim storage of Finland,Disposal (LILW),,In Operation,Commercial,60 m3,1999,2038
+Finland,VLLW,Disposal (LLW),,Others,Commercial, ,2035,
+Finland,LLW/ILW,Disposal (LLW),,Others,Commercial, ,2037,
+Finland,Deep geological repository,Disposal (HLW),,Others,Commercial, ,2025,
+Finland,Olkiluoto 1 reactor building,AR Spent Fuel Storage (Wet),,In Operation,Commercial,260 t HM,2023,
+Finland,Olkiluoto 2 reactor building,AR Spent Fuel Storage (Wet),,In Operation,Commercial,266 t HM,1980,2038
+Finland,ISFS,AFR Wet Spent Fuel Storage (Pool),,Others,Commercial, ,2034,
+France,SICN GCR Fuel Fabrication,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,Decommissioning,Commercial,1000 t HM/year,1957,1992
+France,Atelier Pilote,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,6 t HM/year,1988,1997
+France,Bessines,Uranium Ore Processing,,Decommissioned,Commercial,1500 t U/year,1958,1992
+France,ATPu,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Commercial,40 t HM/year,1961,2003
+France,Framatome - Jarrie,Zirconium Alloy Production,,In Operation,Commercial,2200 t/year,1982,
+France,Comurhex Pierrelatte (UF6),Conversion to UF6,,In Operation,Commercial,14000 t HM/year,1961,
+France,Comurhex Pierrelatte (Rep. U),Conversion to UF6,,Shutdown,Commercial,350 t HM/year,1976,
+France,Areva NC W Plant,Re-Conversion to U3O8 (Rep. U),,In Operation,Commercial,14000 t HM/year,1984,
+France,Framatome - Pierrelatte,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,Decommissioned,Commercial,500 t HM/year,1986,1999
+France,Eurodif (Georges Besse),Uranium Enrichment,,Decommissioning,Commercial,10800 MTSWU/year,1979,2011
+France,L'Ecarpiere,Uranium Ore Processing,,Decommissioned,Commercial,650 t U/year,1957,1991
+France,La Hague - NPH,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2000 t HM,1981,
+France,Le Cellier,Uranium Ore Processing,,Decommissioned,Commercial,300 t U/year,1977,1987
+France,Le Bernardan (Jouac),Uranium Ore Processing,,Decommissioned,Commercial,600 t U/year,1979,2001
+France,Comurhex Malvesi (UF4),Conversion to UF4,,Shutdown,Commercial,14000 t HM/year,1959,2017
+France,Comurhex Malvesi (U),Conversion to U Metal,,Shutdown,Commercial,1000 t HM/year,1959,1991
+France,  Melox,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Commercial,195 t HM/year,1995,
+France,Framatome - Paimboeuf,Zirconium Alloy Tubing,,In Operation,Commercial,5000 km/year,1981,
+France,Framatome- Romans,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,1400 t HM/year,1979,
+France,St. Martin Du Bosc (Lodeve),Uranium Ore Processing,,Decommissioned,Commercial,1000 t U/year,1981,1998
+France,TU2 Cogema,Conversion to UO2,,Decommissioning,Commercial,350 t HM/year,1988,
+France,TU2 Cogema Reprocessing Line,Re-Conversion to U3O8 (Rep. U),,Decommissioning,Commercial,1200 t HM/year,1988,
+France,Marcoule - UP1,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,600 t HM/year,1958,1997
+France, La Hague - UP2-800,Spent Fuel Reprocessing - aqueous route,,In Operation,Commercial,1000 t HM/year,1996,
+France, La Hague - UP3,Spent Fuel Reprocessing - aqueous route,,In Operation,Commercial,1000 t HM/year,1990,
+France,SICN,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for FBR,Decommissioning,Commercial,150 t HM/year,1960,2002
+France,PL4,Uranium Enrichment,,Decommissioned,Laboratory,0 MTSWU/year,1986,1988
+France,Bertholene (Les Ballaures),Uranium Ore Processing,,Shutdown,Commercial,70 t U/year,1985,1994
+France,ORANO TU5 Plant,Re-Conversion to U3O8 (Rep. U),,In Operation,Commercial,1600 t HM/year,1995,
+France,La Hague - HAO,AFR Wet Spent Fuel Storage (Pool),,Decommissioning,Commercial,400 t HM,1976,
+France,La Hague - C,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,4800 t HM,1984,
+France,La Hague - D,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,4600 t HM,1986,
+France,La Hague - E,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,6200 t HM,1988,
+France,Experimental Reprocessing Facility (Building 211),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,5 t HM/year,1960,1997
+France,La Hague - AT1,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant,0.365 t HM/year,1969,1979
+France,ATTILA,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant,0 t HM/year,1966,1975
+France,Ore Treatment Plant Geugnon,Conversion to U Metal,,Decommissioned,Commercial,450 t HM/year,1964,1980
+France,Ore Treatment Plant Le Bouchet,Conversion to U Metal,,Decommissioned,Commercial,100 t HM/year,1959,1963
+France,Building 19,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Laboratory,0 t HM/year,1957,1984
+France,Building 18,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Laboratory,0 t HM/year,1959,1995
+France,Laboratory RM2,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Laboratory,0 t HM/year,1968,1980
+France,Framatome - Rugles,Zirconium Alloy Production,,In Operation,Commercial,600 t/year,1981,
+France,Georges Besse II,Uranium Enrichment,,In Operation,Commercial,7500 MTSWU/year,2011,
+France,La Hague - UP2-400,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,400 t HM/year,1966,2004
+France,Framatome - Ugine,Zirconium Alloy Production,,In Operation,Commercial,2200 t/year,1982,
+France,Framatome - Montreuil Juigné,Zirconium Alloy Tubing,,In Operation,Commercial,1200 t/year,1982,
+France,Comurhex II - Malvesi (UF4),Conversion to UF4,,In Operation,Commercial,15000 t HM/year,2018,
+France,Comurhex II - Pierrelatte (UF6),Conversion to UF6,,Under Construction,Commercial,15000 t HM/year,2018,
+France,ATALANTE,Spent Fuel Reprocessing - aqueous route,,In Operation,Laboratory, ,1992,
+France,STAR,Spent Fuel Reprocessing - aqueous route,,In Operation,Laboratory, ,1994,
+France,ISAI,Disposal (HLW),,In Operation,Laboratory, ,1989,
+France,Manche disposal facility,Disposal (LILW),,Shutdown,Commercial,530000 m3,1969,1994
+France,Aube disposal facility,Disposal (LILW),,In Operation,Commercial,1000000 m3,1992,
+France,"Industrial facility for grouping, storage and disposal",Disposal (LLW),,In Operation,Commercial,650000 m3,2003,
+Gabon,Mounana,Uranium Ore Processing,,Decommissioned,Commercial,1500 t U/year,1977,1999
+Georgia,"Jupiter Research Center ,Julich",Spent Fuel Reprocessing - aqueous route,Fuel for HTR/GHTR,Decommissioned,Pilot plant,0.002 t HM/year,1978,1987
+Georgia,Centralized Storage Facility,Disposal (LILW),,In Operation,Commercial,800 m3,2007,
+Georgia,Saakadze disposal,Disposal (LILW),,Decommissioned,Commercial,1000 m3,1960,1995
+Georgia,Applied Research Center,Disposal (LILW),,In Operation,Commercial, ,2024,
+Georgia,Temporary stoarage,Disposal (LILW),,In Operation,Commercial, ,2024,
+Germany,Ahaus Central Storage Facility,AFR Dry Spent Fuel Storage,"UOX for PWR, UOX for BWR, Fuel for HTR/GHTR, Fuel for MTR",In Operation,Commercial,3960 t HM,1997,2036
+Germany,Advanced Nuclear Fuels GmbH Duisburg Plant,Zirconium Alloy Tubing,,In Operation,Commercial,2100 km/year,1981,
+Germany,Ellweiler Uranium Ore Processing Plant,Uranium Ore Processing,,Shutdown,Commercial,125 t U/year,1961,1989
+Germany,Gorleben Central Storage Facility,AFR Dry Spent Fuel Storage,,In Operation,Commercial,3800 t HM,1995,2034
+Germany,Urenco Germany GmbH,Uranium Enrichment,,In Operation,Commercial,4500 MTSWU/year,1985,
+Germany,"Siemens Fuel Fabrication Plant Hanau, Section Uranium","Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Decommissioned,Commercial,1350 t HM/year,1969,1995
+Germany,Mannesmann Röhrenwerke AG Hellenthal,Zirconium Alloy Tubing,,Decommissioned,Commercial,350 km/year,1972,1985
+Germany,Reproccesing Plant Karlsruhe (pool for storage of spent fuel assemblies),AFR Wet Spent Fuel Storage (Pool),,Decommissioned,Pilot plant,55 t HM,1971,1991
+Germany,Siemens Fuel Fabrication Plant Karlstein,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Decommissioned,Commercial,400 t HM/year,1966,1993
+Germany,Advanced Nuclear Fuels GmbH Lingen Plant,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",In Operation,Commercial,650 t HM/year,1979,
+Germany,Karlsruhe Reprocessing Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,35 t HM/year,1971,1991
+Germany,Greifswald NPP On-Site Interim Storage Facility (temporary),AFR Wet Spent Fuel Storage (Pool),UOX for VVER,Decommissioning,Commercial,560 t HM,1985,2006
+Germany,Koenigstein Uranium Ore Processing Plant,Uranium Ore Processing,,Shutdown,Commercial,0 t U/year,1970,1990
+Germany,Crossen Uranium Ore Processing Plant,Uranium Ore Processing,,Decommissioned,Commercial,2000 t U/year,1951,1989
+Germany,Seelingstaedt Uranium Ore Processing Plant,Uranium Ore Processing,,Decommissioned,Commercial,3000 t U/year,1960,1990
+Germany,"Karlsruhe Enrichment, Research Centre Karlsruhe, Institute for Nuclear Process Engineering",Uranium Enrichment,,Decommissioned,Pilot plant,50 MTSWU/year,,
+Germany,Wackersdorf Reprocessing Plant,Spent Fuel Reprocessing - aqueous route,,Others,Commercial,350 t HM/year,,
+Germany,Gorleben Pilot Conditioning Plant,Disposal (HLW),,Stand By,Pilot plant,35 t HM,,
+Germany,Nukem Fuel Fabrication Plant,Fuel Fabrication (Research Reactors),"Fuel for HTR/GHTR, Fuel for MTR",Decommissioned,Commercial,100 t HM/year,1962,1988
+Germany,Greifswald Interim Storage Facility North,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,585 t HM,1999,
+Germany,Neckarwestheim NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1600 t HM,2006,2046
+Germany,Enrichment Technology Company Ltd. Zweigniederlassung Deutschland,Uranium Enrichment,,In Operation,Laboratory,0 MTSWU/year,1964,
+Germany,Hobeg Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,Decommissioned,Commercial,4 t HM/year,1972,1988
+Germany,ALKEM Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Pilot plant,8 t HM/year,1965,1972
+Germany,Plutonium Test Extraction Facility ,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant, t HM/year,1980,1991
+Germany,MILLI Reprocessing Test Facility,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant,0.2 t HM/year,1970,1991
+Germany,Philippsburg NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1600 t HM,2006,2047
+Germany,Brokdorf NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1000 t HM,2007,2047
+Germany,Grafenrheinfeld NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,800 t HM,2005,2046
+Germany,Isar NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,"UOX for PWR, UOX for BWR",In Operation,Commercial,1500 t HM,2007,
+Germany,Grohnde NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1000 t HM,2005,2046
+Germany,Gundremmingen NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for BWR,In Operation,Commercial,1850 t HM,2006,2046
+Germany,Lingen NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1250 t HM,2002,2042
+Germany,Biblis NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,1400 t HM,2005,2046
+Germany,Biblis NPP On-Site Interim Storage Facility (Temporary),AFR Dry Spent Fuel Storage,UOX for PWR,Decommissioned,Commercial,280 t HM,2002,2006
+Germany,Brunsbuettel NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for BWR,In Operation,Commercial,450 t HM,2006,2046
+Germany,Brunsbuettel NPP On-Site Interim Storage Facility (Temporary),AFR Dry Spent Fuel Storage,UOX for BWR,Others,Commercial,140 t HM,2005,2011
+Germany,Kruemmel NPP On-site Storage Facility,AFR Dry Spent Fuel Storage,UOX for BWR,In Operation,Commercial,775 t HM,2006,2046
+Germany,Kruemmel NPP On- Site Interim Storage Facility (Temporary),AFR Dry Spent Fuel Storage,UOX for BWR,Decommissioned,Commercial,120 t HM,2004,2006
+Germany,Advanced Nuclear Fuels GmbH Karlstein Plant,Fuel Assembly Component Manufacturing (hardware),,In Operation,Commercial, ,1969,
+Germany,Unterweser NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,800 t HM,2007,2047
+Germany,Obrigheim NPP On-Site Interim Storage Facility (temporary),AFR Wet Spent Fuel Storage (Pool),UOX for PWR,Decommissioning,Commercial,286 t HM,1999,2017
+Germany,Obrigheim NPP On-Site Storage Facility,AFR Dry Spent Fuel Storage,UOX for PWR,Others,Commercial,100 t HM,,
+Germany,Greifswald Interim Storage Facility North ESTRAL,AFR Dry Spent Fuel Storage,,Others,Commercial, ,,
+Germany,"Siemens Fuel Fabrication Plant Hanau,Section MOX processing","MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","UOX for PWR, UOX for BWR, Fuel for HTR/GHTR",Decommissioned,Commercial,35 t HM/year,1968,1991
+Germany,"Siemens Fuel Fabrication Plant Hanau,Section MOX processing","MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","MOX for PWR, MOX for BWR",Decommissioned,Commercial,35 t HM/year,1968,1991
+Germany,JUPITER Research Centre Julich,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant,0.002 t HM/year,1978,1987
+Hungary,Cserkut (Mecsekuran LLC),Uranium Ore Processing,,Shutdown,Commercial,500 t U/year,1956,1999
+Hungary,PURAM PAKS SITE SFISF,AFR Dry Spent Fuel Storage,UOX for VVER,In Operation,Commercial,11416 Cask-Bund.,1997,
+India,Baroda,Heavy Water Production,,In Operation,Commercial,17 t/year,1977,
+India,Hazira,Heavy Water Production,,In Operation,Commercial,80 t/year,1991,
+India,UCIL-Jaduguda,Uranium Ore Processing,,In Operation,Commercial,175 t U/year,1968,
+India,Kota,Heavy Water Production,,In Operation,Commercial,85 t/year,1985,
+India,Manuguru,Heavy Water Production,,In Operation,Commercial,185 t/year,1991,
+India,Nangal,Heavy Water Production,,Decommissioned,Commercial,6.6 t/year,1962,2002
+India,NFC (UOP) - Block-A,Conversion to UO2,Nat U for PHWR,In Operation,Commercial,450 t HM/year,1972,
+India,NFC -  (ZIR),Zirconium Alloy Production,,In Operation,Commercial,250 t/year,1980,
+India,NFC (NZSP),Zirconium Alloy Production,,In Operation,Commercial,250 t/year,,
+India,NFC (NZFP),Zirconium Alloy Tubing,,In Operation,Commercial,59 t/year,1987,
+India,NFC (ZFP),Zirconium Alloy Tubing,,In Operation,Commercial,80 t/year,1973,
+India,NFC - (PHWR) - Block-A,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,1500 t HM/year,1974,
+India,NFC  (BWR),"Fuel Fabrication (U Pellet, Pin, FA)",UOX for BWR,In Operation,Commercial,24 t HM/year,1974,
+India,Talcher,Heavy Water Production,,Stand By,Commercial,62.5 t/year,1985,
+India,Thal - Vaishet,Heavy Water Production,,In Operation,Commercial,78 t/year,1987,
+India,"Trombay, Fuel Fabrication","Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,Decommissioned,Commercial,135 t HM/year,1968,1972
+India,Tuticorin,Heavy Water Production,,In Operation,Commercial,49 t/year,1978,
+India,"NFC, Palayakayal",Other-Related Industrial Activities,,Under Construction,Commercial,250 t/year,,
+India,UCIL-Turamdih,Uranium Ore Processing,,Under Construction,Commercial,190 t U/year,2006,
+India,"Mosaboni, Rakha, Surda",Uranium Ore Processing,,Stand By,Commercial,50 t U/year,1986,
+India,NFC (PELLET),"Fuel Fabrication (U Pellet, Pin, FA)",,In Operation,Commercial,335 t HM/year,1998,
+India,NFC (PHWR)-2,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,300 t HM/year,1997,
+India,Trombay - FBTR,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for FBR,In Operation,Laboratory,0 t HM/year,1985,
+India,Tarapur (AFR),AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,275 t HM,1990,
+India,Tarapur NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,20 t HM,1990,
+India,AFR RAPP1/2 Rajasthan NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,570 t HM,1994,
+India,KPM,Uranium Ore Processing,,Others,Commercial,2000 t -ore/day,,
+India,NFC - Hyderabad (ZSP),Zirconium Alloy Tubing,,In Operation,Commercial,180 t/year,1971,
+India,Coral,Spent Fuel Reprocessing - aqueous route,,In Operation,Pilot plant,0 ,2003,
+India,Tummalapalle mine and Mill,Uranium Ore Processing,,In Operation,Commercial, ,2016,
+India,Nuclear Fuel Complex- Kota,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,Under Construction,Commercial,1000 t HM,2025,
+Indonesia,Experimental Fuel Element Facility,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for MTR,In Operation,Laboratory,750 Bundle/year,1986,2032
+Indonesia,RR Fuel Element Production Installation (IFEBRR),Fuel Fabrication (Research Reactors),Fuel for MTR,Shutdown,Commercial,70 Elements/year,1986,2023
+Indonesia,Lemajung Pilot U Processing,Uranium Ore Processing,,Shutdown,Pilot plant,0.2 t U/year,1981,1996
+Indonesia,Serpong Conversion Facility,Conversion to UO2,,In Operation,Laboratory,0.1 t HM/year,2016,2031
+Indonesia,Interim  storage for spent Fuel,AFR Wet Spent Fuel Storage (Pool),Fuel for MTR,In Operation,Commercial,1458 Bundle/year,2006,2028
+Israel,Rotem fertilizers plant,Uranium Recovery from Phosphates,,Shutdown,Pilot plant,0 t U/year,1984,1986
+Italy,Eurex SFRE (Oxide),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,10 t HM/year,1980,1990
+Italy,ITREC,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,5 t HM/year,1975,1988
+Italy,Eurex SFRE (MTR),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,0.3 t HM/year,1970,1990
+Italy,Eurex SFRE (Pu Nitrate Line),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,0.1 t HM/year,1988,
+Italy,IFEC FABR - HWR - CIRENE Line,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,Decommissioned,Pilot plant,12 t HM/year,1966,1989
+Italy,IFEC FABR - MTR Line,Fuel Fabrication (Research Reactors),,Decommissioned,Pilot plant,0.2 t HM/year,1964,1987
+Italy,IFEC FABR - High Enrich. Line,Fuel Fabrication (Research Reactors),,Decommissioned,Pilot plant,10 t HM/year,1966,1989
+Italy,Impianto di Bosco Marengo,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,Decommissioning,Commercial,100 t HM/year,1973,1996
+Italy,Plutonium Laboratory,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Pilot plant,0.9 t HM/year,1968,1987
+Italy,Deposito Avogadro,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,222 t HM,1982,
+Italy,CONU Magnox Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,Decommissioned,Commercial,0 t HM/year,1960,1987
+Japan,Kobe Special Tube Chofu-Kita,Zirconium Alloy Tubing,,Shutdown,Commercial,800 km/year,1975,2000
+Japan,Asahi U Enrichment Laboratory,Uranium Enrichment,,Shutdown,Pilot plant,2 MTSWU/year,1986,1991
+Japan,Japan Nuclear Fuel Conversion (JCO),Re-conversion to UO2 Powder,,Shutdown,Commercial,718 t HM/year,1981,1999
+Japan,Rokkasho Uranium Enrichment Plant,Uranium Enrichment,,In Operation,Commercial,450 MTSWU/year,1992,
+Japan,NFI Kumatori Works,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,284 t U/year,1972,
+Japan,MNF-Fuel Fabrication Facility,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,440 t U/year,1972,
+Japan,NFI Tokai Works,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for BWR, Fuel for HTR/GHTR",In Operation,Commercial,250 t U/year,1980,
+Japan,JAEA Ningyo - Toge Refinement and Conversion Facility (Wet Process),Conversion to UF6,,Decommissioning,Pilot plant,0 t HM/year,1982,1991
+Japan,JAEA Ningyo - Toge Uranium Enrichment Pilot Plant,Uranium Enrichment,,Decommissioning,Pilot plant,30 MTSWU/year,1979,1997
+Japan,JAEA Ningyo - Toge Uranium Enrichment Demonstration Plant (DOP),Uranium Enrichment,,Decommissioning,Pilot plant,100 MTSWU/year,1988,2001
+Japan,Uranium - Sea Water Recovery,Uranium Ore Processing,,Decommissioned,Pilot plant,0.01 t U/year,1986,1988
+Japan,Mitsubishi Nuclear Fuels Ltd(MNF) - Okegawa Plant,Zirconium Alloy Tubing,,In Operation,Commercial,800 km/year,1973,
+Japan,JAEA Tokai Plutonium Fuel Fabrication Facility (Pu-2 - ATR),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Pilot plant,10 t HM/year,1972,2001
+Japan,JAEA Tokai Plutonium Fuel Development Facility (Pu-1 - MOX),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Laboratory,0.3 t HM/year,1965,
+Japan,Rokkasho Spent Fuel Storage,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,3000 t U/year,1999,
+Japan,Rokkasho Reprocessing Plant,Spent Fuel Reprocessing - aqueous route,UOX for PWR,Under Construction,Commercial,800 t U/year,2024,
+Japan,SUMITOMO Tube Production Plant,Zirconium Alloy Tubing,,Shutdown,Commercial,800 km/year,1980,2000
+Japan,JAEA Tokai Reprocessing Plant (TRP),Spent Fuel Reprocessing - aqueous route,"UOX for PWR, UOX for BWR, Fuel for ATR",Decommissioning,Pilot plant,90 t U/year,1977,2006
+Japan,JAEA Tokai Reprocessing Plant - Spent Fuel Storage,AFR Wet Spent Fuel Storage (Pool),,Decommissioning,Pilot plant,140 t HM,1977,2018
+Japan,Global Nuclear Fuel-Kurihama Manufacturing Plant,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for BWR,Refurbishment,Commercial,620 t U/year,1970,
+Japan,Cezus - Nagahama,Zirconium Alloy Production,,Shutdown,Commercial,300 t/year,1989,1996
+Japan,JAEA Tokai Plutonium Fuel Fabrication Facility (Pu-2 - FBR),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","MOX for PWR, MOX for BWR",Decommissioning,Pilot plant,1 t HM/year,1972,2001
+Japan,Fukushima Daiichi NPP site SFSF,AFR Dry Spent Fuel Storage,UOX for BWR,Others,Commercial,408 Cask-Bund.,1995,
+Japan,JAEA Tokai Uranium Enrichment Facilities (Building L),Uranium Enrichment,,Shutdown,Laboratory,0 MTSWU/year,1990,2002
+Japan,Fukushima Daiichi NPP Site SFSF,AFR Wet Spent Fuel Storage (Pool),,Others,Commercial,6840 Cask-Bund.,1997,
+Japan,JAEA Ningyo - Toge Milling Plant,Uranium Ore Processing,,Decommissioned,Pilot plant,0 t U/year,1964,1982
+Japan,JAEA Ningyo - Toge  Refinement and Conversion Facility (Dry Process),Conversion to UF6,,Decommissioning,Pilot plant,120 t U/year,1988,1999
+Japan,Tokai Test Facility,Uranium Enrichment,,Decommissioned,Laboratory,0 MTSWU/year,1987,2003
+Japan,JAEA Tokai Plutonium Fuel Production Facility (Pu-3 - FBR),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",MOX for FR,In Operation,Pilot plant,10 t HM/year,1988,
+Japan,MNF-Reconversion facility,Re-conversion to UO2 Powder,,In Operation,Commercial,450 t U/year,1972,
+Japan,JAEA Tokai Reprocessing Plant - Plutonium Conversion Development Facility (PCDF),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Pilot plant,0.01 t HM/day,1983,2016
+Japan,JAEA Tokai Reprocessing Test Facility (JRTF),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Laboratory,0 t HM/year,1968,1970
+Japan,NFI Takeyama Laboratory,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Commercial,10 t HM/year,1972,1973
+Japan,Rokkasho Nuclear Fuel Cycle Facilities (MOX Fuel Fabrication Plant),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)","MOX for PWR, MOX for BWR",Under Construction,Commercial,130 t HM/year,2024,
+Japan,Zirco Products Chofu-kita,Zirconium Alloy Tubing,,Shutdown,Commercial,1400 km/year,2000,
+Japan,Zirco Products Amagasaki,Zirconium Alloy Tubing,,Shutdown,Commercial,800 km/year,2000,2003
+Japan,Tokai II NPP Site SFSF,AFR Dry Spent Fuel Storage,,In Operation,Commercial,3714 Cask-Bund.,2001,
+Japan,Recyclable Fuel Storage Centre,AFR Dry Spent Fuel Storage,,Under Construction,Commercial,5000 t U/year,2023,
+Kazakhstan, Betpak-Dala JV LLP,Uranium Ore Processing,,In Operation,Commercial,3000 t U/year,2004,
+Kazakhstan,Stepnogorsky Mining and Chemical Complex (SMCC),Uranium Ore Processing,,In Operation,Commercial,3000 t U/year,1958,
+Kazakhstan,Kaskor (Prikaspisky),Uranium Recovery from Phosphates,,Stand By,Commercial,1400 t U/year,1950,1994
+Kazakhstan,Ulba Metalurgical Plant (UMP),"Fuel Fabrication (U Pellet, Pin, FA)",,In Operation,Commercial,2800 t HM/year,1949,
+Kazakhstan,Stepnoye Mining Group LLP,Uranium Ore Processing,,In Operation,Commercial,1300 t U/year,1978,
+Kazakhstan,Mining Group 6 LLP,Uranium Ore Processing,,In Operation,Commercial,1000 t U/year,1985,
+Kazakhstan,Kaskor Mill,Uranium Ore Processing,,Stand By,Commercial,2000 t U/year,1959,1993
+Kazakhstan,JV Inkai,Uranium Ore Processing,,In Operation,Commercial,700 t U/year,2001,
+Kazakhstan,JV Katco (Moynkum),Uranium Ore Processing,,In Operation,Commercial,700 t U/year,2001,
+Kazakhstan,Centralnoye (Taukent),Uranium Ore Processing,,In Operation,Commercial,1000 t U/year,1982,
+Kazakhstan,Appak LLP,Uranium Ore Processing,,In Operation,Commercial,500 t U/year,2009,
+Kazakhstan,Karatau,Uranium Ore Processing,,Under Construction,Commercial, ,,
+Kazakhstan,JV Zarechnoye,Uranium Ore Processing,,Under Construction,Commercial, ,2006,
+Kazakhstan,Kyzilkum LLC,Uranium Ore Processing,,Under Construction,Commercial,1000 t U/year,2010,
+Kazakhstan,KenDala.kz JSC,Uranium Ore Processing,,In Operation,Commercial,1000 t U/year,2005,
+Kazakhstan,Ulba-FA Plant,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,200 t HM/year,2021,
+"Korea, Republic of",Uranium Re-Conversion Facility,Conversion to UO2,,In Operation,Pilot plant,700 t U/year,1990,
+"Korea, Republic of",Candu Fuel Fabrication Plant (1),"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,Shutdown,Commercial,100 t HM/year,1987,1996
+"Korea, Republic of",PWR Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,550 t U/year,1989,
+"Korea, Republic of",Wolsong Dry Storage,AFR Dry Spent Fuel Storage,Nat U for PHWR,In Operation,Commercial,6250 t HM,1992,
+"Korea, Republic of",DUPIC Fuel Dev. Fac. (DFDF),"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for DUPIC,In Operation,Laboratory,0.2 t HM/year,1999,
+"Korea, Republic of",DUPIC Pilot Scale Facility,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for DUPIC,Others,Pilot plant,5 t HM/year,,
+"Korea, Republic of",PHWR Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,400 t U/year,1998,
+"Korea, Republic of",Advanced Spent Fuel Conditioning Process Facility,Disposal (HLW),UOX for PWR,Stand By,Laboratory,0.1 t HM,2009,
+Kyrgyzstan,Kara Balta,Uranium Ore Processing,,In Operation,Commercial,2000 t U/year,1956,
+Lithuania, Spent Fuel Storage Facility - 1,AFR Dry Spent Fuel Storage,Fuel for RBMK/LWGR,In Operation,Commercial,120 Cask-Bund.,1998,2058
+Lithuania,Spent Fuel Storage Facility - 2,AFR Dry Spent Fuel Storage,Fuel for RBMK/LWGR,In Operation,Commercial,202 Cask-Bund.,2017,2066
+Lithuania,Solid Radioactive Waste Treatment and storage Facility,Disposal (HLW),,Commissioning,Commercial, ,2017,
+Luxembourg,Local de collecte de déchets radioactifs (LCDR),Other-Waste Management Facilities,,In Operation,Commercial, ,,
+Malawi,Kayelekera,Uranium Ore Processing,,In Operation,Commercial,1270 t U/year,2009,
+Mexico,Uranium Concentrates Refining Pilot Plant (PPRCU),Conversion to UO2,,Decommissioned,Pilot plant,2.25 t HM/year,1988,1990
+Mexico,Planta Piloto de Fabrication de Combustible (PPFC),"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Stand By,Pilot plant,20 Elements/year,1992,
+Mexico,Planta de Beneficio de Uranio de Villa Aldama Chi.,Uranium Ore Processing,,Decommissioned,Commercial,80 t -ore/day,1969,1971
+Mexico,Planta Provisional de Fabricacion de Combustible,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Laboratory, t HM/year,1983,1990
+Mongolia,Dornod / Erdes,Uranium Ore Processing,,Stand By,Commercial,300 t U/year,1998,
+Morocco,Jorf Lasfar - Khouribga,Uranium Recovery from Phosphates,,Others,Commercial,370 t U/year,,
+Morocco,Safi - Youssoufia,Uranium Recovery from Phosphates,,Others,Commercial,470 t U/year,,
+Namibia,Rössing,Uranium Ore Processing,,In Operation,Commercial,1900 t U/year,1976,
+Namibia,Langer Heinrich Uranium,Uranium Ore Processing,,Stand By,Commercial,2000 t U/year,2006,
+Namibia,Husab mine,Uranium Ore Processing,,In Operation,Commercial,4400 t U/year,2014,
+Namibia,Trekkopje Mine,Uranium Ore Processing,,Stand By,Commercial,3000 t U/year,2011,
+Namibia,Happy valley,Uranium Ore Processing,,Under Construction,, ,,
+Namibia,Norasa Uranium project,Uranium Ore Processing,,Under Construction,, ,,
+"Netherlands, Kingdom of the",Urenco Nederland,Uranium Enrichment,,In Operation,Commercial,6200 MTSWU/year,1973,
+"Netherlands, Kingdom of the",COVRA,Disposal (HLW),,In Operation,Commercial, ,2003,
+"Netherlands, Kingdom of the",Molybdenum production Facilities,Other-Related Industrial Activities,HALEU targets,In Operation,Commercial, ,1961,
+"Netherlands, Kingdom of the",Waste Storage Facility,AFR Dry Spent Fuel Storage,,In Operation,, ,1961,
+Niger,COMINAK,Uranium Ore Processing,,Decommissioning,Commercial,2300 t U/year,1978,
+Niger,SOMAIR,Uranium Ore Processing,,In Operation,Commercial,1500 t U/year,1970,
+Norway,Rjukan,Heavy Water Production,,Shutdown,Commercial,2 t/year,1980,1991
+Norway,Pilot Uranium Reprocessing Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Pilot plant,0 t HM/year,1961,1968
+Norway,Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Pilot plant,0.3 t HM/year,1965,
+Pakistan,Chashma,"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,20 t HM/year,1986,
+Pakistan,BC-1,Uranium Ore Processing,,In Operation,Pilot plant,30 t U/year,1978,
+Pakistan,Islamabad,Conversion to UO2,,In Operation,Commercial,0 t HM/year,1986,
+Pakistan,Issa Khel / Kubul Kel,Uranium Ore Processing,,In Operation,Pilot plant,1 t U/year,1990,
+Pakistan,Kahuta,Uranium Enrichment,,In Operation,Commercial,5 MTSWU/year,1984,
+Portugal,NISA,Uranium Ore Processing,,Others,Commercial,160 t U/year,,
+Portugal,Urgeirica,Uranium Ore Processing,,Shutdown,Commercial,170 t U/year,1951,1991
+Portugal,Oficina De Tratamento Quim.,Uranium Ore Processing,,Shutdown,Commercial,50 t U/year,1951,2001
+Portugal,Mina De Castelejo,Uranium Ore Processing,,Shutdown,Commercial,24 t U/year,1977,1994
+Portugal,Mina Da Quinta Do Bispo,Uranium Ore Processing,,Shutdown,Commercial,22 t U/year,1979,2000
+Portugal,Mina Cunha Baixa,Uranium Ore Processing,,Shutdown,Commercial,12 t U/year,1968,1991
+Portugal,Mina Da Bica,Uranium Ore Processing,,Shutdown,Commercial,6 t U/year,1951,1998
+Portugal,Mina Senhora Das Fontes,Uranium Ore Processing,,Shutdown,Pilot plant,4 t U/year,1956,1982
+Portugal,Mina De Sevilha,Uranium Ore Processing,,Shutdown,Commercial, t U/year,1998,1999
+Romania, Nuclear Fuel Plant  Subsidiary Pitesti (FCN Pitesti),"Fuel Fabrication (U Pellet, Pin, FA)",Nat U for PHWR,In Operation,Commercial,200 t HM/year,1980,
+Romania,Feldioara Branch,Uranium Ore Processing,,Others,Commercial,300 t U/year,1978,
+Romania,Romag-PROD Heavy Water Plant,Heavy Water Production,,Others,Commercial,360 t/year,1988,
+Romania,Dry Storage Facility (WRMG),AFR Dry Spent Fuel Storage,,In Operation,Commercial,108000 Bundle/year,2003,
+Romania,Suceava Branch,Uranium Mining,,Decommissioning,Commercial,410 t -ore/day,1983,
+Romania,Bihor Branch,Uranium Mining,,Decommissioning,Commercial,510 t -ore/day,1952,2008
+Romania,RATEN Institute of Nuclear Research(RATEN ICN Pitesi),Fuel Fabrication (Research Reactors),,In Operation,Laboratory,10 Elements/year,1971,
+Romania,Oravita subsidiary,Uranium Ore Processing,,Decommissioning,Commercial, ,1956,2000
+Romania,Feldioara Uranium Cocentrates Processing Plant,Conversion to UO2,Others,In Operation,Commercial, ,2023,
+Russian Federation,"Machine - Building Plant, JSC MSZ (WWER)","Fuel Fabrication (U Pellet, Pin, FA)",UOX for VVER,In Operation,Commercial,1100 t U/year,1965,
+Russian Federation,Leningrad NPP Site,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,4000 t HM,1984,
+Russian Federation,Novovoronezh NPP Site,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,400 t HM,1986,
+Russian Federation,"Machine - Building Plant ,JSC MSZ (FBR)","Fuel Fabrication (U Pellet, Pin, FA)",Fuel for FBR,In Operation,Commercial,50 t HM/year,1965,
+Russian Federation,"Ural Electrochemical Intergrated Plant, JSC UEIP",Uranium Enrichment,,In Operation,Commercial, ,1949,
+Russian Federation,RT-1 Plant,Spent Fuel Reprocessing - aqueous route,,In Operation,Commercial,400 t U/year,1977,
+Russian Federation,"RT-2, Plant",Spent Fuel Reprocessing - aqueous route,,Under Construction,Commercial,800 t HM/year,2035,
+Russian Federation,Kursk NPP Site,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2000 t HM,1986,
+Russian Federation,Smolensk NPP Site,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2000 t HM,1996,
+Russian Federation,VVER-1000 SNF wet storage facility,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,7600 t HM,1985,
+Russian Federation,Priargunski / Krasnokamensk,Uranium Ore Processing,,In Operation,Commercial,3500 t U/year,1968,
+Russian Federation,"Production Association Electrochemical Plant, JSC PA ECP",Uranium Enrichment,,In Operation,Commercial, MTSWU/year,1964,
+Russian Federation,"Siberian Group of Chemical Enterprises, JSC SGChE",Uranium Enrichment,,In Operation,Commercial,4000 MTSWU/year,1953,
+Russian Federation,"Angarsk Electrolysis Chemical Complex, JSC AECC",Uranium Enrichment,,In Operation,Commercial,1000 MTSWU/year,1954,
+Russian Federation,"Angarsk Elecrolysis Chemical Complex, JSC AECC",Conversion to UF6,,Shutdown,Commercial,20000 t HM/year,1954,
+Russian Federation,"Machine - Building Plant, JSC MSZ (RBMK)","Fuel Fabrication (U Pellet, Pin, FA)",Fuel for RBMK/LWGR,In Operation,Commercial,460 t U/year,1965,
+Russian Federation,"Chepetski Machine Plant, JSC CMP",Conversion to UF4,,Shutdown,Commercial,2000 t/year,1959,
+Russian Federation,Chepetski Machine Plant - Zircaloy,Zirconium Alloy Tubing,,In Operation,Commercial,650 t/year,1951,
+Russian Federation,"RT-1, Mayak, Reprocessing Plant Site",AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,560 t HM,1975,
+Russian Federation,Mayak - Paket,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Pilot plant,0.5 t HM/year,1980,
+Russian Federation,RIAR (Research Institute of Atomic Reactors),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Pilot plant,1 t HM/year,1975,
+Russian Federation,Dalur,Uranium Ore Processing,,In Operation,Commercial,800 t U/year,2002,
+Russian Federation,Khiagda,Uranium Ore Processing,,Under Construction,Commercial,1800 t U/year,2011,
+Russian Federation,RIAR (Research Institute of Atomic Reactors),Spent Fuel Reprocessing - aqueous route,,In Operation,Pilot plant,1 t HM/year,1965,
+Russian Federation,Ekaterinburg (Sverdlovsk-44),Conversion to UF6,,Shutdown,Commercial,4000 t HM/year,1949,
+Russian Federation,"Siberian Group of Chemical Enterprises, JSC SGChE",Conversion to UF6,,In Operation,Commercial,10000 t HM/year,1953,
+Russian Federation,"Machine Building Plant, JSC MSZ (LWR)","Fuel Fabrication (U Pellet, Pin, FA)",,In Operation,Commercial,1100 t U/year,1965,
+Russian Federation,"Novosibirsk Chemical Concentrates Plant, JSC NCCP (Pellets)","Fuel Fabrication (U Pellet, Pin, FA)",UOX for VVER,In Operation,Commercial,1200 t U/year,1979,
+Russian Federation,"Mining and Chemical Complex Site, Stage I",AFR Dry Spent Fuel Storage,,In Operation,Commercial,8130 t HM,2011,
+Russian Federation,RBMK-1000 SNF dry storage facility,AFR Dry Spent Fuel Storage,Fuel for RBMK/LWGR,In Operation,Commercial,17700 t HM,2012,
+Russian Federation,VVER-1000 SNF dry storage Facility,AFR Dry Spent Fuel Storage,,In Operation,Commercial,8900 t HM,2016,
+Russian Federation,Pilot Demonstration Centre(PDC). Test demonstration facility for LWR SNF reprocessing with research chamber,Spent Fuel Reprocessing - aqueous route,"UOX for PWR, UOX for BWR",In Operation,Pilot plant,231 t U/year,2016,
+Russian Federation,Test Demonstration facility for LWR SNF reprocessing-PhaseII,Spent Fuel Reprocessing - aqueous route,,Under Construction,Commercial,250 t HM/year,2024,
+Russian Federation,MOX fuel fabrication plant,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",MOX for FR,In Operation,Commercial,400 Elements/year,2015,
+Russian Federation,"Production Association Electrochemical Plant, JSC PA ECP",Re-Conversion to U3O8 (Rep. U),,In Operation,Commercial, ,2009,
+Russian Federation,Fabrication-Refabrication module BREST-OD-300,Fuel Fabrication (Research Reactors),,Under Construction,Commercial, ,,
+Russian Federation,MOX Fuel Fabrication Plant (REMIX),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Commercial, ,,
+Russian Federation,Siberia Chemical Combine (SCC),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,In Operation,Commercial, ,,
+Serbia,KALNA Mine,Uranium Ore Processing,,Shutdown,Pilot plant,200 t -ore/day,1963,1965
+Slovakia,Bohunice NPP Site SFSF,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,14112 Elements/year,1987,
+Slovakia,Bohumice NPP Site SFSF,AR Spent Fuel Storage,UOX for VVER,Under Construction,Commercial,10115 Elements/year,2023,
+Slovenia,Rudnik Zirovski VRH,Uranium Ore Processing,,Decommissioning,Commercial,102 t U/year,1984,1991
+Slovenia,Nuklearna elektrarna Krško,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,2600 Elements/year,2023,2122
+South Africa,Beisa,Uranium Ore Processing,,Shutdown,Commercial,450 t U/year,1982,1984
+South Africa,Blyvooruitzicht,Uranium Ore Processing,,Decommissioned,Commercial,500 t U/year,1956,1984
+South Africa,Buffelsfontein,Uranium Ore Processing,,Under Construction,Commercial,400 t U/year,1957,
+South Africa,Driefontein,Uranium Ore Processing,,Decommissioned,Commercial,500 t U/year,1956,1988
+South Africa,East Rand,Uranium Ore Processing,,Decommissioned,Commercial,140 t U/year,1978,1991
+South Africa,Freegold,Uranium Ore Processing,,Decommissioned,Commercial,500 t U/year,1977,1997
+South Africa,Harmony (Merriespruit),Uranium Ore Processing,,Decommissioned,Commercial,150 t U/year,1956,1984
+South Africa,Hartebeestfontein,Uranium Ore Processing,,Shutdown,Commercial,350 t U/year,1956,
+South Africa,Nuclear Fuels Corporation (NUFCOR),Uranium Ore Processing,,In Operation,Commercial,5900 t U/year,1977,
+South Africa,Palabora,Uranium Ore Processing,,Shutdown,Commercial,200 t U/year,1971,2002
+South Africa,Randfontein (Cooke),Uranium Ore Processing,,Decommissioned,Commercial,500 t U/year,1978,1988
+South Africa,Stilfontein,Uranium Ore Processing,,Decommissioned,Commercial,400 t U/year,1953,1961
+South Africa,Vaal Reefs - 1,Uranium Ore Processing,,Shutdown,Commercial,2880 t U/year,1953,1997
+South Africa,Valindaba (UF6),Conversion to UF6,,Shutdown,Commercial,1400 t HM/year,1986,1997
+South Africa,Valindaba Z - Plant,Uranium Enrichment,,Decommissioning,Commercial,300 MTSWU/year,1986,1995
+South Africa,West Rand Consolidated,Uranium Ore Processing,,Decommissioned,Commercial,500 t U/year,1952,1981
+South Africa,Western Areas,Uranium Ore Processing,,Shutdown,Commercial,250 t U/year,1982,1998
+South Africa,Western Deep Levels,Uranium Ore Processing,,Shutdown,Commercial,300 t U/year,1970,1985
+South Africa,Valindaba Y - Plant,Uranium Enrichment,,Decommissioning,Pilot plant,10 MTSWU/year,1978,1990
+South Africa,Valindaba (Laser),Uranium Enrichment,,Others,Pilot plant,30 MTSWU/year,1995,1998
+South Africa,Beva,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,Shutdown,Commercial,100 t HM/year,1988,1996
+South Africa,Pelindaba Fuel Fabrication,Fuel Fabrication (Research Reactors),,In Operation,Pilot plant,1 t HM/year,1978,
+South Africa,Pelindaba Zircaloy Tubing,Zirconium Alloy Tubing,,Shutdown,Commercial,0 km/year,1988,1993
+South Africa,Vaal Reefs - 2,Uranium Ore Processing,,In Operation,Commercial,1272 t U/year,1977,
+South Africa,Uranium One,Uranium Ore Processing,,In Operation,Commercial,1200 t U/year,2007,
+South Africa,Doornfontain,Uranium Mining,,Shutdown,Commercial,0 ,1956,1962
+South Africa,Daggafontain,Uranium Mining,,Shutdown,Commercial,0 ,1953,1956
+South Africa,President Styne Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,1956,1960
+South Africa,President Brand Gold Mine,Uranium Mining,,Decommissioned,Commercial,0 ,1977,1990
+South Africa,Beatrix Gold Mine,Uranium Mining,,Decommissioned,Commercial,0 ,1982,1984
+South Africa,Millsite,Uranium Mining,,Shutdown,Commercial,0 ,1966,1976
+South Africa,Lorraine Gold Mine,Uranium Mining,,Decommissioned,Commercial,0 ,1956,1960
+South Africa,Luipaardsvlei Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,1955,1964
+South Africa,Vogelstruitbult Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,1955,1964
+South Africa,Virginia Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,1955,1986
+South Africa,Freddies Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,1955,1960
+South Africa,Saaiplaas Gold Mine,Uranium Mining,,Shutdown,Commercial,0 ,,2004
+South Africa,Uranium One,Uranium Mining,,In Operation,Commercial,200 t U/year,2007,
+South Africa,Mine Waste Solution,Uranium Mining,,Under Construction,Commercial,0 ,1979,1988
+South Africa,Ezulwini Mining Company,Uranium Mining,,Under Construction,Commercial,0 ,2009,
+Spain,Planta Lobo-G,Uranium Ore Processing,,Decommissioned,Commercial,27 t U/year,1989,1991
+Spain,Planta Elefante,Uranium Ore Processing,,Decommissioned,Commercial,212 t U/year,1978,1993
+Spain,Fabrica de combustible(Juzbado),"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",In Operation,Commercial,500 t HM/year,1985,
+Spain,Planta Quercus,Uranium Ore Processing,,Shutdown,Commercial,805 t U/year,1993,2002
+Spain,Andujar,Uranium Ore Processing,,Decommissioned,Commercial,80 t U/year,1959,1981
+Spain,Trillo NPP,AFR Dry Spent Fuel Storage,,In Operation,Commercial,1045 t HM,2002,
+Spain,"AFR Dry storage Facility, Almaraz",AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,297 t HM,2018,
+Spain,AFR dry storage facility-Jose Cabrera NPP,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,100 t HM,2021,
+Spain,AFR DSF-ASCO,AFR Dry Spent Fuel Storage,UOX for PWR,In Operation,Commercial,475 t HM,2013,
+Spain,La Virgen,Uranium Mining,,Decommissioned,, ,,
+Spain,Montealegre U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Navalsano U Mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Cano U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Trapero U Mine,Uranium Mining,,Decommissioned,, ,,
+Spain,San Vicente U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Casilla de la Flores U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Vadellascon U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Viesgo II U  mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Sevillana U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Carretona U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Ratones U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Broncana U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,cabra baja U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Garguera,Uranium Mining,,Decommissioned,, ,,
+Spain,Perdices,Uranium Mining,,Decommissioned,, ,,
+Spain,El Sabio U Mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Zafrilla U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Pedregal U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Maria Lozano U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Intermedia U mine,Uranium Mining,,Decommissioned,, ,,
+Spain,Lobo U Mine,Uranium Mining,,Decommissioned,, ,,
+Sweden,Clab ISF,AFR Wet Spent Fuel Storage (Pool),"UOX for PWR, UOX for BWR",In Operation,Commercial,8000 t HM,1985,
+Sweden,Sandvik Materials Technology,Zirconium Alloy Tubing,,In Operation,Commercial,1000 km/year,1958,
+Sweden,Westinghouse Electric Sweden AB,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",In Operation,Commercial,600 t HM/year,1971,
+Sweden,Ranstad Mineral AB,Uranium Ore Processing,,Decommissioned,Commercial,120 t U/year,1965,2019
+Sweden,Studsvik Nuclear AB,Disposal (HLW),,In Operation,Laboratory, ,1947,
+Sweden,SFR,Disposal (HLW),,In Operation,Commercial,63000 t HM,1980,
+Sweden,Chalmers university of Technology,Disposal (HLW),,In Operation,Laboratory, ,2018,
+Sweden,Cyclife,Other-Related Industrial Activities,,In Operation,Commercial,5000 t/year,2016,
+Switzerland,ZWILAG,AFR Dry Spent Fuel Storage,,In Operation,Commercial,2500 t HM,2001,
+Switzerland,ZWIBEZ,AFR Dry Spent Fuel Storage,,In Operation,Commercial,600 t HM,2010,
+Syrian Arab Republic,Syrian fertilizers plant,Uranium Recovery from Phosphates,,Under Construction,Pilot plant,0 t U/year,,
+Tajikistan,"State Unitary Interprise ""Tajik Rare metals-Tajredmet""",Uranium Ore Processing,,Shutdown,Commercial,2000 t U/year,,1993
+Thailand,TRR-1/M1 Spent fuel storage facility,AR Spent Fuel Storage (Wet),Fuel for Research Reactor,In Operation,Commercial,100 Elements/year,1977,2043
+Tunisia,Gabes,Uranium Recovery from Phosphates,,Others,Commercial,120 t U/year,,
+Türkiye,CNRC Nuclear Fuel Pilot Plant - Conversion,Conversion to UO2,,In Operation,Pilot plant,0.1 t HM/year,1986,
+Türkiye,Koprubasi Pilot Plant,Uranium Ore Processing,,Shutdown,Pilot plant,1 t U/year,1974,1982
+Türkiye,MTA Technology Lab.,Uranium Recovery from Phosphates,,Shutdown,Pilot plant,0.1 t U/year,1987,1990
+Türkiye,MTA Technology Lab - ThO2 Recovery,Uranium Ore Processing,,Shutdown,Laboratory,0 t U/year,2003,2006
+Türkiye,CNRC Nuclear Fuel Pilot Plant - Pellet Production,"Fuel Fabrication (U Pellet, Pin, FA)",,In Operation,Pilot plant,0.1 t HM/year,1986,
+Türkiye,MTA Technology Lab - Uranium Ore Processing,Uranium Ore Processing,,Shutdown,Laboratory,0 t U/year,2009,2010
+Türkiye,RWMF,Disposal (LILW),,In Operation,Commercial,5000 m3,1989,2035
+Ukraine,Dnieprodzerzynsk,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1947,1990
+Ukraine,Chernobyl NPP Site,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2518 t HM,1986,
+Ukraine,Zheltiye Vody,Uranium Ore Processing,,In Operation,Commercial,1000 t U/year,1959,
+Ukraine,Zaporozhe NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,9120 Cask-Bund.,2001,
+Ukraine,Chernobyl NPP Site,AFR Dry Spent Fuel Storage,,Others,Commercial,21350 Cask-Bund.,2004,
+Ukraine,Centralised  spent fuel storage facility,AFR Dry Spent Fuel Storage,,Under Construction,Commercial,16529 Elements/year,2021,
+United Kingdom,NDA Capenhurst (GD),Uranium Enrichment,,Decommissioned,Commercial,350 MTSWU/year,1953,1982
+United Kingdom,Springfields Main Line Chemical Plant,Conversion to UF4,,In Operation,Commercial,10000 t HM/year,1960,
+United Kingdom,Springfields AGR Fuel Canning Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,Shutdown,Commercial,300 t U/year,1968,1999
+United Kingdom,Springfields Magnox Canning Plant,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,Shutdown,Commercial,1000 t U/year,1960,2011
+United Kingdom,Springfields Oxide Fuel Complex (PWR),"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,200 t U/year,1993,
+United Kingdom,Springfields ( Hex Conversion),Conversion to UF6,,In Operation,Commercial,6000 t HM/year,1993,
+United Kingdom,Springfields U Metal Plant,Conversion to U Metal,,Decommissioning,Commercial,2000 t HM/year,1960,2006
+United Kingdom,NDA Sellafield Magnox Reprocessing,Spent Fuel Reprocessing - aqueous route,,In Operation,Commercial,1000 t U/year,1964,2020
+United Kingdom,NDA Sellafield Pond 3,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2300 t HM,1964,2046
+United Kingdom,NDA Sellafield  Pond,AFR Wet Spent Fuel Storage (Pool),,Decommissioning,Commercial,1500 t HM,1960,1986
+United Kingdom,"NDA Reprocessing Plant, MTR",Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0.2 t HM/year,1958,1998
+United Kingdom,"NDA Reprocessing Plant, MOX",Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,4 t HM/year,1980,1998
+United Kingdom,Springfields Line 3 Hex Plant,Conversion to UF6,,Decommissioned,Commercial,1200 t HM/year,,
+United Kingdom,NDA Sellafield Fuel Handling Plant,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,2700 t HM,1986,
+United Kingdom,NDA Sellafield Pond 4,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,1500 t HM,1981,2040
+United Kingdom,NDA MOX For FBR,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Shutdown,Commercial,6 t HM/year,1970,1988
+United Kingdom,NDA Sellafield MOX Plant (SMP),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Shutdown,Commercial, t HM/year,1999,2012
+United Kingdom,"NDA Thorp RT and ST-1,2",AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,3800 t HM,1988,2085
+United Kingdom,NDA Sellafield Thorp,Spent Fuel Reprocessing - aqueous route,,Shutdown,Commercial,900 t U/year,1994,2018
+United Kingdom,Urenco UK,Uranium Enrichment,,In Operation,Commercial,4500 MTSWU/year,1972,
+United Kingdom,NDA Sellafield MDF (MOX Demonstration Facility),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Shutdown,Pilot plant,8 t HM/year,1993,2000
+United Kingdom,NDA Fuel Fabrication Plant,Fuel Fabrication (Research Reactors),,Decommissioned,Commercial,500 Elements/year,1957,2004
+United Kingdom,DOUNREAY Fuel Storage Facility,AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,20 t HM,1982,
+United Kingdom,NDA Conversion Plant,Conversion to U Metal,,Decommissioning,Commercial,4 t HM/year,1957,
+United Kingdom,Springfields Line 4 Hex Plant,Conversion to UF6,,In Operation,Commercial,6000 t U/year,1993,
+United Kingdom,Springfields OFC AGR Line,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for GCR/AGR,In Operation,Commercial,290 t U/year,1996,
+United Kingdom,Springfields ( UO2 Conversion),Conversion to UO2,,In Operation,Commercial,900 t U/year,1993,
+United Kingdom,Springfields OFC LWR Line,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Shutdown,Commercial,200 t U/year,1996,1999
+United Kingdom,Springfields IDR Plant,Conversion to UO2,,Decommissioning,Commercial,500 t HM/year,1970,1999
+United Kingdom,Miscellaneous Pellet Plant,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioning,Commercial,150 t HM/year,1985,1998
+United Kingdom,Springfields Enr. U Residue Recovery Plant,Conversion to UO2,,In Operation,Commercial,65 t HM/year,1985,
+United Kingdom,NDA Wylfa NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,700 t HM,1979,2015
+United Kingdom,NDA Plutonium Finishing Line III,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Commercial,0 t HM/year,1962,1988
+United Kingdom,NDA Fuel Manufacturing Facility (Winfrith),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Pilot plant,10 t HM/year,1962,1992
+United Kingdom,NDA Dry Recovery Plant,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1974,1975
+United Kingdom,NDA Coprecipitation Plant,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Commercial,0 t HM/year,1969,1976
+United Kingdom,NDA Magnox Reprocessing Pilot Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,0 t HM/year,1956,1968
+United Kingdom,NDA Uranium Purification Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1952,1973
+United Kingdom,NDA Solvent Regeneration Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1952,1963
+United Kingdom,NDA  Pu Residues Recovery Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1954,1987
+United Kingdom,NDA  Reprocessing Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1952,1973
+United Kingdom,NDA Plutonium Operating Corridors,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1964,1968
+United Kingdom,NDA Sellafield Pond,AFR Wet Spent Fuel Storage (Pool),,Decommissioning,Commercial,0 t HM,1952,1964
+United Kingdom,NDA Dry Granulation Production,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioning,Commercial,0 t HM/year,,1988
+United Kingdom,NDA Thorp Miniature Pilot Plant (TMPP),Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,0 t HM/year,,
+United Kingdom,NDA Sellafield North Group Facilities,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Commercial,0 t HM/year,1953,1985
+United States of America,Allens Park,Zirconium Alloy Tubing,,In Operation,Commercial,500 km/year,1981,
+United States of America,Apollo,"Fuel Fabrication (U Pellet, Pin, FA)",Fuel for FBR,Decommissioned,Commercial,360 t HM/year,1957,1986
+United States of America,Bear Creek,Uranium Ore Processing,,Decommissioned,Laboratory,400 t U/year,1977,1985
+United States of America,Bluewater,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,,1982
+United States of America,Bruni,Uranium Ore Processing,,Decommissioned,Commercial,330 t U/year,1977,1980
+United States of America,Burns,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1977,1987
+United States of America,Canon City-I,Uranium Ore Processing,,Decommissioned,Commercial,300 t U/year,1958,1987
+United States of America,L-Bar,Uranium Ore Processing,,Decommissioned,Commercial,1000 t U/year,1976,1981
+United States of America,Christensen Ranch,Uranium Ore Processing,,Stand By,Commercial,250 t U/year,1989,2000
+United States of America,Clay West,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1975,1987
+United States of America,Columbia Fuel Fabrication Facility,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,1350 t U/year,1969,
+United States of America,Faustina (Agrico),Uranium Recovery from Phosphates,,Stand By,Commercial,181 t U/year,1981,1999
+United States of America,Falls City,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,,1983
+United States of America,Gas Hills / American Nuclear,Uranium Ore Processing,,Decommissioned,Commercial,400 t U/year,1959,1986
+United States of America,Sequoyah Facility,Conversion to UF6,,Shutdown,Commercial,9090 t HM/year,1970,1993
+United States of America,Hematite (ABB-CE),"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",Decommissioning,Commercial,450 t HM/year,1986,2001
+United States of America,Hobson,Uranium Ore Processing,,In Operation,Commercial,385 t U/year,1979,
+United States of America,Grants,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1958,1990
+United States of America,Irigaray Ranch,Uranium Ore Processing,,Stand By,Commercial,130 t U/year,1978,
+United States of America,Split Rock,Uranium Ore Processing,,Decommissioned,Laboratory,0 t U/year,1973,1982
+United States of America,Kennewick,Zirconium Alloy Tubing,,In Operation,Commercial,2200 km/year,1981,
+United States of America,Kingsville Dome,Uranium Ore Processing,,In Operation,Commercial,385 t U/year,1988,1999
+United States of America,Las Palmas,Uranium Ore Processing,,Decommissioning,Commercial,0 t U/year,1981,1984
+United States of America,Lisbon,Uranium Ore Processing,,Decommissioned,Commercial,350 t U/year,1972,1988
+United States of America,Lucky Mc (Pathfinder),Uranium Ore Processing,,Stand By,Commercial,710 t U/year,1978,1985
+United States of America,Lynchburg - FC Fuels,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for PWR,In Operation,Commercial,400 t HM/year,1982,
+United States of America,McBryde,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1983,1985
+United States of America,Metropolis Conversion Facility,Conversion to UF6,,In Operation,Commercial,7000 t U/year,1964,
+United States of America,Moab,Uranium Ore Processing,,Decommissioned,Commercial,1500 t U/year,1956,1988
+United States of America,Morris Reprocessing Plant Site (Wet),AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial,750 t HM,1984,
+United States of America,Mt. Lucas,Uranium Ore Processing,,Decommissioning,Commercial,100 t U/year,1984,1988
+United States of America,Bartow Module,Uranium Recovery from Phosphates,,Decommissioned,Commercial,200 t U/year,1976,1980
+United States of America,Gas Hills / Umetco,Uranium Ore Processing,,Decommissioned,Commercial,300 t U/year,1960,1986
+United States of America,"Oak Ridge K-25, Y-12",Uranium Enrichment,,Decommissioning,Commercial,8500 MTSWU/year,1945,1985
+United States of America,Paducah Gaseous Diffusion,Uranium Enrichment,,Shutdown,Commercial,11300 MTSWU/year,1965,2013
+United States of America,Palangana,Uranium Ore Processing,,Shutdown,Commercial,45 t U/year,1969,1991
+United States of America,Panna Maria,Uranium Ore Processing,,Decommissioned,Commercial,580 t U/year,1979,1992
+United States of America,Shirley Basin / Pathfinder,Uranium Ore Processing,,Decommissioned,Commercial,1000 t U/year,1971,1992
+United States of America,Plant City Module,Uranium Recovery from Phosphates,,Stand By,Commercial,270 t U/year,1981,1992
+United States of America,Portsmouth Gaseous Diffusion,Uranium Enrichment,,Shutdown,Commercial,7400 MTSWU/year,1965,2001
+United States of America,Sweetwater,Uranium Ore Processing,,Stand By,Commercial,350 t U/year,1981,1983
+United States of America,Richland Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)","UOX for PWR, UOX for BWR",In Operation,Commercial,700 t U/year,1972,
+United States of America,Rosita,Uranium Ore Processing,,Shutdown,Commercial,385 t U/year,1990,1999
+United States of America,Smith Ranch,Uranium Ore Processing,,In Operation,Commercial,2116 t U/year,1988,
+United States of America,Wah Chang - Albany,Zirconium Alloy Production,,In Operation,Commercial,2000 t/year,1956,
+United States of America,Gruy Ranch (Satellite),Uranium Ore Processing,,Shutdown,Commercial,100 t U/year,1988,1992
+United States of America,Shirley Basin / Petromics,Uranium Ore Processing,,Shutdown,Commercial,400 t U/year,1962,1985
+United States of America,Shootering Canyon,Uranium Ore Processing,,In Operation,Commercial,380 t U/year,1982,
+United States of America,Trevino,Uranium Ore Processing,,Decommissioned,Commercial,150 t U/year,1981,1985
+United States of America,Uncle Sam,Uranium Recovery from Phosphates,,Stand By,Commercial,350 t U/year,1978,1999
+United States of America,Uravan,Uranium Ore Processing,,Decommissioned,Commercial,490 t U/year,1948,1984
+United States of America,Wellpinit,Uranium Ore Processing,,Decommissioned,Commercial,420 t U/year,1978,1984
+United States of America,Western Zirconium,Zirconium Alloy Production,,In Operation,Commercial,1350 t/year,1980,
+United States of America,White Mesa Mill,Uranium Ore Processing,,In Operation,Commercial,1200 t U/year,1980,1997
+United States of America,Wilmington Facility,"Fuel Fabrication (U Pellet, Pin, FA)",UOX for BWR,In Operation,Commercial,1200 t HM/year,1982,
+United States of America,Wilmington,Zirconium Alloy Tubing,,In Operation,Commercial,2200 km/year,1981,
+United States of America,Zamzow,Uranium Ore Processing,,Decommissioned,Commercial,60 t U/year,1977,1986
+United States of America,Lawrence Livermore National Laboratory,Uranium Enrichment,,Decommissioned,Laboratory,1 MTSWU/year,1991,1999
+United States of America,"Rhone Poulenc, Inc.",Uranium Ore Processing,,Shutdown,Commercial,15 t U/year,,
+United States of America,Hansen,Uranium Ore Processing,,Others,Commercial,0 t U/year,,
+United States of America,Lamprecht,Uranium Ore Processing,,Decommissioned,Commercial,100 t U/year,1985,1988
+United States of America,Crow Butte,Uranium Ore Processing,,In Operation,Commercial,385 t U/year,1991,
+United States of America,Highland,Uranium Ore Processing,,Stand By,Commercial,580 t U/year,1988,2002
+United States of America,Midnite,Uranium Ore Processing,,Stand By,Commercial,200 t U/year,1957,1982
+United States of America,Holiday / El Mesquite,Uranium Ore Processing,,Decommissioning,Commercial,250 t U/year,1979,1997
+United States of America,Marquez,Uranium Ore Processing,,Others,Commercial,0 t U/year,1982,
+United States of America,West Cole,Uranium Ore Processing,,Decommissioned,Commercial,80 t U/year,1981,1989
+United States of America,Ambrosia Lake,Uranium Ore Processing,,Stand By,Commercial,3300 t U/year,1958,1992
+United States of America,Oak Ridge,Spent Fuel Reprocessing - aqueous route,,Others,Commercial,150 t HM/year,,
+United States of America,GE Morris,Spent Fuel Reprocessing - aqueous route,,Shutdown,Commercial,300 t HM/year,1971,1971
+United States of America,West Valley,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,300 t HM/year,1966,1972
+United States of America,Barnwell,Spent Fuel Reprocessing - aqueous route,,Others,Commercial,1500 t HM/year,1974,1983
+United States of America,New Wales Plant,Uranium Recovery from Phosphates,,Stand By,Commercial,425 t U/year,1980,1992
+United States of America,West Valley Reprocessing Plant Site,AFR Wet Spent Fuel Storage (Pool),,Decommissioning,Commercial,27 t HM,1966,
+United States of America,Alta Mesa,Uranium Ore Processing,,In Operation,Commercial,385 t U/year,2005,
+United States of America,Canon City,Uranium Ore Processing,,In Operation,Commercial,210 t U/year,1979,
+United States of America,Owl Creek NPP Site,AFR Dry Spent Fuel Storage,,Others,Commercial,40000 t HM,,
+United States of America,Arkansas Nuclear No:1 NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,150 t HM,1997,
+United States of America,Peach Bottom NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,2000,
+United States of America,Prairie Island NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,724 t HM,1994,
+United States of America,Fort St. Vrain NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,15.4 t HM,1992,
+United States of America,Point Beach NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,447 t HM,1995,
+United States of America,Palisades NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,233 t HM,1993,
+United States of America,Davis Besse NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,360 t HM,1995,
+United States of America,Calvert Cliffs NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,1112 t HM,1992,
+United States of America,Surry NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,808 t HM,1986,
+United States of America,H.B. Robinson NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,26 t HM,1986,
+United States of America,Oconee NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,380 t HM,1990,
+United States of America,Claiborne Enrichment Center,Uranium Enrichment,,Others,Commercial,1500 MTSWU/year,,
+United States of America,Big Rock Point NPP Site (shutdown) ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,,
+United States of America,Trojan NPP Site (shutdown) ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,359 t HM,,
+United States of America,McGuire NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,2000,
+United States of America,Los Alamos Plutonium Facility,Spent Fuel Reprocessing - aqueous route,,Shutdown,Laboratory,0 t HM/year,,
+United States of America,"Idaho CPP-603 IFSF, CPP-749",AFR Dry Spent Fuel Storage,,In Operation,Laboratory,270 t HM,1975,
+United States of America,"Idaho CPP-603, CPP-666",AFR Wet Spent Fuel Storage (Pool),,In Operation,Laboratory,0 t HM,1952,
+United States of America,Savannah River (SRS),AFR Wet Spent Fuel Storage (Pool),,In Operation,Laboratory,0 t HM,,
+United States of America,Actinide Packaging and Storage Fac. (APSF),AFR Dry Spent Fuel Storage,,Others,Laboratory,2001 t HM,,
+United States of America,Idaho Chemical Processing Plant,Spent Fuel Reprocessing - aqueous route,,Shutdown,Laboratory,100 t HM/year,1959,1992
+United States of America,Hanford,"Fuel Fabrication (U Pellet, Pin, FA)",,Shutdown,Laboratory,0 t HM/year,1961,1989
+United States of America,Hanford - K Basins,AFR Wet Spent Fuel Storage (Pool),,In Operation,Laboratory,2100 t HM,1950,
+United States of America,Hanford - Plutonium Finishing Plant,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Shutdown,Laboratory,0 t HM/year,1949,1989
+United States of America,Hanford - B Plant,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Laboratory,2400 t HM/year,1956,1989
+United States of America,Hanford,Conversion to UO3,,Shutdown,Laboratory,0 t HM/year,1956,1972
+United States of America,Hanford - Canister Storage Building,AFR Dry Spent Fuel Storage,,Under Construction,Laboratory,2300 t HM,2003,
+United States of America,Fuels and Materials Examination Fac. (FMEF),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Stand By,Laboratory,0 t HM/year,,
+United States of America,Green River,Uranium Ore Processing,,Decommissioned,Commercial,0 t U/year,1958,1961
+United States of America,Idaho TAN-607 demonstration,AFR Dry Spent Fuel Storage,,In Operation,Laboratory,0 t HM,1975,
+United States of America,"TMI-2, Debris at Idaho",AFR Dry Spent Fuel Storage,,In Operation,Laboratory,130 t HM,1999,
+United States of America,DeMOX - ToMOX,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Others,Commercial,0 t HM/year,,
+United States of America,Private Fuel Storage ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,40000 t HM,,
+United States of America,Savannah River (SRS),"Fuel Fabrication (U Pellet, Pin, FA)",,Under Construction,Pilot plant,70 t/year,1978,1985
+United States of America,Barnwell,Re-conversion to UO2 Powder,,Others,Commercial,0 t HM/year,,
+United States of America,North Anna NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,840 t HM,1998,
+United States of America,Portsmouth,Re-conversion to UO2 Powder,,In Operation,Commercial,13500 t HM/year,2010,
+United States of America,Paducah,Re-conversion to UO2 Powder,,In Operation,Commercial,18000 t HM/year,2010,
+United States of America,Dresden NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,70 t HM,2001,
+United States of America,Oyster Creek NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2000,
+United States of America,Rancho Seco NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,202 t HM,1989,
+United States of America,Susquehanna NPP Site  ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,343 t HM,1998,
+United States of America,Duane Arnold NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,0 t HM,2004,
+United States of America,Plant 7 (Hex Reduction Plant),Conversion to UF4,,Decommissioned,Commercial,0 t HM/year,1954,1956
+United States of America,RMI Extrusion Plant,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioning,Commercial,0 t HM/year,1962,1988
+United States of America,DP West Plutonium Facility,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioning,Commercial,0 t HM/year,1944,1978
+United States of America,Uranium Manufacturing Facility - Compton,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1967,1986
+United States of America,Fuel Fabrication Facility Attleboro,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1952,1981
+United States of America,Uranium Fuel Fabrication Plant,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1957,1966
+United States of America,B212 Plutonium Glovebox,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Laboratory,0 t HM/year,1960,1990
+United States of America,Plutonium Fabrication Facility (Building 350),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Pilot plant,0 t HM/year,1959,1973
+United States of America,Uranium Fuel Fabrication Plant - San Jose,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1962,1978
+United States of America,Advanced Fuel Laboratory,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Laboratory,0 t HM/year,1962,1979
+United States of America,Special Metallurgical Facility,Spent Fuel Reprocessing - aqueous route,,Decommissioned,Commercial,0 t HM/year,1960,1968
+United States of America,Nuclear Material Development Facility,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Laboratory,0 t HM/year,1967,1980
+United States of America,Nuclear Fuel Services,"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1965,1972
+United States of America,Weldon Spring Site,Conversion to UO2,,Decommissioned,Commercial,0 t HM/year,1957,1966
+United States of America,LANL TA-21,"Fuel Fabrication (U Pellet, Pin, FA)",,Decommissioned,Commercial,0 t HM/year,1950,1984
+United States of America,Hanford T Plant Complex,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Commercial,0 t HM/year,1944,1956
+United States of America,Hanford Redox Facility,Spent Fuel Reprocessing - aqueous route,,Decommissioning,Pilot plant,0 t HM/year,1949,1956
+United States of America,American Centrifuge Demonstration Facility,Uranium Enrichment,,Commissioning,Pilot plant,0 MTSWU/year,,
+United States of America,Vasquez,Uranium Ore Processing,,In Operation,Commercial,308 t U/year,2004,
+United States of America,Urenco USA,Uranium Enrichment,,In Operation,Commercial,4800 MTSWU/year,2010,
+United States of America,Browns Ferry NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2004,
+United States of America,Columbia Generating Station NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2000,
+United States of America,Farley NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2006,
+United States of America,FitzPatrick NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2002,
+United States of America,Haddam Neck NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,1996,
+United States of America,Hatch NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,1998,
+United States of America,Maine Yankee NPP Site (shut down) ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,1997,
+United States of America,Millstone NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2004,
+United States of America,Palo Verde NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2003,
+United States of America,Quad Cities NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2004,
+United States of America,Rancho Seco NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,1989,
+United States of America,River Bend NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2006,
+United States of America,San Onofre NPP Site,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2007,
+United States of America,Sequoyah NPP Site ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,2004,
+United States of America,Yankee Rowe NPP Site (shutdown) ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial,190 t HM,1991,
+United States of America,BWX Technology (BWXT) Fuel Facility,Fuel Fabrication (Research Reactors),,In Operation,Commercial,100 t HM/year,1982,
+United States of America,American Centrifuge Plant,Uranium Enrichment,,Under Construction,Commercial,4800 MTSWU/year,,
+United States of America,H-Canyon,Spent Fuel Reprocessing - aqueous route,,In Operation,, ,1955,2019
+United States of America,Church Rock,Uranium Ore Processing,,Under Construction,Commercial,385 t U/year,,
+United States of America,Eagle Enrichment Facility,Uranium Enrichment,,Others,Commercial,3300 MTSWU/year,2014,
+United States of America,Global Laser Enrichment (GLE),Uranium Enrichment,,Others,,3500 MTSWU/year,2013,
+United States of America,Goliad Uranium Project,Uranium Ore Processing,,Others,, ,,
+United States of America,Fluorine Extraction Process and Depleted Uranium Deconversion Plant (FEP/DUP),Re-conversion to UO2 Powder,,Others,Commercial,6500 t/year,2013,
+United States of America,Job and Antelope,Uranium Ore Processing,,Under Construction,Commercial,770 t U/year,,
+United States of America,La Palangana,Uranium Ore Processing,,In Operation,Commercial,385 t U/year,2010,
+United States of America,Lost Creek,Uranium Ore Processing,,Under Construction,Commercial,770 t U/year,,
+United States of America,Moore Ranch,Uranium Ore Processing,,In Operation,Commercial,770 t U/year,2010,
+United States of America,MOX Fuel Fabrication Facility (MFFF),"MOX fuel fabrication (Mox Powder, Pellet, Pin, FA)",,Under Construction,, ,2016,
+United States of America,Nichols Ranch ISL Project,Uranium Ore Processing,,Under Construction,Commercial, ,,
+United States of America,Pinon Ridge Mill,Uranium Ore Processing,,Under Construction,Commercial, ,,
+United States of America,Nichols Project,Uranium Ore Processing,,Under Construction,, ,,
+United States of America,Brunswick NPP ISFSI,AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Byron NPP Site
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Catawba NPP ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Cooper Station ISFSI
+",AFR Dry Spent Fuel Storage,,Others,Commercial, ,,
+United States of America,"Diablo Canyon NPP Site ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,2008,
+United States of America,"Fort Calhoun NPP Site ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Ginna NPP ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Grand Gulf NPP Site ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Hope Creek/Salem (combined) ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Humboldt Bay
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Indian Point ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Kewaunee NPP ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Lacrosse NPP (shutdown) ISFSI
+",AFR Wet Spent Fuel Storage (Pool),,In Operation,Commercial, ,,
+United States of America,"LaSalle County ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Limerick NPP ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Seabrook ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"St. Lucie NPP Site
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,"Vermont Yankee NPP ISFSI
+",AFR Dry Spent Fuel Storage,,In Operation,Commercial, ,,
+United States of America,Richland Fuel Fabrication Plant,Conversion to UO2,,In Operation,Commercial,1200 t U/year,1972,
+United States of America,Consolidated Interim Storage facility,AFR Dry Spent Fuel Storage,,Under Construction,Commercial,40000 t HM,2022,
+United States of America,Consolidated Interim Storage Facility (CISF),AFR Dry Spent Fuel Storage,,Others,Commercial,10000 ,2022,
+United States of America,TRISO-X Fuel Fabrication Facility,Fuel Fabrication (Pebble Bed Type),,In Operation,Pilot plant, ,2023,
+United States of America,HALEU Demonstration Plant,"Fuel Fabrication (U Pellet, Pin, FA)",HALEU fuel,Under Construction,Pilot plant,0.9 t U/year,2024,
+Uzbekistan,Navoi Hydrometallurgical Plant No.1,Uranium Ore Processing,,In Operation,Commercial,4000 t U/year,1964,
