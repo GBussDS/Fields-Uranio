@@ -6,6 +6,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.poolmanager import PoolManager
 from bs4 import BeautifulSoup
 from datetime import datetime
+import re
 
 class SSLAdapter(HTTPAdapter):
     def __init__(self, ssl_context=None, **kwargs):
@@ -195,61 +196,111 @@ class Scrapper:
         """
 
         url_most_recent = "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-and-uranium-requireme"
-        url_rest = "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-archive/world-nuclear-power-reactors-and-uranium-requ-"
         
         country = []
         uranium = []
         year = []
-
-        for i in range(16):
+        
+        url_by_year = {}
+        
+        i = 0
+        while i < len(url_by_year.keys()) + 1:
             if i == 0:
                 url = url_most_recent
             else:
-                url = url_rest + "(" + str(i) + ")"
+                current_year = list(url_by_year.keys())[i - 1]
 
+            index = 0
+            table = None
             try:
-                response = self.SESSION.get(url, headers=self.HEADERS)
+                if i != 0 :
+                    while table == None and index < len(url_by_year[current_year]):
+                        if i != 0:
+                            url = url_by_year[current_year][index]
+                            index += 1
+                            
+                        response = self.SESSION.get(url, headers=self.HEADERS)
+                        return_html = BeautifulSoup(response.text, 'html.parser')
+                        table = return_html.find('table', {'id': 'tablestyle'})
+
+                        if not table:
+                            try:
+                                table = return_html.find('table')
+                            except:
+                                continue
+                else:
+                    response = self.SESSION.get(url, headers=self.HEADERS)
+                    return_html = BeautifulSoup(response.text, 'html.parser')
+                    table = return_html.find('table', {'id': 'tablestyle'})
+                
             except requests.exceptions.RequestException as e:
                 print(f"An error occurred: {e}")
                 print(f"Exception type: {type(e).__name__}")
                 print(f"Request headers: {self.HEADERS}")
                 continue
 
-            try:
-                response.raise_for_status()
-            except:
+            if table == None:
+                i += 1
                 continue
             
-            return_html = BeautifulSoup(response.text, 'html.parser')
+            #Acha o restante dos links no primeiro link
+            if i == 0 :
+                links = return_html.find_all('a', href=True, title=True)
 
-            #Para esse tipo de página os dados ficam na div de id 'tablestyle'
-            table = return_html.find('table', {'id': 'tablestyle'})
+                for link in links:
+                    #checa todos que terminam em ano
+                    match = re.search(r'\b(\d{4})\b', link['title'])
+                    
+                    if match:
+                        current_year = int(match.group(1))
+                        url = "https://world-nuclear.org" + str(link['href'])
+                        
+                        #Seleciona só o primeiro(mais velho)
+                        if current_year not in url_by_year:
+                            url_by_year[current_year] = [url]
+                        else:
+                            url_by_year[current_year].append(url)
 
-            #Para os reatores que não tem histórico
-            try:
-                rows = table.find('tbody').find_all('tr')
-            except:
-                return
-            
             if i == 0:
-                current_year = datetime.now().strftime("%B %Y")
-            else:
-                current_year = return_html.find('div',{'class':'col-12 col-xl-9 country_content mb-4'}).find_all('p')[0].text.strip()
+                current_year = 2024
 
+            rows = table.find('tbody').find_all('tr')
+        
             #Itera sobre a tabela, os dados ficam armazenados em linha por <tr></tr>
             for row in rows:
+                
                 # e por coluna em <td></td>
                 cols = row.find_all('td')
-
-                year.append(current_year)
-                #replace para remover anotação que o site usa
-                country.append(row.find('th').text.strip().replace('\u00A0', '').replace('\u2021', '').replace('\u2020', ''))
                 
                 if len(cols) == 11:
+                    year.append(current_year)
+
+                    #replace para remover anotação que o site usa
+                    country.append(row.find('th').text.strip().replace('\u00A0', '').replace('\u2021', '').replace('\u2020', ''))
+
                     uranium.append(int(cols[10].text.strip().replace(',','')) if cols[0].text.strip() != '' else None)
+                #Outro formato de página que existe
+                elif len(cols) == 12:
+                    try:
+                        demand = int(cols[11].text.strip().replace(',','')) if cols[0].text.strip() != '' else None
+                        
+                        #replace para remover anotação que o site usa
+                        country_name = cols[0].text.strip().replace('\u00A0', '').replace('\u2021', '').replace('\u2020', '')
+                    except:
+                        continue
+
+                    if demand != None and str(country_name) != "WORLD**":
+                        uranium.append(demand)
+                    else:
+                        continue
+
+                    year.append(current_year)
+                    country.append(country_name)
                 else:
                     continue
             
+            i += 1
+        
         #Cria o df pandas
         df = pd.DataFrame({
             'Country': country,
