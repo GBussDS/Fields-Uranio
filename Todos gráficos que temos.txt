@@ -1,0 +1,30 @@
+- Maiores produtores/exportadores (países) de urânio
+- Exportação de urânio enriquecido por país
+- Produção/Exportação de urânio empobrecido por país
+- Tamanho das reservas
+- Preço do urânio
+- Usos do urânio
+- Maiores consumidores de urânio
+- Necessidade de urânio para reatores por país
+- Maiores importadores de urânio
+- Fator de conversão do minério de urânio para o urânio refinado
+- Maiores produtores (empresas) de urânio
+- Maiores enriquecedores (empresas/países) de urânio
+- Quantidade de reatores ativos, desativados, suspensos, em construção
+- Produção de energia por país
+- Distribuição de reatores pelo mundo
+- Curva de custo dos países
+- Distribuição da potência das usinas
+- Capacidade total de geração ao longo do tempo
+- Tipos de reatores
+- Geração média por reator ao longo do tempo
+- Produção e demanda de urânio por ano
+- Estoque anual (acumulado também)
+- Share global da produção por país
+- Máximo de produção dos reatores (por tipo e país)
+- Modelos dos reatores (e a quais tipos são pertencentes)
+- Tempo médio de construção de reatores (por tipo e país)
+- Tempo médio de operação dos reatores (por tipo)
+- Estoque sobre demanda histórico (últimos anos e previsão)
+- Share global empilhado da produção dos países dominante
+- Ganho e perda de produção por ano
