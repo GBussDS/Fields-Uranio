@@ -1,683 +1,807 @@
 Country,Uranium Required [T],Year
-Argentina,219,September 2024
-Armenia,55,September 2024
-Bangladesh,371,September 2024
-Belarus,357,September 2024
-Belgium,516,September 2024
-Brazil,339,September 2024
-Bulgaria,334,September 2024
-Canada,1455,September 2024
-China,13132,September 2024
-Czech Republic,715,September 2024
-Egypt,0,September 2024
-Finland,616,September 2024
-France,8232,September 2024
-Germany,0,September 2024
-Ghana,0,September 2024
-Hungary,320,September 2024
-India,1725,September 2024
-Iran,153,September 2024
-Japan,2180,September 2024
-Kazakhstan,0,September 2024
-Korea RO (South),4309,September 2024
-Mexico,237,September 2024
-Netherlands,69,September 2024
-Pakistan,555,September 2024
-Poland,0,September 2024
-Romania,185,September 2024
-Russia,5436,September 2024
-Saudi Arabia,0,September 2024
-Slovakia,527,September 2024
-Slovenia,127,September 2024
-South Africa,277,September 2024
-Spain,1218,September 2024
-Sweden,932,September 2024
-Switzerland,412,September 2024
-Turkey,882,September 2024
-Ukraine,1673,September 2024
-UAE,853,September 2024
-United Kingdom,817,September 2024
-USA,18137,September 2024
-Uzbekistan,0,September 2024
-Argentina,195,November 2018
-Armenia,77,November 2018
-Bangladesh,0,November 2018
-Belarus,0,November 2018
-Belgium,987,November 2018
-Brazil,321,November 2018
-Bulgaria,327,November 2018
-Canada,1592,November 2018
-Chile,0,November 2018
-China,8289,November 2018
-Czech Republic,649,November 2018
-Egypt,0,November 2018
-Finland,494,November 2018
-France,9502,November 2018
-Germany,1480,November 2018
-Hungary,349,November 2018
-India,843,November 2018
-Indonesia,0,November 2018
-Iran,157,November 2018
-Israel,0,November 2018
-Italy,0,November 2018
-Japan,662,November 2018
-Jordan,0,November 2018
-Kazakhstan,0,November 2018
-Korea DPR (North),0,November 2018
-Korea RO (South),4730,November 2018
-Lithuania,0,November 2018
-Malaysia,0,November 2018
-Mexico,248,November 2018
-Netherlands,82,November 2018
-Pakistan,217,November 2018
-Poland,0,November 2018
-Romania,183,November 2018
-Russia,5380,November 2018
-Saudi Arabia,0,November 2018
-Slovakia,651,November 2018
-Slovenia,141,November 2018
-South Africa,279,November 2018
-Spain,1275,November 2018
-Sweden,1188,November 2018
-Switzerland,497,November 2018
-Thailand,0,November 2018
-Turkey,0,November 2018
-Ukraine,1944,November 2018
-UAE,627,November 2018
-United Kingdom,1772,November 2018
-USA,18996,November 2018
-Uzbekistan,0,November 2018
-Vietnam,0,November 2018
-Argentina,198,August 2020
-Armenia,77,August 2020
-Bangladesh,0,August 2020
-Belarus,701,August 2020
-Belgium,999,August 2020
-Brazil,325,August 2020
-Bulgaria,331,August 2020
-Canada,1538,August 2020
-China,9834,August 2020
-Czech Republic,665,August 2020
-Egypt,0,August 2020
-Finland,765,August 2020
-France,8936,August 2020
-Germany,1264,August 2020
-Hungary,352,August 2020
-India,967,August 2020
-Iran,157,August 2020
-Japan,2000,August 2020
-Jordan,0,August 2020
-Kazakhstan,0,August 2020
-Korea RO (South),4903,August 2020
-Lithuania,0,August 2020
-Mexico,251,August 2020
-Netherlands,83,August 2020
-Pakistan,196,August 2020
-Poland,0,August 2020
-Romania,185,August 2020
-Russia,4834,August 2020
-Saudi Arabia,0,August 2020
-Slovakia,515,August 2020
-Slovenia,141,August 2020
-South Africa,283,August 2020
-Spain,1290,August 2020
-Sweden,962,August 2020
-Switzerland,390,August 2020
-Thailand,0,August 2020
-Turkey,0,August 2020
-Ukraine ,1893,August 2020
-UAE,966,August 2020
-United Kingdom,1820,August 2020
-USA,19746,August 2020
-Uzbekistan,0,August 2020
-Argentina,198,November 2020
-Armenia,77,November 2020
-Bangladesh,0,November 2020
-Belarus,701,November 2020
-Belgium,999,November 2020
-Brazil,325,November 2020
-Bulgaria,331,November 2020
-Canada,1538,November 2020
-China,9834,November 2020
-Czech Republic,665,November 2020
-Egypt,0,November 2020
-Finland,765,November 2020
-France,8936,November 2020
-Germany,1264,November 2020
-Hungary,352,November 2020
-India,967,November 2020
-Iran,157,November 2020
-Japan,2000,November 2020
-Jordan,0,November 2020
-Kazakhstan,0,November 2020
-Korea RO (South),4903,November 2020
-Lithuania,0,November 2020
-Mexico,251,November 2020
-Netherlands,83,November 2020
-Pakistan,196,November 2020
-Poland,0,November 2020
-Romania,185,November 2020
-Russia,4834,November 2020
-Saudi Arabia,0,November 2020
-Slovakia,515,November 2020
-Slovenia,141,November 2020
-South Africa,283,November 2020
-Spain,1290,November 2020
-Sweden,962,November 2020
-Switzerland,390,November 2020
-Thailand,0,November 2020
-Turkey,0,November 2020
-Ukraine,1893,November 2020
-UAE,966,November 2020
-United Kingdom,1820,November 2020
-USA,19746,November 2020
-Uzbekistan,0,November 2020
-Argentina,198,December 2020
-Armenia,77,December 2020
-Bangladesh,0,December 2020
-Belarus,701,December 2020
-Belgium,999,December 2020
-Brazil,325,December 2020
-Bulgaria,331,December 2020
-Canada,1538,December 2020
-China,9834,December 2020
-Czech Republic,665,December 2020
-Egypt,0,December 2020
-Finland,765,December 2020
-France,8936,December 2020
-Germany,1264,December 2020
-Hungary,352,December 2020
-India,967,December 2020
-Iran,157,December 2020
-Japan,2000,December 2020
-Jordan,0,December 2020
-Kazakhstan,0,December 2020
-Korea RO (South),4903,December 2020
-Lithuania,0,December 2020
-Mexico,251,December 2020
-Netherlands,83,December 2020
-Pakistan,196,December 2020
-Poland,0,December 2020
-Romania,185,December 2020
-Russia,4834,December 2020
-Saudi Arabia,0,December 2020
-Slovakia,515,December 2020
-Slovenia,141,December 2020
-South Africa,283,December 2020
-Spain,1290,December 2020
-Sweden,962,December 2020
-Switzerland,390,December 2020
-Thailand,0,December 2020
-Turkey,0,December 2020
-Ukraine,1893,December 2020
-UAE,966,December 2020
-United Kingdom,1820,December 2020
-USA,19746,December 2020
-Uzbekistan,0,December 2020
-Argentina,206,March 2021
-Armenia,77,March 2021
-Bangladesh,0,March 2021
-Belarus,146,March 2021
-Belgium,898,March 2021
-Brazil,358,March 2021
-Bulgaria,334,March 2021
-Canada,1409,March 2021
-China,10814,March 2021
-Czech Republic,694,March 2021
-Egypt,0,March 2021
-Finland,758,March 2021
-France,8701,March 2021
-Germany,587,March 2021
-Hungary,360,March 2021
-India,1080,March 2021
-Iran,161,March 2021
-Japan,2344,March 2021
-Jordan,0,March 2021
-Kazakhstan,0,March 2021
-Korea RO (South),5121,March 2021
-Lithuania,0,March 2021
-Mexico,239,March 2021
-Netherlands,74,March 2021
-Pakistan,636,March 2021
-Poland,0,March 2021
-Romania,187,March 2021
-Russia,6227,March 2021
-Saudi Arabia,0,March 2021
-Slovakia,428,March 2021
-Slovenia,141,March 2021
-South Africa,294,March 2021
-Spain,1217,March 2021
-Sweden,985,March 2021
-Switzerland,446,March 2021
-Thailand,0,March 2021
-Turkey,0,March 2021
-Ukraine,1879,March 2021
-UAE,877,March 2021
-United Kingdom,1820,March 2021
-USA,18295,March 2021
-Uzbekistan,0,March 2021
-Argentina,206,August 2021
-Armenia,77,August 2021
-Bangladesh,0,August 2021
-Belarus,146,August 2021
-Belgium,898,August 2021
-Brazil,358,August 2021
-Bulgaria,334,August 2021
-Canada,1409,August 2021
-China,10814,August 2021
-Czech Republic,694,August 2021
-Egypt,0,August 2021
-Finland,758,August 2021
-France,8701,August 2021
-Germany,587,August 2021
-Hungary,360,August 2021
-India,1080,August 2021
-Iran,161,August 2021
-Japan,2344,August 2021
-Jordan,0,August 2021
-Kazakhstan,0,August 2021
-Korea RO (South),5121,August 2021
-Lithuania,0,August 2021
-Mexico,239,August 2021
-Netherlands,74,August 2021
-Pakistan,636,August 2021
-Poland,0,August 2021
-Romania,187,August 2021
-Russia,6227,August 2021
-Saudi Arabia,0,August 2021
-Slovakia,428,August 2021
-Slovenia,141,August 2021
-South Africa,294,August 2021
-Spain,1217,August 2021
-Sweden,985,August 2021
-Switzerland,446,August 2021
-Thailand,0,August 2021
-Turkey,0,August 2021
-Ukraine,1879,August 2021
-UAE,877,August 2021
-United Kingdom,1820,August 2021
-USA,18295,August 2021
-Uzbekistan,0,August 2021
-Argentina,167,December 2021
-Armenia,50,December 2021
-Bangladesh,0,December 2021
-Belarus,179,December 2021
-Belgium,790,December 2021
-Brazil,340,December 2021
-Bulgaria,322,December 2021
-Canada,1492,December 2021
-China,9563,December 2021
-Czech Republic,706,December 2021
-Egypt,0,December 2021
-Finland,421,December 2021
-France,8233,December 2021
-Germany,521,December 2021
-Hungary,320,December 2021
-India,977,December 2021
-Iran,153,December 2021
-Japan,1396,December 2021
-Jordan,0,December 2021
-Kazakhstan,0,December 2021
-Korea RO (South),4270,December 2021
-Lithuania,0,December 2021
-Mexico,226,December 2021
-Netherlands,69,December 2021
-Pakistan,787,December 2021
-Poland,0,December 2021
-Romania,185,December 2021
-Russia,5925,December 2021
-Saudi Arabia,0,December 2021
-Slovakia,359,December 2021
-Slovenia,127,December 2021
-South Africa,277,December 2021
-Spain,1221,December 2021
-Sweden,914,December 2021
-Switzerland,412,December 2021
-Thailand,0,December 2021
-Turkey,0,December 2021
-Ukraine,1876,December 2021
-UAE,907,December 2021
-United Kingdom,1259,December 2021
-USA,17587,December 2021
-Uzbekistan,0,December 2021
-Argentina,167,March 2022
-Armenia,50,March 2022
-Bangladesh,0,March 2022
-Belarus,179,March 2022
-Belgium,790,March 2022
-Brazil,340,March 2022
-Bulgaria,322,March 2022
-Canada,1492,March 2022
-China,9563,March 2022
-Czech Republic,706,March 2022
-Egypt,0,March 2022
-Finland,421,March 2022
-France,8233,March 2022
-Germany,521,March 2022
-Hungary,320,March 2022
-India,977,March 2022
-Iran,153,March 2022
-Japan,1396,March 2022
-Jordan,0,March 2022
-Kazakhstan,0,March 2022
-Korea RO (South),4270,March 2022
-Lithuania,0,March 2022
-Mexico,226,March 2022
-Netherlands,69,March 2022
-Pakistan,787,March 2022
-Poland,0,March 2022
-Romania,185,March 2022
-Russia,5925,March 2022
-Saudi Arabia,0,March 2022
-Slovakia,359,March 2022
-Slovenia,127,March 2022
-South Africa,277,March 2022
-Spain,1221,March 2022
-Sweden,914,March 2022
-Switzerland,412,March 2022
-Thailand,0,March 2022
-Turkey,0,March 2022
-Ukraine,1876,March 2022
-UAE,907,March 2022
-United Kingdom,1259,March 2022
-USA,17587,March 2022
-Uzbekistan,0,March 2022
-Argentina,167,July 2022
-Armenia,50,July 2022
-Bangladesh,0,July 2022
-Belarus,179,July 2022
-Belgium,790,July 2022
-Brazil,340,July 2022
-Bulgaria,322,July 2022
-Canada,1492,July 2022
-China,9563,July 2022
-Czech Republic,706,July 2022
-Egypt,0,July 2022
-Finland,421,July 2022
-France,8233,July 2022
-Germany,521,July 2022
-Hungary,320,July 2022
-India,977,July 2022
-Iran,153,July 2022
-Japan,1396,July 2022
-Jordan,0,July 2022
-Kazakhstan,0,July 2022
-Korea RO (South),4270,July 2022
-Lithuania,0,July 2022
-Mexico,226,July 2022
-Netherlands,69,July 2022
-Pakistan,787,July 2022
-Poland,0,July 2022
-Romania,185,July 2022
-Russia,5925,July 2022
-Saudi Arabia,0,July 2022
-Slovakia,359,July 2022
-Slovenia,127,July 2022
-South Africa,277,July 2022
-Spain,1221,July 2022
-Sweden,914,July 2022
-Switzerland,412,July 2022
-Thailand,0,July 2022
-Turkey,0,July 2022
-Ukraine,1876,July 2022
-UAE,907,July 2022
-United Kingdom,1259,July 2022
-USA,17587,July 2022
-Uzbekistan,0,July 2022
-Argentina,195,August 2018
-Armenia,77,August 2018
-Bangladesh,0,August 2018
-Belarus,0,August 2018
-Belgium,987,August 2018
-Brazil,321,August 2018
-Bulgaria,327,August 2018
-Canada,1592,August 2018
-Chile,0,August 2018
-China,8289,August 2018
-Czech Republic,649,August 2018
-Egypt,0,August 2018
-Finland,494,August 2018
-France,9502,August 2018
-Germany,1480,August 2018
-Hungary,349,August 2018
-India,843,August 2018
-Indonesia,0,August 2018
-Iran,157,August 2018
-Israel,0,August 2018
-Italy,0,August 2018
-Japan,662,August 2018
-Jordan,0,August 2018
-Kazakhstan,0,August 2018
-Korea DPR (North),0,August 2018
-Korea RO (South),4730,August 2018
-Lithuania,0,August 2018
-Malaysia,0,August 2018
-Mexico,248,August 2018
-Netherlands,82,August 2018
-Pakistan,217,August 2018
-Poland,0,August 2018
-Romania,183,August 2018
-Russia,5380,August 2018
-Saudi Arabia,0,August 2018
-Slovakia,651,August 2018
-Slovenia,141,August 2018
-South Africa,279,August 2018
-Spain,1275,August 2018
-Sweden,1188,August 2018
-Switzerland,497,August 2018
-Thailand,0,August 2018
-Turkey,0,August 2018
-Ukraine ,1944,August 2018
-UAE,627,August 2018
-United Kingdom,1772,August 2018
-USA,18996,August 2018
-Vietnam,0,August 2018
-Argentina,195,April 2019
-Armenia,77,April 2019
-Bangladesh,0,April 2019
-Belarus,0,April 2019
-Belgium,987,April 2019
-Brazil,321,April 2019
-Bulgaria,327,April 2019
-Canada,1592,April 2019
-China,8289,April 2019
-Czech Republic,649,April 2019
-Egypt,0,April 2019
-Finland,494,April 2019
-France,9502,April 2019
-Germany,1480,April 2019
-Hungary,349,April 2019
-India,843,April 2019
-Iran,157,April 2019
-Israel,0,April 2019
-Japan,662,April 2019
-Jordan,0,April 2019
-Kazakhstan,0,April 2019
-Korea RO (South),4730,April 2019
-Lithuania,0,April 2019
-Mexico,248,April 2019
-Netherlands,82,April 2019
-Pakistan,217,April 2019
-Poland,0,April 2019
-Romania,183,April 2019
-Russia,5380,April 2019
-Saudi Arabia,0,April 2019
-Slovakia,651,April 2019
-Slovenia,141,April 2019
-South Africa,279,April 2019
-Spain,1275,April 2019
-Sweden,1188,April 2019
-Switzerland,497,April 2019
-Thailand,0,April 2019
-Turkey,0,April 2019
-Ukraine ,1944,April 2019
-UAE,627,April 2019
-United Kingdom,1772,April 2019
-USA,18996,April 2019
-Uzbekistan,0,April 2019
-Argentina,198,February 2020
-Armenia,77,February 2020
-Bangladesh,0,February 2020
-Belarus,701,February 2020
-Belgium,999,February 2020
-Brazil,325,February 2020
-Bulgaria,331,February 2020
-Canada,1538,February 2020
-China,9834,February 2020
-Czech Republic,665,February 2020
-Egypt,0,February 2020
-Finland,765,February 2020
-France,8936,February 2020
-Germany,1264,February 2020
-Hungary,352,February 2020
-India,967,February 2020
-Iran,157,February 2020
-Japan,2000,February 2020
-Jordan,0,February 2020
-Kazakhstan,0,February 2020
-Korea RO (South),4903,February 2020
-Lithuania,0,February 2020
-Mexico,251,February 2020
-Netherlands,83,February 2020
-Pakistan,196,February 2020
-Poland,0,February 2020
-Romania,185,February 2020
-Russia,4834,February 2020
-Saudi Arabia,0,February 2020
-Slovakia,515,February 2020
-Slovenia,141,February 2020
-South Africa,283,February 2020
-Spain,1290,February 2020
-Sweden,962,February 2020
-Switzerland,390,February 2020
-Thailand,0,February 2020
-Turkey,0,February 2020
-Ukraine ,1893,February 2020
-UAE,966,February 2020
-United Kingdom,1820,February 2020
-USA,19746,February 2020
-Uzbekistan,0,February 2020
-Argentina,167,October 2022
-Armenia,50,October 2022
-Bangladesh,0,October 2022
-Belarus,179,October 2022
-Belgium,790,October 2022
-Brazil,340,October 2022
-Bulgaria,322,October 2022
-Canada,1492,October 2022
-China,9563,October 2022
-Czech Republic,706,October 2022
-Egypt,0,October 2022
-Finland,421,October 2022
-France,8233,October 2022
-Germany,521,October 2022
-Hungary,320,October 2022
-India,977,October 2022
-Iran,153,October 2022
-Japan,1396,October 2022
-Jordan,0,October 2022
-Kazakhstan,0,October 2022
-Korea RO (South),4270,October 2022
-Lithuania,0,October 2022
-Mexico,226,October 2022
-Netherlands,69,October 2022
-Pakistan,787,October 2022
-Poland,0,October 2022
-Romania,185,October 2022
-Russia,5925,October 2022
-Saudi Arabia,0,October 2022
-Slovakia,359,October 2022
-Slovenia,127,October 2022
-South Africa,277,October 2022
-Spain,1221,October 2022
-Sweden,914,October 2022
-Switzerland,412,October 2022
-Thailand,0,October 2022
-Turkey,0,October 2022
-Ukraine,1876,October 2022
-UAE,907,October 2022
-United Kingdom,1259,October 2022
-USA,17587,October 2022
-Uzbekistan,0,October 2022
-Argentina,167,March 2023
-Armenia,50,March 2023
-Bangladesh,0,March 2023
-Belarus,179,March 2023
-Belgium,790,March 2023
-Brazil,340,March 2023
-Bulgaria,322,March 2023
-Canada,1492,March 2023
-China,9563,March 2023
-Czech Republic,706,March 2023
-Egypt,0,March 2023
-Finland,421,March 2023
-France,8233,March 2023
-Germany,521,March 2023
-Hungary,320,March 2023
-India,977,March 2023
-Iran,153,March 2023
-Japan,1396,March 2023
-Jordan,0,March 2023
-Kazakhstan,0,March 2023
-Korea RO (South),4270,March 2023
-Lithuania,0,March 2023
-Mexico,226,March 2023
-Netherlands,69,March 2023
-Pakistan,787,March 2023
-Poland,0,March 2023
-Romania,185,March 2023
-Russia,5925,March 2023
-Saudi Arabia,0,March 2023
-Slovakia,359,March 2023
-Slovenia,127,March 2023
-South Africa,277,March 2023
-Spain,1221,March 2023
-Sweden,914,March 2023
-Switzerland,412,March 2023
-Turkey,0,March 2023
-Ukraine,1876,March 2023
-UAE,907,March 2023
-United Kingdom,1259,March 2023
-USA,17587,March 2023
-Uzbekistan,0,March 2023
-Argentina,169,December 2023
-Armenia,55,December 2023
-Bangladesh,371,December 2023
-Belarus,357,December 2023
-Belgium,516,December 2023
-Brazil,339,December 2023
-Bulgaria,334,December 2023
-Canada,1482,December 2023
-China,11303,December 2023
-Czech Republic,715,December 2023
-Egypt,0,December 2023
-Finland,616,December 2023
-France,8783,December 2023
-Germany,0,December 2023
-Hungary,320,December 2023
-India,1408,December 2023
-Iran,153,December 2023
-Japan,1785,December 2023
-Jordan,0,December 2023
-Kazakhstan,0,December 2023
-Korea RO (South),4105,December 2023
-Lithuania,0,December 2023
-Mexico,237,December 2023
-Netherlands,69,December 2023
-Pakistan,558,December 2023
-Poland,0,December 2023
-Romania,185,December 2023
-Russia,6284,December 2023
-Saudi Arabia,0,December 2023
-Slovakia,443,December 2023
-Slovenia,127,December 2023
-South Africa,277,December 2023
-Spain,1218,December 2023
-Sweden,932,December 2023
-Switzerland,412,December 2023
-Turkey,441,December 2023
-Ukraine,1567,December 2023
-UAE,853,December 2023
-United Kingdom,908,December 2023
-USA,18045,December 2023
-Uzbekistan,0,December 2023
+Argentina,219,2024
+Armenia,55,2024
+Bangladesh,371,2024
+Belarus,357,2024
+Belgium,516,2024
+Brazil,339,2024
+Bulgaria,334,2024
+Canada,1455,2024
+China,13132,2024
+Czech Republic,715,2024
+Egypt,0,2024
+Finland,616,2024
+France,8232,2024
+Germany,0,2024
+Ghana,0,2024
+Hungary,320,2024
+India,1725,2024
+Iran,153,2024
+Japan,2180,2024
+Kazakhstan,0,2024
+Korea RO (South),4309,2024
+Mexico,237,2024
+Netherlands,69,2024
+Pakistan,555,2024
+Poland,0,2024
+Romania,185,2024
+Russia,5436,2024
+Saudi Arabia,0,2024
+Slovakia,527,2024
+Slovenia,127,2024
+South Africa,277,2024
+Spain,1218,2024
+Sweden,932,2024
+Switzerland,412,2024
+Turkey,882,2024
+Ukraine,1673,2024
+UAE,853,2024
+United Kingdom,817,2024
+USA,18137,2024
+Uzbekistan,0,2024
+Argentina,169,2023
+Armenia,55,2023
+Bangladesh,371,2023
+Belarus,357,2023
+Belgium,516,2023
+Brazil,339,2023
+Bulgaria,334,2023
+Canada,1482,2023
+China,11303,2023
+Czech Republic,715,2023
+Egypt,0,2023
+Finland,616,2023
+France,8783,2023
+Germany,0,2023
+Hungary,320,2023
+India,1408,2023
+Iran,153,2023
+Japan,1785,2023
+Jordan,0,2023
+Kazakhstan,0,2023
+Korea RO (South),4105,2023
+Lithuania,0,2023
+Mexico,237,2023
+Netherlands,69,2023
+Pakistan,558,2023
+Poland,0,2023
+Romania,185,2023
+Russia,6284,2023
+Saudi Arabia,0,2023
+Slovakia,443,2023
+Slovenia,127,2023
+South Africa,277,2023
+Spain,1218,2023
+Sweden,932,2023
+Switzerland,412,2023
+Turkey,441,2023
+Ukraine,1567,2023
+UAE,853,2023
+United Kingdom,908,2023
+USA,18045,2023
+Uzbekistan,0,2023
+Argentina,167,2022
+Armenia,50,2022
+Bangladesh,0,2022
+Belarus,179,2022
+Belgium,790,2022
+Brazil,340,2022
+Bulgaria,322,2022
+Canada,1492,2022
+China,9563,2022
+Czech Republic,706,2022
+Egypt,0,2022
+Finland,421,2022
+France,8233,2022
+Germany,521,2022
+Hungary,320,2022
+India,977,2022
+Iran,153,2022
+Japan,1396,2022
+Jordan,0,2022
+Kazakhstan,0,2022
+Korea RO (South),4270,2022
+Lithuania,0,2022
+Mexico,226,2022
+Netherlands,69,2022
+Pakistan,787,2022
+Poland,0,2022
+Romania,185,2022
+Russia,5925,2022
+Saudi Arabia,0,2022
+Slovakia,359,2022
+Slovenia,127,2022
+South Africa,277,2022
+Spain,1221,2022
+Sweden,914,2022
+Switzerland,412,2022
+Thailand,0,2022
+Turkey,0,2022
+Ukraine,1876,2022
+UAE,907,2022
+United Kingdom,1259,2022
+USA,17587,2022
+Uzbekistan,0,2022
+Argentina,167,2021
+Armenia,50,2021
+Bangladesh,0,2021
+Belarus,179,2021
+Belgium,790,2021
+Brazil,340,2021
+Bulgaria,322,2021
+Canada,1492,2021
+China,9563,2021
+Czech Republic,706,2021
+Egypt,0,2021
+Finland,421,2021
+France,8233,2021
+Germany,521,2021
+Hungary,320,2021
+India,977,2021
+Iran,153,2021
+Japan,1396,2021
+Jordan,0,2021
+Kazakhstan,0,2021
+Korea RO (South),4270,2021
+Lithuania,0,2021
+Mexico,226,2021
+Netherlands,69,2021
+Pakistan,787,2021
+Poland,0,2021
+Romania,185,2021
+Russia,5925,2021
+Saudi Arabia,0,2021
+Slovakia,359,2021
+Slovenia,127,2021
+South Africa,277,2021
+Spain,1221,2021
+Sweden,914,2021
+Switzerland,412,2021
+Thailand,0,2021
+Turkey,0,2021
+Ukraine,1876,2021
+UAE,907,2021
+United Kingdom,1259,2021
+USA,17587,2021
+Uzbekistan,0,2021
+Argentina,198,2020
+Armenia,77,2020
+Bangladesh,0,2020
+Belarus,701,2020
+Belgium,999,2020
+Brazil,325,2020
+Bulgaria,331,2020
+Canada,1538,2020
+China,9834,2020
+Czech Republic,665,2020
+Egypt,0,2020
+Finland,765,2020
+France,8936,2020
+Germany,1264,2020
+Hungary,352,2020
+India,967,2020
+Iran,157,2020
+Japan,2000,2020
+Jordan,0,2020
+Kazakhstan,0,2020
+Korea RO (South),4903,2020
+Lithuania,0,2020
+Mexico,251,2020
+Netherlands,83,2020
+Pakistan,196,2020
+Poland,0,2020
+Romania,185,2020
+Russia,4834,2020
+Saudi Arabia,0,2020
+Slovakia,515,2020
+Slovenia,141,2020
+South Africa,283,2020
+Spain,1290,2020
+Sweden,962,2020
+Switzerland,390,2020
+Thailand,0,2020
+Turkey,0,2020
+Ukraine,1893,2020
+UAE,966,2020
+United Kingdom,1820,2020
+USA,19746,2020
+Uzbekistan,0,2020
+Argentina,195,2019
+Armenia,77,2019
+Bangladesh,0,2019
+Belarus,0,2019
+Belgium,987,2019
+Brazil,321,2019
+Bulgaria,327,2019
+Canada,1592,2019
+China,8289,2019
+Czech Republic,649,2019
+Egypt,0,2019
+Finland,494,2019
+France,9502,2019
+Germany,1480,2019
+Hungary,349,2019
+India,843,2019
+Iran,157,2019
+Israel,0,2019
+Japan,662,2019
+Jordan,0,2019
+Kazakhstan,0,2019
+Korea RO (South),4730,2019
+Lithuania,0,2019
+Mexico,248,2019
+Netherlands,82,2019
+Pakistan,217,2019
+Poland,0,2019
+Romania,183,2019
+Russia,5380,2019
+Saudi Arabia,0,2019
+Slovakia,651,2019
+Slovenia,141,2019
+South Africa,279,2019
+Spain,1275,2019
+Sweden,1188,2019
+Switzerland,497,2019
+Thailand,0,2019
+Turkey,0,2019
+Ukraine ,1944,2019
+UAE,627,2019
+United Kingdom,1772,2019
+USA,18996,2019
+Uzbekistan,0,2019
+Argentina,195,2018
+Armenia,77,2018
+Bangladesh,0,2018
+Belarus,0,2018
+Belgium,987,2018
+Brazil,321,2018
+Bulgaria,327,2018
+Canada,1592,2018
+Chile,0,2018
+China,8289,2018
+Czech Republic,649,2018
+Egypt,0,2018
+Finland,494,2018
+France,9502,2018
+Germany,1480,2018
+Hungary,349,2018
+India,843,2018
+Indonesia,0,2018
+Iran,157,2018
+Israel,0,2018
+Italy,0,2018
+Japan,662,2018
+Jordan,0,2018
+Kazakhstan,0,2018
+Korea DPR (North),0,2018
+Korea RO (South),4730,2018
+Lithuania,0,2018
+Malaysia,0,2018
+Mexico,248,2018
+Netherlands,82,2018
+Pakistan,217,2018
+Poland,0,2018
+Romania,183,2018
+Russia,5380,2018
+Saudi Arabia,0,2018
+Slovakia,651,2018
+Slovenia,141,2018
+South Africa,279,2018
+Spain,1275,2018
+Sweden,1188,2018
+Switzerland,497,2018
+Thailand,0,2018
+Turkey,0,2018
+Ukraine ,1944,2018
+UAE,627,2018
+United Kingdom,1772,2018
+USA,18996,2018
+Vietnam,0,2018
+Argentina,195,2017
+Armenia,77,2017
+Bangladesh,0,2017
+Belarus,0,2017
+Belgium,987,2017
+Brazil,321,2017
+Bulgaria,327,2017
+Canada,1592,2017
+Chile,0,2017
+China,8289,2017
+Czech Republic,649,2017
+Egypt,0,2017
+Finland,494,2017
+France,9502,2017
+Germany,1480,2017
+Hungary,349,2017
+India,843,2017
+Indonesia,0,2017
+Iran,157,2017
+Israel,0,2017
+Italy,0,2017
+Japan,662,2017
+Jordan,0,2017
+Kazakhstan,0,2017
+Korea DPR (North),0,2017
+Korea RO (South),4730,2017
+Lithuania,0,2017
+Malaysia,248,2017
+Mexico,0,2017
+Netherlands,82,2017
+Pakistan,217,2017
+Poland,0,2017
+Romania,183,2017
+Russia,5380,2017
+Saudi Arabia,0,2017
+Slovakia,651,2017
+Slovenia,141,2017
+South Africa,279,2017
+Spain,1275,2017
+Sweden,1188,2017
+Switzerland,497,2017
+Thailand,0,2017
+Turkey,0,2017
+Ukraine,1944,2017
+UAE,627,2017
+United Kingdom,1772,2017
+USA,18996,2017
+Vietnam,0,2017
+Argentina,215,2016
+Armenia,88,2016
+Bangladesh,0,2016
+Belarus,0,2016
+Belgium,1015,2016
+Brazil,329,2016
+Bulgaria,327,2016
+Canada,1630,2016
+Chile,0,2016
+China,5338,2016
+Czech Republic,565,2016
+Egypt,0,2016
+Finland,1126,2016
+France,9211,2016
+Germany,1689,2016
+Hungary,356,2016
+India,997,2016
+Indonesia,0,2016
+Iran,178,2016
+Israel,0,2016
+Italy,0,2016
+Japan,680,2016
+Jordan,0,2016
+Kazakhstan,0,2016
+Korea DPR (North),0,2016
+Korea RO (South),5013,2016
+Lithuania,0,2016
+Malaysia,0,2016
+Mexico,282,2016
+Netherlands,102,2016
+Pakistan,270,2016
+Poland,0,2016
+Romania,179,2016
+Russia,6264,2016
+Saudi Arabia,0,2016
+Slovakia,917,2016
+Slovenia,137,2016
+South Africa,304,2016
+Spain,1271,2016
+Sweden,1471,2016
+Switzerland,521,2016
+Thailand,0,2016
+Turkey,0,2016
+Ukraine,2251,2016
+UAE,0,2016
+United Kingdom,1734,2016
+USA,18161,2016
+Vietnam,0,2016
+Argentina,215,2015
+Armenia,88,2015
+Bangladesh,0,2015
+Belarus,0,2015
+Belgium,1017,2015
+Brazil,326,2015
+Bulgaria,324,2015
+Canada,1784,2015
+Chile,0,2015
+China,8161,2015
+Czech Republic,566,2015
+Egypt,0,2015
+Finland,751,2015
+France,9230,2015
+Germany,1889,2015
+Hungary,357,2015
+India,1579,2015
+Indonesia,0,2015
+Iran,176,2015
+Israel,0,2015
+Italy,0,2015
+Japan,2549,2015
+Jordan,0,2015
+Kazakhstan,0,2015
+Korea DPR (North),0,2015
+Korea RO (South),5022,2015
+Lithuania,0,2015
+Malaysia,0,2015
+Mexico,270,2015
+Netherlands,103,2015
+Pakistan,101,2015
+Poland,0,2015
+Romania,179,2015
+Russia,4206,2015
+Saudi Arabia,0,2015
+Slovakia,466,2015
+Slovenia,137,2015
+South Africa,305,2015
+Spain,1274,2015
+Sweden,1516,2015
+Switzerland,521,2015
+Thailand,0,2015
+Turkey,0,2015
+Ukraine,2366,2015
+UAE,0,2015
+United Kingdom,1738,2015
+USA,18692,2015
+Vietnam,0,2015
+Argentina,213,2014
+Armenia,87,2014
+Bangladesh,0,2014
+Belarus,0,2014
+Belgium,1017,2014
+Brazil,325,2014
+Bulgaria,321,2014
+Canada,1784,2014
+Chile,0,2014
+China,6296,2014
+Czech Republic,563,2014
+Egypt,0,2014
+Finland,480,2014
+France,9927,2014
+Germany,1889,2014
+Hungary,357,2014
+India,913,2014
+Indonesia,0,2014
+Iran,174,2014
+Israel,0,2014
+Italy,0,2014
+Japan,2119,2014
+Jordan,0,2014
+Kazakhstan,0,2014
+Korea DPR (North),0,2014
+Korea RO (South),5022,2014
+Lithuania,0,2014
+Malaysia,0,2014
+Mexico,277,2014
+Netherlands,103,2014
+Pakistan,99,2014
+Poland,0,2014
+Romania,179,2014
+Russia,5456,2014
+Saudi Arabia,0,2014
+Slovakia,392,2014
+Slovenia,137,2014
+South Africa,305,2014
+Spain,1274,2014
+Sweden,1516,2014
+Switzerland,521,2014
+Thailand,0,2014
+Turkey,0,2014
+Ukraine,2359,2014
+UAE,0,2014
+United Kingdom,1738,2014
+USA,18816,2014
+Vietnam,0,2014
+Argentina,212,2013
+Armenia,86,2013
+Bangladesh,0,2013
+Belarus,0,2013
+Belgium,1017,2013
+Brazil,321,2013
+Bulgaria,317,2013
+Canada,1764,2013
+Chile,0,2013
+China,6711,2013
+Czech Republic,574,2013
+Egypt,0,2013
+Finland,1127,2013
+France,9320,2013
+Germany,1889,2013
+Hungary,357,2013
+India,1326,2013
+Indonesia,0,2013
+Iran,172,2013
+Israel,0,2013
+Italy,0,2013
+Japan,366,2013
+Jordan,0,2013
+Kazakhstan,0,2013
+Korea DPR (North),0,2013
+Korea RO (South),4218,2013
+Lithuania,0,2013
+Malaysia,0,2013
+Mexico,270,2013
+Netherlands,103,2013
+Pakistan,117,2013
+Poland,0,2013
+Romania,177,2013
+Russia,5090,2013
+Saudi Arabia,0,2013
+Slovakia,675,2013
+Slovenia,137,2013
+South Africa,305,2013
+Spain,1357,2013
+Sweden,1505,2013
+Switzerland,521,2013
+Thailand,0,2013
+Turkey,0,2013
+Ukraine,2352,2013
+UAE,0,2013
+United Kingdom,1828,2013
+USA,19622,2013
+Vietnam,0,2013
+Argentina,124,2012
+Armenia,64,2012
+Bangladesh,0,2012
+Belarus,0,2012
+Belgium,995,2012
+Brazil,321,2012
+Bulgaria,313,2012
+Canada,1694,2012
+Chile,0,2012
+China,6550,2012
+Czech Republic,583,2012
+Egypt,0,2012
+Finland,471,2012
+France,9254,2012
+Germany,1934,2012
+Hungary,331,2012
+India,937,2012
+Indonesia,0,2012
+Iran,170,2012
+Israel,0,2012
+Italy,0,2012
+Japan,4636,2012
+Jordan,0,2012
+Kazakhstan,0,2012
+Korea DPR (North),0,2012
+Korea RO (South),3967,2012
+Lithuania,0,2012
+Malaysia,0,2012
+Mexico,279,2012
+Netherlands,102,2012
+Pakistan,117,2012
+Poland,0,2012
+Romania,177,2012
+Russia,5488,2012
+Saudi Arabia,0,2012
+Slovakia,307,2012
+Slovenia,137,2012
+South Africa,304,2012
+Spain,1355,2012
+Sweden,1394,2012
+Switzerland,527,2012
+Thailand,0,2012
+Turkey,0,2012
+Ukraine,2348,2012
+UAE,0,2012
+United Kingdom,2096,2012
+USA,19724,2012
+Vietnam,0,2012
+Argentina,208,2011
+Armenia,63,2011
+Bangladesh,0,2011
+Belarus,0,2011
+Belgium,995,2011
+Brazil,318,2011
+Bulgaria,309,2011
+Canada,1845,2011
+Chile,0,2011
+China,4079,2011
+Czech Republic,591,2011
+Egypt,0,2011
+Finland,1152,2011
+France,9254,2011
+Germany,1934,2011
+Hungary,331,2011
+India,1305,2011
+Indonesia,0,2011
+Iran,168,2011
+Israel,0,2011
+Italy,0,2011
+Japan,2805,2011
+Jordan,0,2011
+Kazakhstan,0,2011
+Korea DPR (North),0,2011
+Korea RO (South),4029,2011
+Lithuania,0,2011
+Malaysia,0,2011
+Mexico,285,2011
+Netherlands,102,2011
+Pakistan,113,2011
+Poland,0,2011
+Romania,175,2011
+Russia,4912,2011
+Saudi Arabia,0,2011
+Slovakia,299,2011
+Slovenia,137,2011
+South Africa,304,2011
+Spain,1379,2011
+Sweden,1366,2011
+Switzerland,527,2011
+Thailand,0,2011
+Turkey,0,2011
+Ukraine,2288,2011
+UAE,0,2011
+United Kingdom,2093,2011
+USA,18376,2011
+Vietnam,0,2011
+Argentina,123,2010
+Armenia,55,2010
+Bangladesh,0,2010
+Belarus,0,2010
+Belgium,1052,2010
+Brazil,311,2010
+Bulgaria,272,2010
+Canada,1675,2010
+China,2875,2010
+Czech Republic,678,2010
+Egypt,0,2010
+Finland,1149,2010
+France,10153,2010
+Germany,3453,2010
+Hungary,295,2010
+India,908,2010
+Indonesia,0,2010
+Iran,148,2010
+Israel,0,2010
+Italy,0,2010
+Japan,8003,2010
+Jordan,0,2010
+Kazakhstan,0,2010
+Korea DPR (North),0,2010
+Korea RO (South),3804,2010
+Lithuania,0,2010
+Malaysia,0,2010
+Mexico,253,2010
+Netherlands,107,2010
+Pakistan,68,2010
+Poland,0,2010
+Romania,175,2010
+Russia,4135,2010
+Slovakia,269,2010
+Slovenia,145,2010
+South Africa,321,2010
+Spain,1458,2010
+Sweden,1537,2010
+Switzerland,557,2010
+Thailand,0,2010
+Turkey,0,2010
+Ukraine,2031,2010
+UAE,0,2010
+United Kingdom,2235,2010
+USA,19538,2010
+Vietnam,0,2010
+Argentina,122,2009
+Armenia,51,2009
+Bangladesh,0,2009
+Belarus,0,2009
+Belgium,1002,2009
+Brazil,308,2009
+Bulgaria,260,2009
+Canada,1670,2009
+China,2010,2009
+Czech Republic,610,2009
+Egypt,0,2009
+Finland,446,2009
+France,10569,2009
+Germany,3398,2009
+Hungary,274,2009
+India,961,2009
+Indonesia,0,2009
+Iran,143,2009
+Israel,0,2009
+Italy,0,2009
+Japan,8388,2009
+Kazakhstan,0,2009
+Korea DPR (North),0,2009
+Korea RO (South),3444,2009
+Lithuania,0,2009
+Mexico,242,2009
+Netherlands,97,2009
+Pakistan,65,2009
+Poland,0,2009
+Romania,174,2009
+Russia,3537,2009
+Slovakia,251,2009
+Slovenia,137,2009
+South Africa,303,2009
+Spain,1383,2009
+Sweden,1395,2009
+Switzerland,531,2009
+Thailand,0,2009
+Turkey,0,2009
+Ukraine,1977,2009
+UAE,0,2009
+United Kingdom,2059,2009
+USA,18867,2009
+Vietnam,0,2009
+Argentina,123,2008
+Armenia,51,2008
+Bangladesh,0,2008
+Belarus,0,2008
+Belgium,1011,2008
+Brazil,303,2008
+Bulgaria,261,2008
+Canada,1665,2008
+China,1396,2008
+Czech Republic,619,2008
+Egypt,0,2008
+Finland,1051,2008
+France,10527,2008
+Germany,3332,2008
+Hungary,271,2008
+India,978,2008
+Indonesia,0,2008
+Iran,143,2008
+Israel,0,2008
+Japan,7569,2008
+Kazakhstan,0,2008
+Korea DPR (North),0,2008
+Korea RO (South),3109,2008
+Lithuania,225,2008
+Mexico,246,2008
+Netherlands,98,2008
+Pakistan,65,2008
+Romania,174,2008
+Russia,3365,2008
+Slovakia,313,2008
+Slovenia,141,2008
+South Africa,303,2008
+Spain,1398,2008
+Sweden,1418,2008
+Switzerland,537,2008
+Thailand,0,2008
+Turkey,0,2008
+Ukraine,1974,2008
+United Kingdom,2199,2008
+USA,18918,2008
+Vietnam,0,2008
+Argentina,123,2007
+Armenia,51,2007
+Bangladesh,0,2007
+Belarus,0,2007
+Belgium,1011,2007
+Brazil,303,2007
+Bulgaria,261,2007
+Canada*,1665,2007
+China,1396,2007
+Czech Republic,619,2007
+Egypt,0,2007
+Finland,1051,2007
+France,10527,2007
+Germany,3332,2007
+Hungary,271,2007
+India,978,2007
+Indonesia,0,2007
+Iran,143,2007
+Israel,0,2007
+Japan,7569,2007
+Kazakhstan,0,2007
+Korea DPR (North),0,2007
+Korea RO (South),3109,2007
+Lithuania,225,2007
+Mexico,246,2007
+Netherlands,98,2007
+Pakistan,65,2007
+Romania,174,2007
+Russia,3365,2007
+Slovakia,313,2007
+Slovenia,141,2007
+South Africa,303,2007
+Spain,1398,2007
+Sweden,1418,2007
+Switzerland,537,2007
+Thailand,0,2007
+Turkey,0,2007
+Ukraine,1974,2007
+United Kingdom,2199,2007
+USA,18918,2007
+Vietnam,0,2007
