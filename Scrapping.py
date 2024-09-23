@@ -316,9 +316,9 @@ class Scrapper:
     def download_csv(self):
         df_ano, df_info = self.reactors()
         df_uranium = self.uranium_demand()
-        df_ano.to_csv('planilhas/Reactors_Ano.csv', index=False)
-        df_info.to_csv('planilhas/Reactors_Info.csv', index=False)
-        df_uranium.to_csv('planilhas/Uranium_demand.csv', index=False)
+        df_ano.to_csv('csvs/Reactors_Ano.csv', index=False)
+        df_info.to_csv('csvs/Reactors_Info.csv', index=False)
+        df_uranium.to_csv('csvs/Uranium_demand.csv', index=False)
     
 if __name__ == "__main__":
     scrapper = Scrapper()
