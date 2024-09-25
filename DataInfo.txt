@@ -1,0 +1,41 @@
+Webscraping:
+  OK:
+    -Reatores/Ano; (ok)
+    -Reatores Info; (ok)
+  Incompleto:
+    -Uranium_demand; (não foi possível retirar de todos os anos)
+
+RedBook:
+  OK: 
+  (falta ainda ver se esses são aproximações ou é exato)
+    - Diferença_producao;
+    - Estoque_e_Anos_de_Duração;
+    - estoque_historico;
+    - gasto_exploracao_domestica;
+    - Minas_intervalo;
+    - Minas;
+    - Producao_historica;
+
+  Aproximações:
+    - Demanda_histórica 
+        (aproximação com o gráfico)
+    - identified_in_situ_resources
+    - identified_recoverable_resources
+    - reasonably_assured_in_situ_resources;
+    - reasonably_assured_recoverable_resources.
+    - inferred_in_situ_resources;
+        (ambos esses contém aproximações e estimativas feitas pelos produtores do livro, principalmente no in situ. 
+        Se não há dados de preço, ele vai pra <USD 260/kgU e é provável que os dados de <USD 40/kgU e <USD 80/kgU sejam
+        confidenciais em alguns casos.)
+            In situ -> Estimativa do total de urânio que tem no solo, sem contar o que pode ser pego, o que será perdido na mineração, etc
+            Identified -> Reasonably assured Resources (RAR) + Infered Resources
+IAEA: 
+  OK:
+    Depósitos;
+    Facility_list;
+
+VERIFICAR:
+dados de produção histórica red RedBook
+
+A Joint Report by the Nuclear Energy Agency
+and the International Atomic Energy Agency
