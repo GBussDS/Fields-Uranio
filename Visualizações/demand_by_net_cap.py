@@ -14,7 +14,6 @@ uranium_demand = pd.read_csv('./csvs/Uranium_demand.csv')
 uranium_demand.rename(columns={'Uranium Required [T]': 'tU'}, inplace=True)
 uranium_demand = uranium_demand[['Year', 'tU']]
 uranium_demand = uranium_demand.groupby(['Year']).sum().reset_index()
-print(uranium_demand)
 
 #Ajeitando os dados
 reatores_info.rename(columns={'Reference Unit Power (Net Capacity)': 'Net Capacity'}, inplace=True)
@@ -30,7 +29,7 @@ full_df = pd.merge(reatores_merged, uranium_demand[['Year', 'tU']], on='Year', h
 #Média
 resultado = full_df['tU'].sum() / full_df['Net Capacity'].sum()
 
-#Regressao
+#Regressao 
 # model = LinearRegression()
 # model.fit(full_df[['Net Capacity']], full_df[['tU']])
 
