@@ -1,73 +1,57 @@
 import pandas as pd
 import numpy as np
 
-# Load reactor info and the previously calculated predicted completion dates
+# Uranium consumption rate (tU/year per GW capacity)
+uranium_per_gw = 0.16819814606373054
+
+# Load reactor info
 reactor_info = pd.read_csv('./csvs/Reatores_Info.csv')
-completion_data = pd.read_csv('./csvs\Tempo_Construção_País.csv')
 
-# Merge reactor info with predicted completion data
-reactor_info = pd.merge(reactor_info, completion_data, on=['Name', 'Country'], how='left')
+# Load predicted completion data
+completion_data = pd.read_csv('./csvs/Reatores_Finalização.csv')
 
-# Convert 'Predicted Completion Date' to datetime
+# Merge reactor info with predicted completion data based on 'Name' and 'Country'
+reactor_info = pd.merge(reactor_info, completion_data[['Name', 'Country', 'Predicted Completion Date']], 
+                        on=['Name', 'Country'], how='left')
+
+# Convert 'Predicted Completion Date' to datetime to avoid KeyError
 reactor_info['Predicted Completion Date'] = pd.to_datetime(reactor_info['Predicted Completion Date'], errors='coerce')
 
-# Filter only "Under Construction" reactors
+# Filter only reactors that are "Under Construction"
 reactors_under_construction = reactor_info[reactor_info['Status'] == 'Under Construction']
-
-# Uranium consumption rate (tU/year per GW capacity)
-uranium_per_gw = 25  # You may update this with a more precise value if available
-
-# Function to calculate annual demand based on reactor capacity and proportion of operational year
-def calculate_annual_demand(row, year):
-    # Skip reactors with missing completion dates
-    if pd.isnull(row['Predicted Completion Date']):
-        return 0
-    
-    # Get the completion year of the reactor
-    completion_year = row['Predicted Completion Date'].year
-    
-    # If the reactor is finished after the year in question, it will not contribute to demand
-    if year < completion_year:
-        return 0
-    
-    # If the reactor is completed in the target year, calculate part-year operation
-    if year == completion_year:
-        # Calculate days of operation in the completion year
-        days_operational = (pd.Timestamp(year=year, month=12, day=31) - row['Predicted Completion Date']).days + 1
-        proportion_year = days_operational / 365
-    else:
-        # Reactor is fully operational in this year
-        proportion_year = 1.0
-    
-    # Calculate the uranium demand for this reactor in the target year
-    annual_demand = proportion_year * uranium_per_gw * (row['Reference Unit Power (Net Capacity)'] / 1000)  # in tons of uranium (tU)
-    
-    return annual_demand
 
 # Define a range of years to predict uranium demand for (e.g., 2024 to 2050)
 years = np.arange(2024, 2051)
 
-# Initialize an empty list to store the uranium demand data
-demand_by_country_year = []
+# Initialize an empty dictionary to store the uranium demand data per country
+uranium_demand_by_country_year = {}
 
 # Calculate uranium demand for each reactor in each future year
 for year in years:
     for idx, row in reactors_under_construction.iterrows():
-        annual_demand = calculate_annual_demand(row, year)
-        demand_by_country_year.append({
-            'Country': row['Country'],
-            'Year': year,
-            'Annual_Uranium_Demand_tU': annual_demand
-        })
+        country = row['Country']
+        completion_year = row['Predicted Completion Date'].year
+        
+        # Initialize the country in the dictionary if not already present
+        if country not in uranium_demand_by_country_year:
+            uranium_demand_by_country_year[country] = {year: 0 for year in years}
+        
+        # Add the uranium demand if the reactor is completed in or before the given year
+        if completion_year <= year:
+            net_capacity_gw = row['Reference Unit Power (Net Capacity)']
+            uranium_demand_by_country_year[country][year] += uranium_per_gw * net_capacity_gw  # in tons of uranium (tU)
 
-# Convert the list to a DataFrame
-demand_df = pd.DataFrame(demand_by_country_year)
+# Convert the dictionary to a DataFrame, with countries as rows and years as columns
+uranium_demand_df = pd.DataFrame.from_dict(uranium_demand_by_country_year, orient='index')
 
-# Group by country and year to calculate the total uranium demand per country per year
-annual_uranium_demand = demand_df.groupby(['Country', 'Year'])['Annual_Uranium_Demand_tU'].sum().reset_index()
+# Add a row for the global total by summing all the country rows
+uranium_demand_df.loc['Global'] = uranium_demand_df.sum(axis=0)
 
-# Save the results to a CSV file
-annual_uranium_demand.to_csv('./csvs/Predição_Demanda.csv', index=False)
+# Reorder the columns to ensure they are in the correct order of years
+uranium_demand_df = uranium_demand_df[sorted(uranium_demand_df.columns)]
 
-# Print the first few rows of the result
-print(annual_uranium_demand.head())
+# Print the final uranium demand matrix for inspection
+print(uranium_demand_df)
+
+# Save the final uranium demand matrix to a CSV file
+uranium_demand_df.to_csv('./csvs/Predição_tUGW.csv', index=True)
