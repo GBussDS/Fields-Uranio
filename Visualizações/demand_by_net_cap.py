@@ -3,14 +3,14 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 reatores_ano = pd.read_csv('./csvs/Reatores_Ano.csv')
-reatores_info = pd.read_csv('./csvs/Reatores_info.csv')
+reatores_info = pd.read_csv('./csvs/Reatores_Info.csv')
 
 #Dados Red Book
 # uranium_demand = pd.read_csv('./csvs/Demanda_historica.csv')
 # uranium_demand.rename(columns={'ano': 'Year', 'uranio(ton.)': 'tU'}, inplace=True)
 
 #Dados World Uranium
-uranium_demand = pd.read_csv('./csvs/Uranium_demand.csv')
+uranium_demand = pd.read_csv('./csvs/Demand(WNA).csv')
 uranium_demand.rename(columns={'Uranium Required [T]': 'tU'}, inplace=True)
 uranium_demand = uranium_demand[['Year', 'tU']]
 uranium_demand = uranium_demand.groupby(['Year']).sum().reset_index()

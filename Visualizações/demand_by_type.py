@@ -57,8 +57,8 @@ country_name_map = {
 }
 
 reatores_ano = pd.read_csv('./csvs/Reatores_Ano.csv')
-reatores_info = pd.read_csv('./csvs/Reatores_info.csv')
-uranium_demand = pd.read_csv('./csvs/Uranium_demand.csv')
+reatores_info = pd.read_csv('./csvs/Reatores_Info.csv')
+uranium_demand = pd.read_csv('./csvs/Demand(WNA).csv')
 
 #Troca os nomes de um deles pros dois ficarem iguais
 uranium_demand['Country'] = uranium_demand['Country'].replace(country_name_map)
@@ -99,4 +99,4 @@ overall_mean = merged_df['Energy_Uranium_Ratio'].mean()
 
 print(f"\nMédia total: {overall_mean}")
 
-mean_ratios_by_reactor_type.to_csv('./csvs/Energy_uranium_by_type.csv')
+mean_ratios_by_reactor_type.to_csv('./csvs/Energia_Tipo2.csv')

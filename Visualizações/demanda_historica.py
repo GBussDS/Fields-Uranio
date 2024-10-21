@@ -58,9 +58,9 @@ country_name_map = {
 
 # Load data
 reatores_ano = pd.read_csv('./csvs/Reatores_Ano.csv')
-reatores_info = pd.read_csv('./csvs/Reatores_info.csv')
-uranium_demand = pd.read_csv('./csvs/Uranium_demand.csv')
-demanda_historica = pd.read_csv('./csvs/Demanda_historica.csv')  # For years <= 2006
+reatores_info = pd.read_csv('./csvs/Reatores_Info.csv')
+uranium_demand = pd.read_csv('./csvs/Demand(WNA).csv')
+demanda_historica = pd.read_csv('./csvs\RedBook\Demanda(RedBook).csv')  # For years <= 2006
 
 demanda_historica = demanda_historica[demanda_historica['ano'] >= 1980]
 # Standardize country names in uranium_demand
@@ -192,4 +192,4 @@ print("Combined Energy per Uranium Ratios:")
 print(combined_results)
 
 # Save the combined results to a single CSV file
-combined_results.to_csv('./csvs/Energy_uranium_by_type.csv', index=False)
+combined_results.to_csv('./csvs/Energia_Tipo.csv', index=False)

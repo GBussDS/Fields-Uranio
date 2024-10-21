@@ -3,7 +3,7 @@ import numpy as np
 
 # Load reactor info and the previously calculated predicted completion dates
 reactor_info = pd.read_csv('./csvs/Reatores_Info.csv')
-completion_data = pd.read_csv('./csvs/Reatores_Predicted_Completion.csv')
+completion_data = pd.read_csv('./csvs\Tempo_Construção_País.csv')
 
 # Merge reactor info with predicted completion data
 reactor_info = pd.merge(reactor_info, completion_data, on=['Name', 'Country'], how='left')
@@ -67,7 +67,7 @@ demand_df = pd.DataFrame(demand_by_country_year)
 annual_uranium_demand = demand_df.groupby(['Country', 'Year'])['Annual_Uranium_Demand_tU'].sum().reset_index()
 
 # Save the results to a CSV file
-annual_uranium_demand.to_csv('./csvs/Annual_Uranium_Demand_Prediction.csv', index=False)
+annual_uranium_demand.to_csv('./csvs/Predição_Demanda.csv', index=False)
 
 # Print the first few rows of the result
 print(annual_uranium_demand.head())

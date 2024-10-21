@@ -30,14 +30,11 @@ deposit_subtype_values = {
 }
 
 # Ler o arquivo CSV
-df = pd.read_csv('csvs/depositos.csv')
+df = pd.read_csv('csvs/Depósitos.csv')
 
 # Mapear os valores de 'Deposit Type' e 'Deposit Subtype'
 df['Deposit Type'] = df['Deposit Type'].apply(lambda x: deposit_type_values.get(x, 5))
 df['Deposit Subtype'] = df['Deposit Subtype'].apply(lambda x: deposit_subtype_values.get(x, 5))
-
-# Salvar o CSV modificado
-df.to_csv('csvs/depositos_modificados.csv', index=False)
 
 # Etapa 2: Calcular o intervalo ajustado com ponderação para valores mínimos
 def extract_values(range_str):
@@ -90,9 +87,6 @@ df['Acquisition Cost Min'] = df['Acquisition Cost Min'].round(0)
 df['Acquisition Cost Max'] = df['Acquisition Cost Max'].round(0)
 df_cleaned = df.dropna(subset=['Acquisition Cost Min', 'Acquisition Cost Max'])
 
-# Salvar o CSV limpo
-df_cleaned.to_csv('csvs/depositos_acquisition_cost_cleaned.csv', index=False)
-
 # Etapa 3: Calcular as métricas por país
 df_cleaned['Average Resource'] = df_cleaned['Resource Range'].apply(lambda x: calculate_weighted_average(*extract_values(x)))
 df_cleaned['Average Cost'] = df_cleaned[['Acquisition Cost Min', 'Acquisition Cost Max']].mean(axis=1)
@@ -113,7 +107,7 @@ def calculate_country_summary(df):
 country_summary = calculate_country_summary(df_cleaned)
 
 # Salvar o resumo por país
-country_summary.to_csv('csvs/country_uranium_summary.csv', index=False)
+country_summary.to_csv('csvs/Predição_Custo_Aquisição.csv', index=False)
 
 # Exibir o resumo final
 print(country_summary.head())

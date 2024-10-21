@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 reatores_ano = pd.read_csv('./csvs/Reatores_Ano.csv')
-reatores_info = pd.read_csv('./csvs/Reatores_info.csv')
+reatores_info = pd.read_csv('./csvs/Reatores_Info.csv')
 
 df = pd.DataFrame()
 
@@ -38,7 +38,7 @@ df_diff = df_diff.sort_index()
 df_diff = df_diff.rename_axis('Ano').reset_index()
 df_diff = df_diff[~df_diff['Ano'].isin([1964, 1965, 1966, 1967, 1968, 1969])]
 
-df_diff.to_csv('./csvs/diferenca_producao.csv', index=False)
+df_diff.to_csv('./csvs/Diff_Produção.csv', index=False)
 
 # import matplotlib.pyplot as plt
 

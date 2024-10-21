@@ -27,4 +27,4 @@ avg_construction_duration_by_country = df_finalized.groupby('Country')['Construc
 print(avg_construction_duration_by_country)
 
 # Salvar o resultado em um novo CSV
-avg_construction_duration_by_country.to_csv('csvs/Average_Construction_Duration_by_Country.csv', index=False)
+avg_construction_duration_by_country.to_csv('csvs/Tempo_Construção_País.csv', index=False)

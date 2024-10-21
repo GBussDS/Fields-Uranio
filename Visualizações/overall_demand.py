@@ -57,8 +57,8 @@ country_name_map = {
 }
 
 reatores_ano = pd.read_csv('./csvs/Reatores_Ano.csv')
-reatores_info = pd.read_csv('./csvs/Reatores_info.csv')
-uranium_demand = pd.read_csv('./csvs/Uranium_demand.csv')
+reatores_info = pd.read_csv('./csvs/Reatores_Info.csv')
+uranium_demand = pd.read_csv('./csvs/Demand(WNA).csv')
 
 # Replace country names in uranium_demand based on the mapping
 uranium_demand['Country'] = uranium_demand['Country'].replace(country_name_map)
