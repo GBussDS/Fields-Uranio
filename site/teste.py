@@ -1,9 +1,15 @@
 import streamlit as st
-import pandas as pd
+from streamlit_gsheets import GSheetsConnection
 
-st.write("Isso é apenas testes")
-x = st.text_input("Escolhe algum dado aqui: ")
-st.write(f"O dado escolhido foi {x}")
+# Initialize connection to Google Sheets
+conn = st.connection("gsheets", type=GSheetsConnection)
 
-df = pd.read_csv('../csvs/Reatores_Ano.csv')
+# Read data from Google Sheets
+df = conn.read(
+    worksheet="Reatores/Ano",
+    ttl="10m",
+    usecols=[0,1,2,3,4,5,6,7,8,9,10],
+    nrows=15,
+)
+
 st.write(df)
