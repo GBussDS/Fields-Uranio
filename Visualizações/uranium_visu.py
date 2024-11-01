@@ -1,23 +1,51 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np
 
-# Carregar o arquivo de dados consolidado
-data = pd.read_csv("UraniumProductionHistorical.csv", index_col="Country")
+# Carregar os dados de produção e demanda
+production_df = pd.read_csv("csvs/RedBook/Produção(RedBook).csv")
+demand_df = pd.read_csv("csvs/RedBook/Demanda(RedBook).csv")
 
-# Configurar o gráfico de linhas
-plt.figure(figsize=(16, 10))
-for country in data.index:
-    plt.plot(data.columns, data.loc[country], label=country, linewidth=0.8)
+# Mesclar os DataFrames com base no ano
+merged_df = pd.merge(production_df, demand_df, on="Year", how="inner")
 
-# Ajustes do gráfico
-plt.xlabel("Year")
-plt.ylabel("Uranium Production (tU)")
-plt.title("Annual Uranium Production by Country (1998 - 2022)")
+# Renomear as colunas para facilitar o entendimento
+merged_df.columns = ["Year", "Production", "Demand"]
 
-# Ajuste da legenda para ficar ao lado do gráfico e não sobrepô-lo
-plt.legend(loc="center left", bbox_to_anchor=(1, 0.5), fontsize="small", title="Country", ncol=2)
-plt.grid(True)
-plt.tight_layout(rect=[0, 0, 0.85, 1])  # Ajuste para dar espaço à legenda ao lado
+# Calcular o Stock
+merged_df["Stock"] = merged_df["Production"] - merged_df["Demand"]
 
-# Exibir o gráfico
-plt.show()
+# Inicializar o Accumulated Stock, Years of Stock e Years of Stock(w/Production)
+accumulated_stock = 0
+accumulated_stock_list = []
+years_of_stock = []
+years_of_stock_with_production = []
+
+# Calcular o Accumulated Stock, Years of Stock e Years of Stock(w/Production)
+for i, row in merged_df.iterrows():
+    # Calcular Accumulated Stock
+    accumulated_stock += row["Stock"]
+    accumulated_stock_list.append(accumulated_stock)
+    
+    # Calcular Years of Stock
+    if row["Demand"] != 0:
+        years_stock = accumulated_stock / row["Demand"]
+        years_of_stock.append(years_stock)
+    else:
+        years_of_stock.append(np.nan)
+        
+    # Calcular Years of Stock(w/Production), sendo null quando Demand > Production
+    if row["Production"] > row["Demand"]:
+        years_of_stock_with_production.append(np.nan)
+    elif (row["Production"] - row["Demand"]) != 0:
+        years_stock_with_prod = accumulated_stock / (row["Demand"] - row["Production"])
+        years_of_stock_with_production.append(years_stock_with_prod)
+    else:
+        years_of_stock_with_production.append(np.nan)
+
+# Adicionar as novas colunas ao DataFrame
+merged_df["Accumulated Stock"] = accumulated_stock_list
+merged_df["Years of Stock"] = years_of_stock
+merged_df["Years of Stock(w/Production)"] = years_of_stock_with_production
+
+# Salvar o DataFrame em um novo CSV
+merged_df.to_csv("Anos_Estoque.csv", index=False)
