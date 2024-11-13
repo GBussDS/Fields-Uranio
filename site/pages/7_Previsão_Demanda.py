@@ -39,6 +39,7 @@ plt.figure(figsize=(12, 6))
 for country in selected_countries:
     plt.plot(filtered_demand_data.index, filtered_demand_data[country], label=country, marker="o")
 plt.xlabel("Ano")
+plt.xticks(rotation=90)
 plt.ylabel("Demanda de Urânio (tU)")
 plt.title("Demanda Histórica e Projeções de Urânio por País")
 plt.legend(title="País", loc="upper left", bbox_to_anchor=(1, 1))
