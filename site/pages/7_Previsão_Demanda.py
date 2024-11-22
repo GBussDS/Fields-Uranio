@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
 
 # Configuração da página
 st.set_page_config(page_title="Análise de Construção e Demanda de Reatores", page_icon="⏳")
@@ -9,16 +8,37 @@ st.set_page_config(page_title="Análise de Construção e Demanda de Reatores", 
 # Carregar dados
 construction_data = pd.read_csv("../csvs/Tempo_Construção_País.csv")
 reactor_completion_data = pd.read_csv("../csvs/Reatores_Finalização.csv")
-historical_demand_data = pd.read_csv("../csvs/Demanda_tUGW.csv")
+historical_demand_data = pd.read_csv("../csvs/Demanda_Completa.csv")
+
+# Transformar demanda histórica para formato longo
+historical_demand_long = historical_demand_data.melt(
+    id_vars="Country", var_name="Year", value_name="Demand"
+)
+historical_demand_long["Year"] = historical_demand_long["Year"].astype(int)
 
 # Gráfico 1: Tempo médio de construção por país
 st.write("## Tempo Médio de Construção de Reatores por País")
-avg_construction_time = construction_data.groupby("Country")["Construction Duration"].mean().sort_values()
-plt.figure(figsize=(10, 8))
-sns.barplot(x=avg_construction_time, y=avg_construction_time.index, palette="viridis")
-plt.xlabel("Tempo Médio de Construção (anos)")
-plt.title("Tempo Médio de Construção de Reatores por País")
-st.pyplot(plt)
+avg_construction_time = construction_data.groupby("Country")["Construction Duration"].mean().reset_index().sort_values(by="Construction Duration")
+
+fig_construction = px.bar(
+    avg_construction_time,
+    x="Construction Duration",
+    y="Country",
+    orientation="h",
+    labels={"Construction Duration": "Tempo Médio de Construção (anos)", "Country": "País"},
+    title="Tempo Médio de Construção de Reatores por País",
+    height=800,  # Aumentar a altura do gráfico
+)
+fig_construction.update_layout(yaxis={"categoryorder": "total ascending"})
+st.plotly_chart(fig_construction, use_container_width=True)
+
+# Botão para download dos dados de construção
+st.download_button(
+    label="📥 Baixar Dados de Tempo de Construção",
+    data=construction_data.to_csv(index=False).encode("utf-8"),
+    file_name="tempo_construcao.csv",
+    mime="text/csv",
+)
 
 # Tabela: Datas de Finalização dos Reatores
 st.write("## Datas de Finalização dos Reatores")
@@ -27,29 +47,40 @@ reactor_completion_data["Predicted Completion Date"] = pd.to_datetime(reactor_co
 completion_table = reactor_completion_data.sort_values(by=["Country", "Predicted Completion Date"])
 st.dataframe(completion_table[["Name", "Country", "Construction Start Date", "Predicted Completion Date"]])
 
+# Botão para download da tabela de finalização dos reatores
+st.download_button(
+    label="📥 Baixar Tabela de Datas de Finalização",
+    data=completion_table.to_csv(index=False).encode("utf-8"),
+    file_name="datas_finalizacao_reatores.csv",
+    mime="text/csv",
+)
+
 # Gráfico 3: Demanda Histórica de Urânio com Previsão (1964-2050)
 st.write("## Demanda Histórica e Previsão de Demanda de Urânio por País")
-selected_countries = st.multiselect("Selecione os países para visualizar", sorted(historical_demand_data["Country"].unique()), default=["FRANCE", "CHINA"])
-filtered_demand_data = historical_demand_data[historical_demand_data["Country"].isin(selected_countries)]
-filtered_demand_data = filtered_demand_data.set_index("Country").T  # Transpor para facilitar a visualização por ano
-filtered_demand_data.index.name = "Year"  # Define o nome do índice para 'Year'
+selected_countries = st.multiselect(
+    "Selecione os países para visualizar",
+    sorted(historical_demand_long["Country"].unique()),
+    default=["FRANCE", "CHINA"],
+)
 
-# Plot da demanda ao longo dos anos para os países selecionados
-plt.figure(figsize=(12, 6))
-for country in selected_countries:
-    plt.plot(filtered_demand_data.index, filtered_demand_data[country], label=country, marker="o")
-plt.xlabel("Ano")
-plt.xticks(rotation=90)
-plt.ylabel("Demanda de Urânio (tU)")
-plt.title("Demanda Histórica e Projeções de Urânio por País")
-plt.legend(title="País", loc="upper left", bbox_to_anchor=(1, 1))
-plt.grid(True)
-st.pyplot(plt)
+filtered_demand_data = historical_demand_long[historical_demand_long["Country"].isin(selected_countries)]
 
-# Explicação
-st.write("""
-### Explicação dos Gráficos
-1. **Tempo Médio de Construção**: Tempo médio necessário para construir reatores nucleares, por país.
-2. **Tabela de Datas de Conclusão de Reatores**: Exibe a previsão de conclusão dos reatores em construção, por país e data.
-3. **Demanda Histórica e Projeção de Demanda de Urânio**: Acompanha a demanda histórica de urânio e inclui previsões até 2050.
-""")
+fig_demand = px.line(
+    filtered_demand_data,
+    x="Year",
+    y="Demand",
+    color="Country",
+    labels={"Year": "Ano", "Demand": "Demanda de Urânio (tU)", "Country": "País"},
+    title="Demanda Histórica e Projeções de Urânio por País",
+)
+fig_demand.update_layout(xaxis=dict(tickangle=90))
+st.plotly_chart(fig_demand, use_container_width=True)
+
+# Botão para download da tabela de demanda histórica
+st.download_button(
+    label="📥 Baixar Dados de Demanda Histórica",
+    data=historical_demand_data.to_csv(index=False).encode("utf-8"),
+    file_name="demanda_historica.csv",
+    mime="text/csv",
+)
+
