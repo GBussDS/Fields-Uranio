@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import geopandas as gpd
 import folium
-from streamlit_folium import folium_static
+from streamlit_folium import st_folium
 
 # Configuração da página
 st.set_page_config(page_title="Mapa de Urânio", page_icon="🌍")
@@ -10,8 +10,10 @@ st.set_page_config(page_title="Mapa de Urânio", page_icon="🌍")
 # Carregar dados
 data = pd.read_csv("../csvs/Depósitos(RAR-Infered)/Minas.csv")
 
-# Carregar dados geográficos de países
-world = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
+path_to_shapefile = "geopandas/ne_110m_admin_0_countries.shp"
+
+# Load the dataset
+world = gpd.read_file(path_to_shapefile)
 
 # Dicionário de correspondência para ajustar nomes de países
 country_name_map = {
@@ -77,8 +79,8 @@ else:
     filtered_data = filtered_data.groupby("Country")["Urânio (Ton.)"].sum().reset_index()
 
 # Merge com o shapefile para o mapa
-world = world.merge(filtered_data, left_on="name", right_on="Country", how="left")
-world["Urânio (Ton.)"].fillna(0, inplace=True)  # Substituir NaN por 0 para países sem dados
+world = world.merge(filtered_data, left_on="ADMIN", right_on="Country", how="left")
+world["Urânio (Ton.)"] = world["Urânio (Ton.)"].fillna(0)  # Substituir NaN por 0 para países sem dados
 
 # Criar mapa interativo com Folium
 m = folium.Map(location=[20, 0], zoom_start=2, tiles="cartodb positron")
@@ -93,12 +95,12 @@ for _, row in world.iterrows():
             fill=True,
             fill_color="red",
             fill_opacity=0.6,
-            popup=f"{row['name']}: {row['Urânio (Ton.)']} toneladas de Urânio",
+            popup=f"{row['ADMIN']}: {row['Urânio (Ton.)']} toneladas de Urânio",
         ).add_to(m)
 
 # Exibir o mapa interativo
 st.write("### Mapa Interativo de Depósitos de Urânio")
-folium_static(m)
+st_folium(m, width=700, height=500)
 
 # Explicação sobre os tipos de recurso
 st.write("### Tipos de Recursos de Urânio: Explicação Detalhada")
