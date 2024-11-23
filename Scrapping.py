@@ -7,6 +7,7 @@ from urllib3.poolmanager import PoolManager
 from bs4 import BeautifulSoup
 from datetime import datetime
 import re
+from utils.demand_estimate_calculator import calculate_tu_estimado
 
 class SSLAdapter(HTTPAdapter):
     def __init__(self, ssl_context=None, **kwargs):
@@ -318,7 +319,10 @@ class Scrapper:
         df_uranium = self.uranium_demand()
         df_ano.to_csv('csvs/Reactors_Ano.csv', index=False)
         df_info.to_csv('csvs/Reactors_Info.csv', index=False)
-        df_uranium.to_csv('csvs/Uranium_demand.csv', index=False)
+        df_uranium.to_csv('csvs/Demand(WNA).csv', index=False)
+        
+        calculate_tu_estimado('csvs/Reactors_Ano.csv','csvs/Reactors_Info.csv', 'csvs/Demand(WNA).csv')
+        
     
 if __name__ == "__main__":
     scrapper = Scrapper()
