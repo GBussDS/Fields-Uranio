@@ -38,7 +38,6 @@ st.markdown(
 
     ### Também veja:
     - Nosso [github](https://github.com);
-    - Os dados no [kaggle](https://kaggle.com);
     - Faça perguntas no nosso [email](mailto:fields.uranio@gmail.com).
     """
 )
