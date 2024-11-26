@@ -1,5 +1,5 @@
 streamlit
-streamlit_folium
+streamlit-folium
 pandas
 numpy
 st-gsheets-connection
@@ -8,4 +8,5 @@ matplotlib
 plotly
 geopandas
 folium
-plotly.express
+plotly-express
+altair
