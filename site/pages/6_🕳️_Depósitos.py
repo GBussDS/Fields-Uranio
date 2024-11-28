@@ -7,34 +7,56 @@ from streamlit_folium import st_folium
 # Configuração da página
 st.set_page_config(page_title="Mapa de Urânio", page_icon="🌍")
 
-# Carregar dados
-data = pd.read_csv("../csvs/Depósitos(RAR-Infered)/Minas.csv")
+# Definindo a animação CSS para o efeito de slide da direita para a esquerda
+st.markdown("""
+    <style>
+    /* Aplica o slide-in da direita para a esquerda apenas no conteúdo principal */
+    div[data-testid="stMainBlockContainer"] > div {
+        animation: slideInRight 0.5s ease-in-out;
+    }
 
-path_to_shapefile = "geopandas/ne_110m_admin_0_countries.shp"
+    @keyframes slideInRight {
+        0% { transform: translateX(100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-# Load the dataset
-world = gpd.read_file(path_to_shapefile)
+# Função para carregar os dados e aplicar o cache
+@st.cache_data
+def load_data():
+    # Carregar dados
+    data = pd.read_csv("../csvs/Depósitos(RAR-Infered)/Minas.csv")
+    
+    # Carregar o shapefile
+    path_to_shapefile = "geopandas/ne_110m_admin_0_countries.shp"
+    world = gpd.read_file(path_to_shapefile)
+    
+    # Dicionário de correspondência para ajustar nomes de países
+    country_name_map = {
+        "United States": "United States of America",
+        "Viet Nam": "Vietnam",
+        "Slovak Republic": "Slovakia",
+        "Congo Dem Rep of": "Democratic Republic of the Congo",
+        "Iran Islamic Rep of": "Iran",
+        "Russia": "Russian Federation",
+        "South Korea": "Republic of Korea",
+        "North Korea": "Dem. Rep. Korea",
+        "United Kingdom": "United Kingdom",
+        "Egypt": "Egypt, Arab Rep.",
+        "Czech Republic": "Czechia",
+        "Central African Republic": "Central African Rep.",
+        "Denmark/Greenland": "Greenland",
+        "Tanzania": "Tanzania, United Rep.",
+    }
+    
+    # Aplicar a correção de nomes ao conjunto de dados
+    data["Country"] = data["Country"].replace(country_name_map)
+    
+    return data, world
 
-# Dicionário de correspondência para ajustar nomes de países
-country_name_map = {
-    "United States": "United States of America",
-    "Viet Nam": "Vietnam",
-    "Slovak Republic": "Slovakia",
-    "Congo Dem Rep of": "Democratic Republic of the Congo",
-    "Iran Islamic Rep of": "Iran",
-    "Russia": "Russian Federation",
-    "South Korea": "Republic of Korea",
-    "North Korea": "Dem. Rep. Korea",
-    "United Kingdom": "United Kingdom",
-    "Egypt": "Egypt, Arab Rep.",
-    "Czech Republic": "Czechia",
-    "Central African Republic": "Central African Rep.",
-    "Denmark/Greenland": "Greenland",
-    "Tanzania": "Tanzania, United Rep.",
-}
-
-# Aplicar a correção de nomes ao conjunto de dados
-data["Country"] = data["Country"].replace(country_name_map)
+# Carregar dados com cache
+data, world = load_data()
 
 # Título da página
 st.title("Distribuição Global de Urânio")

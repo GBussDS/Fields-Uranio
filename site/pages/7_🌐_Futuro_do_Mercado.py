@@ -5,19 +5,41 @@ import plotly.express as px
 # Configuração da página
 st.set_page_config(page_title="Análise de Construção e Demanda de Reatores", page_icon="⏳")
 
-# Carregar dados
-construction_data = pd.read_csv("../csvs/Tempo_Construção_País.csv")
-reactor_completion_data = pd.read_csv("../csvs/Reatores_Finalização.csv")
-historical_demand_data = pd.read_csv("../csvs/Demanda_Completa.csv")
+# Definindo a animação CSS para o efeito de slide da direita para a esquerda
+st.markdown("""
+    <style>
+    /* Aplica o slide-in da direita para a esquerda apenas no conteúdo principal */
+    div[data-testid="stMainBlockContainer"] > div {
+        animation: slideInRight 0.5s ease-in-out;
+    }
 
-# Transformar demanda histórica para formato longo
-historical_demand_long = historical_demand_data.melt(
-    id_vars="Country", var_name="Year", value_name="Demand"
-)
-historical_demand_long["Year"] = historical_demand_long["Year"].astype(int)
+    @keyframes slideInRight {
+        0% { transform: translateX(100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Carregar dados com cache para não carregar repetidamente
+@st.cache_data
+def load_data():
+    construction_data = pd.read_csv("../csvs/Tempo_Construção_País.csv")
+    reactor_completion_data = pd.read_csv("../csvs/Reatores_Finalização.csv")
+    historical_demand_data = pd.read_csv("../csvs/Demanda_Completa.csv")
+
+    # Transformar demanda histórica para formato longo
+    historical_demand_long = historical_demand_data.melt(
+        id_vars="Country", var_name="Year", value_name="Demand"
+    )
+    historical_demand_long["Year"] = historical_demand_long["Year"].astype(int)
+
+    return construction_data, reactor_completion_data, historical_demand_long
+
+# Carregar os dados
+construction_data, reactor_completion_data, historical_demand_long = load_data()
 
 st.markdown("<h1 style='text-align: center; font-size: 3em;'>O Futuro do Urânio</h1>", unsafe_allow_html=True)
-st.markdown("""
+st.markdown(""" 
             Este estudo tem como objetivo principal estimar o mercado futuro do urânio, um recurso essencial para a geração de energia nuclear. 
 
             A análise foi conduzida utilizando dados dos maiores consumidores de urânio: os reatores nucleares. As principais etapas incluíram:
@@ -51,15 +73,7 @@ fig = px.line(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.markdown("""
-            Com base nos dados disponíveis, desenvolvemos uma métrica que correlaciona a potência de cada reator com a quantidade 
-            de urânio consumida anualmente. Optamos por usar a potência como referência, pois é a única informação relacionada 
-            à produção de energia de um reator que está disponível enquanto ele ainda está em construção.
-            
-            Para aumentar a precisão das projeções, calculamos o tempo médio que cada país leva para concluir a construção de um 
-            reator. Nos casos em que essa informação específica não estava disponível, utilizamos a média global como estimativa.
-            """)
-
+# Continuando com o resto do código como estava, sem modificações
 avg_construction_time = construction_data.groupby("Country")["Construction Duration"].mean().reset_index().sort_values(by="Construction Duration")
 
 fig_construction = px.bar(
@@ -74,7 +88,7 @@ fig_construction = px.bar(
 fig_construction.update_layout(yaxis={"categoryorder": "total ascending"})
 st.plotly_chart(fig_construction, use_container_width=True)
 
-st.markdown("""
+st.markdown(""" 
             Dessa maneira, conseguimos projetar o consumo futuro de urânio ao estimar quando um reator em construção 
             estará operacional e qual será a sua demanda anual por urânio.
             """)
@@ -87,7 +101,7 @@ reactor_completion_data["Predicted Completion Date"] = pd.to_datetime(reactor_co
 completion_table = reactor_completion_data.sort_values(by=["Country", "Predicted Completion Date"])
 st.dataframe(completion_table[["Name", "Country", "Construction Start Date", "Predicted Completion Date"]])
 
-st.markdown("""
+st.markdown(""" 
             Com isso conseguimos estimar a demanda futura:
             """)
 

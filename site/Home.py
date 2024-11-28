@@ -6,6 +6,19 @@ st.set_page_config(
     page_icon="🏠",
 )
 
+st.markdown("""
+    <style>
+    .stApp {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.markdown("<h1 style='text-align: center; font-size: 3em;'>Central de Dados e Visualizações sobre Urânio</h1>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; font-size: 2em; color: gray;'>Projeto para o Field Project da FGV - Rio</h3>", unsafe_allow_html=True)

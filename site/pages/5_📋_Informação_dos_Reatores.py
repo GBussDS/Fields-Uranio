@@ -6,14 +6,36 @@ import matplotlib
 import plotly.express as px
 
 # Configuração da página
-st.set_page_config(
-    page_title="Informações dos Reatores",
-    page_icon="📋",
-)
+st.set_page_config(page_title="Informações dos Reatores", page_icon="📋")
 
-# Carregar os dados
-df = pd.read_csv('../csvs/Reatores_Info.csv')
-reactor_counts_by_country = pd.read_csv('../csvs/Outros/Country_Count_Location.csv')
+# Definindo a animação CSS para o efeito de slide da direita para a esquerda
+st.markdown("""
+    <style>
+    /* Aplica o slide-in da direita para a esquerda apenas no conteúdo principal */
+    div[data-testid="stMainBlockContainer"] > div {
+        animation: slideInRight 0.5s ease-in-out;
+    }
+
+    @keyframes slideInRight {
+        0% { transform: translateX(100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Função para carregar os dados e aplicar o cache
+@st.cache_data
+def load_data():
+    # Carregar os dados dos reatores
+    df = pd.read_csv('../csvs/Reatores_Info.csv')
+    
+    # Carregar os dados de contagem de reatores por país
+    reactor_counts_by_country = pd.read_csv('../csvs/Outros/Country_Count_Location.csv')
+    
+    return df, reactor_counts_by_country
+
+# Carregar dados com cache
+df, reactor_counts_by_country = load_data()
 
 # Título
 st.title("Informações dos Reatores Nucleares")

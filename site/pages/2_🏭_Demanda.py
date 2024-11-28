@@ -5,6 +5,21 @@ import plotly.express as px
 # Configuração da página
 st.set_page_config(page_title="Demanda de Urânio por País", page_icon="📉")
 
+# Definindo a animação CSS para o efeito de slide da direita para a esquerda
+st.markdown("""
+    <style>
+    /* Aplica o slide-in da direita para a esquerda apenas no conteúdo principal */
+    div[data-testid="stMainBlockContainer"] > div {
+        animation: slideInRight 0.5s ease-in-out;
+    }
+
+    @keyframes slideInRight {
+        0% { transform: translateX(100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 # Função para carregar os dados e calcular a demanda global
 @st.cache_data
 def load_and_prepare_data():
