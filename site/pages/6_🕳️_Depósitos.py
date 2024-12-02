@@ -64,6 +64,37 @@ st.write(
     "Explore a distribuição de recursos de urânio no mundo. Use os filtros abaixo para ajustar a visualização dos dados."
 )
 
+
+st.write("### Disponibilidade e Probabilidade")
+st.markdown(
+    """
+    No contexto de depósitos de urânio, existem diferentes categorias para classificar os recursos com base no grau de certeza sobre sua presença. Duas dessas categorias são:
+
+    - **RAR (Recursos de Áreas Conhecidas)**: São os recursos de urânio que foram bem identificados e mapeados através de estudos detalhados, como perfurações e análises. Esses recursos têm maior confiança de que realmente existem no subsolo.
+
+    - **Inferred (Recursos Inferidos)**: São estimativas sobre a quantidade de urânio que pode estar presente, mas com menor certeza. Esses recursos são baseados em dados indiretos ou limitados, como análises de superfície, e ainda não foram confirmados por estudos mais profundos.
+
+    Em resumo:
+    - **Identified**: É a soma dos dois, nesse caso.
+    - **RAR**: Maior certeza e confiabilidade.
+    - **Inferred**: Estimativas com maior incerteza.
+    """
+)
+
+st.markdown(
+    """
+    Além disso, podemos dividir pela disponibilidade dele, se é "In Situ" ou "Recoverable":
+    
+    - **In Situ**: Refere-se à quantidade de urânio que está presente no subsolo, mas ainda não foi extraída ou que não pode ser extraída com as tecnologias atuais. É o urânio "no local", ou seja, está no solo, mas ainda não foi processado ou recuperado.
+
+    - **Recoverable**: Refere-se à quantidade de urânio que pode ser extraída de forma economicamente viável, ou seja, o urânio que, com as tecnologias atuais, pode ser recuperado e trazido à superfície para ser utilizado.
+    
+    Em resumo:
+    - **In Situ**: Urânio localizado no subsolo, não extraído muitas vezes devido a limitações tecnológicas ou econômicas.
+    - **Recoverable**: Urânio que pode ser extraído de forma viável e econômica com as tecnologias e métodos de mineração disponíveis.
+    """
+)
+
 # Filtros
 st.write("### Filtros para Seleção de Depósitos")
 col1, col2, col3 = st.columns(3)
@@ -75,13 +106,13 @@ with col2:
     probabilidade = st.selectbox("Probabilidade", ["Ambos"] + list(data["Probabilidade"].unique()))
 
 with col3:
-    atributo = st.selectbox("Atributo", data["Atributo"].unique())
+    Preço = st.selectbox("Preço", data["Preço"].unique())
 
 # Aplicar filtros
 filtered_data = data[
     (data["Disponibilidade"] == disponibilidade)
     & ((data["Probabilidade"] == probabilidade) | (probabilidade == "Ambos"))
-    & (data["Atributo"] == atributo)
+    & (data["Preço"] == Preço)
 ]
 
 # Caso "Ambos" seja selecionado, somar os valores de RAR e Inferred
@@ -89,12 +120,12 @@ if probabilidade == "Ambos":
     rar_data = data[
         (data["Disponibilidade"] == disponibilidade)
         & (data["Probabilidade"] == "RAR")
-        & (data["Atributo"] == atributo)
+        & (data["Preço"] == Preço)
     ]
     inferred_data = data[
         (data["Disponibilidade"] == disponibilidade)
         & (data["Probabilidade"] == "Inferred")
-        & (data["Atributo"] == atributo)
+        & (data["Preço"] == Preço)
     ]
     filtered_data = pd.concat([rar_data, inferred_data]).groupby("Country")["Urânio (Ton.)"].sum().reset_index()
 else:
@@ -124,30 +155,6 @@ for _, row in world.iterrows():
 st.write("### Mapa Interativo de Depósitos de Urânio")
 st_folium(m, width=700, height=500)
 
-# Explicação sobre os tipos de recurso
-st.write("### Tipos de Recursos de Urânio: Explicação Detalhada")
-st.markdown(
-    """
-    - **RAR (Reasonably Assured Recoverable Resources)**:
-      Recursos extensivamente explorados, economicamente viáveis para extração e com alta confiança.
-      
-    - **Inferred Recoverable Resources**:
-      Estimativas baseadas em dados limitados, geralmente com menor precisão, mas indicativas de potencial extração.
-    
-    - **Recursos Recuperáveis Identificados**:
-      Recursos conhecidos que já foram avaliados como economicamente extraíveis.
-
-    - **Recursos in situ Identificados**:
-      Urânio identificado que permanece no local e ainda não foi extraído.
-
-    - **Recursos Recuperáveis Inferidos**:
-      Recursos estimados em depósitos com dados insuficientes para alta precisão, mas economicamente viáveis.
-
-    - **Recursos in situ Inferidos**:
-      Recursos de urânio estimados que permanecem no local, mas com dados limitados para confirmar sua viabilidade econômica.
-    """
-)
-
 st.write(
     "A combinação de filtros permite explorar diferentes categorias de depósitos de urânio, considerando sua viabilidade, "
     "localização e características econômicas e geológicas."
@@ -167,3 +174,72 @@ st.download_button(
     file_name="dados_uranio.csv",
     mime="text/csv",
 )
+
+# Filtro de país
+st.write("### Selecione um País para Detalhes")
+country_selected = st.selectbox("Escolha um país", data["Country"].unique())
+
+# Filtrar os dados para o país selecionado
+country_data = data[data["Country"] == country_selected]
+
+st.write(f"### Dados sobre: {country_selected}")
+
+# Tabela de Informações
+st.markdown("""
+    <style>
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-size: 20px;
+        }
+        .table th {
+            background-color: #902020;
+            font-weight: bold;
+        }
+        .table td {
+            background-color: #1d334a;
+        }
+        .table .highlight {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #1d334a;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Gerar a tabela de dados organizados em linhas
+table_data = [
+    ["Total de Urânio", f"{int(country_data['Urânio (Ton.)'].sum())} Ton."],
+    ["Urânio RAR", f"{int(country_data[country_data['Probabilidade'] == 'RAR']['Urânio (Ton.)'].sum())} Ton."],
+    ["Urânio Inferred", f"{int(country_data[country_data['Probabilidade'] == 'Inferred']['Urânio (Ton.)'].sum())} Ton."],
+    ["Urânio In Situ", f"{int(country_data[country_data['Disponibilidade'] == 'in Situ']['Urânio (Ton.)'].sum())} Ton."],
+    ["Urânio Recoverable", f"{int(country_data[country_data['Disponibilidade'] == 'Recoverable']['Urânio (Ton.)'].sum())} Ton."]
+]
+
+# Criação da tabela de preço
+price_ranges = {
+    "< USD 40/kgU": f"{int(country_data[country_data['Preço'] == '<USD 40/kgU']['Urânio (Ton.)'].sum())} Ton.",
+    "< USD 80/kgU": f"{int(country_data[country_data['Preço'] == '<USD 80/kgU']['Urânio (Ton.)'].sum())} Ton.",
+    "< USD 130/kgU": f"{int(country_data[country_data['Preço'] == '<USD 130/kgU']['Urânio (Ton.)'].sum())} Ton.",
+    "< USD 260/kgU": f"{int(country_data[country_data['Preço'] == '<USD 260/kgU']['Urânio (Ton.)'].sum())} Ton."
+}
+
+# Adicionando as faixas de preço na tabela
+for price_range, value in price_ranges.items():
+    table_data.append([price_range, value])
+
+# Renderizando a tabela com os dados
+table_html = "<table class='table'>"
+table_html += "<tr><th>Categoria</th><th>Quantidade de Urânio</th></tr>"
+
+for row in table_data:
+    table_html += f"<tr><td>{row[0]}</td><td class='highlight'>{row[1]}</td></tr>"
+
+table_html += "</table>"
+
+st.markdown(table_html, unsafe_allow_html=True)
