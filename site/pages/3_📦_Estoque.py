@@ -28,9 +28,10 @@ st.write("# Análise de Produção, Demanda e Estoque de Urânio")
 # Gráfico de Produção e Demanda
 st.write("### Produção e Demanda por Ano")
 st.markdown("""
-    **Este gráfico mostra a evolução da produção e da demanda de urânio ao longo do tempo.**
+    **Este gráfico mostra a evolução da produção e da demanda de urânio ao longo do tempo**:
     Você pode usar o intervalo de anos para explorar como a produção e a demanda mudaram em diferentes períodos.
-    O gráfico ajuda a visualizar se a produção está acompanhando a demanda ou se há uma discrepância crescente entre elas.
+    O gráfico ajuda a visualizar se a produção está acompanhando a demanda, e podemos ver que a demanda está em
+    uma crescente, enquanto a produção parece estacionada.
 """)
 prod_demand_years = st.slider(
     "Selecione o intervalo de anos para Produção e Demanda",
@@ -69,9 +70,9 @@ st.plotly_chart(fig_prod_demand, use_container_width=True)
 # Gráfico de Estoque por Ano
 st.write("### Estoque por Ano")
 st.markdown("""
-    **Este gráfico ilustra a evolução do estoque de urânio ao longo dos anos.**
+    **Este gráfico ilustra a evolução do estoque (Produção - Demanda) de urânio**:
     Ao observar as variações no estoque, podemos entender como ele está sendo gerido e como pode impactar a disponibilidade futura de urânio.
-    O gráfico permite visualizar a tendência do estoque ao longo do tempo, se ele está aumentando ou diminuindo.
+    Esse gráfico nos ajuda a visualizar ainda mais como o equilíbro de balança parece estar mudando.
 """)
 stock_years = st.slider(
     "Selecione o intervalo de anos para Estoque",
@@ -93,7 +94,10 @@ st.plotly_chart(fig_stock, use_container_width=True)
 st.write("### Estoque Acumulado por Ano")
 st.markdown("""
     **Este gráfico exibe o estoque acumulado ao longo dos anos.**
-    Ele mostra o total de urânio que foi armazenado e acumulado até cada ano. A análise do estoque acumulado pode revelar tendências importantes sobre a gestão e a sustentabilidade do abastecimento.
+    Ele mostra o total de urânio que foi armazenado e acumulado até cada ano. Para essa análise, só utilizamos os dados de produção
+    e de demanda, fazendo uma soma acumulada do estoque que calculamos anteriormente.
+    De acordo com o último Red Book, o estoque atual de urânio nos países é de aproximadamente 525 mil quilogramas, bem próximo
+    de nossa estimativa.
 """)
 acc_stock_years = st.slider(
     "Selecione o intervalo de anos para Estoque Acumulado",
@@ -115,7 +119,8 @@ st.plotly_chart(fig_acc_stock, use_container_width=True)
 st.write("### Anos Restantes de Estoque")
 st.markdown("""
     **Este gráfico mostra a previsão dos anos restantes de estoque, com base na quantidade atual de urânio disponível.**
-    Ele ajuda a entender quanto tempo o estoque atual pode sustentar a demanda, considerando as variáveis do estoque existente.
+    Ele ajuda a entender quanto tempo, para cada ano, tínhamos de estoque para abastecer a demanda total dos países 
+    (não considerando produção). Podemos observar uma queda.
 """)
 years_stock = st.slider(
     "Selecione o intervalo de anos para Anos Restantes de Estoque",
@@ -136,8 +141,8 @@ st.plotly_chart(fig_years_stock, use_container_width=True)
 # Gráfico de Anos Restantes de Estoque (Com Produção)
 st.write("### Anos Restantes de Estoque (Com Produção)")
 st.markdown("""
-    **Aqui, vemos os anos restantes de estoque considerando a produção de urânio.**
-    Ao levar em conta a produção, podemos ajustar o cálculo de anos restantes de estoque, o que pode alterar as previsões de sustentabilidade no futuro.
+    **Agora vemos os anos restantes de estoque considerando a demanda e produção de urânio.**
+    Ao levar em conta a produção, podemos ajustar o cálculo de anos restantes de estoque, por isso números maiores.
 """)
 years_stock_prod = st.slider(
     "Selecione o intervalo de anos para Anos Restantes de Estoque (Com Produção)",
