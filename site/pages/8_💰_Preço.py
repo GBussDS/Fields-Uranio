@@ -20,22 +20,47 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Idiomas disponíveis
+idiomas = {"Português": "pt", "English": "en"}
+idioma_selecionado = st.sidebar.selectbox("🌐 Escolha o idioma / Select Language:", idiomas.keys())
+lang = idiomas[idioma_selecionado]
+
 # Carregar os dados
 data = pd.read_csv("../csvs/Preço_Urânio.csv")
 
 # Convertendo a coluna 'DATE' para datetime
 data["DATE"] = pd.to_datetime(data["DATE"])
 
+# Traduções
+textos = {
+    "pt": {
+        "titulo": "Análise de Preço de Urânio",
+        "introducao": "**Este gráfico mostra a evolução do preço do urânio ao longo do tempo**: A partir dos dados fornecidos, podemos observar as flutuações de preço desde o início dos anos 90 até o momento. O gráfico interativo permite explorar como o preço do urânio variou ao longo de diferentes meses e anos. Use o intervalo de datas abaixo para ajustar a visualização conforme sua necessidade.",
+        "selecione_intervalo": "Selecione o intervalo de datas",
+        "grafico_titulo": "Evolução do Preço do Urânio",
+        "grafico_legendas": {"PURANUSDM": "Preço do Urânio (USD)", "DATE": "Data"},
+        "tabela_titulo": "Tabela de Preço de Urânio Utilizada",
+        "baixar_dados": "📥 Baixar dados como CSV",
+    },
+    "en": {
+        "titulo": "Uranium Price Analysis",
+        "introducao": "**This chart shows the evolution of uranium prices over time**: From the provided data, we can observe price fluctuations from the early 1990s to the present. The interactive chart allows you to explore how uranium prices have varied across different months and years. Use the date range below to adjust the visualization as needed.",
+        "selecione_intervalo": "Select the date range",
+        "grafico_titulo": "Uranium Price Evolution",
+        "grafico_legendas": {"PURANUSDM": "Uranium Price (USD)", "DATE": "Date"},
+        "tabela_titulo": "Uranium Price Table Used",
+        "baixar_dados": "📥 Download data as CSV",
+    },
+}
+
+# Recuperar textos conforme o idioma
+t = textos[lang]
+
 # Título da página
-st.write("# Análise de Preço de Urânio")
+st.write(f"# {t['titulo']}")
 
 # Introdução
-st.markdown("""
-    **Este gráfico mostra a evolução do preço do urânio ao longo do tempo**:
-    A partir dos dados fornecidos, podemos observar as flutuações de preço desde o início dos anos 90 até o momento.
-    O gráfico interativo permite explorar como o preço do urânio variou ao longo de diferentes meses e anos.
-    Use o intervalo de datas abaixo para ajustar a visualização conforme sua necessidade.
-""")
+st.markdown(t["introducao"])
 
 # Converter para datetime.date para compatibilidade com o slider
 min_date = data["DATE"].min().date()  # Extrair apenas a data (sem hora)
@@ -43,7 +68,7 @@ max_date = data["DATE"].max().date()  # Extrair apenas a data (sem hora)
 
 # Slider para selecionar o intervalo de datas
 date_range = st.slider(
-    "Selecione o intervalo de datas",
+    t["selecione_intervalo"],
     min_value=min_date,
     max_value=max_date,
     value=(min_date, max_date)
@@ -53,46 +78,26 @@ date_range = st.slider(
 filtered_data = data[(data["DATE"] >= pd.to_datetime(date_range[0])) & (data["DATE"] <= pd.to_datetime(date_range[1]))]
 
 # Gráfico interativo do preço do urânio
-st.write("### Evolução do Preço do Urânio")
+st.write(f"### {t['grafico_titulo']}")
 
 fig = px.line(
     filtered_data,
     x="DATE",
     y="PURANUSDM",
-    labels={"PURANUSDM": "Preço do Urânio (USD)", "DATE": "Data"},
-    title="Preço do Urânio por Libra de Urânio)"
+    labels=t["grafico_legendas"],
+    title=t["grafico_titulo"]
 )
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.markdown("""
-    Você pode perceber que em 2007 houve um pico forte do preço de urânio, atingindo um pico de cerca de 140 dólares por
-    libra de urânio, quadriplicando de preço se comparado ao ínicio do ano anterior. De forma breve, isso se deu
-    em razão de que:
-
-      - **Inundação da Mina Cigar Lake** no Canadá, afetando a maior reserva de urânio não desenvolvida do mundo.
-      - Expectativas de expansão de **programas nucleares** na China e Índia, com futuros reatores podendo ser construídos.
-      - **Preocupações com a segurança energética** após o pico dos preços do petróleo e com a dependência de combustíveis fósseis, muitos países buscaram fontes de energia alternativas e mais "limpas", como a energia nuclear.
-      - **Crise de oferta**, com uma pressão crescente para suprir a demanda global.
-
-    Já nos últimos anos, especialmente em 2023, estamos vendo uma crescente no preço, porém agora não tão forte (Com uma queda no fim de 2024). 
-    Isso se deve:
-    
-      - A **transição energética global**, com muitos países adotando a energia nuclear para reduzir emissões de carbono.
-      - Aumento da **demanda na China e na Índia**, que estão expandindo seus programas nucleares.
-      - **Dificuldades na expansão da oferta**, com projetos de mineração demorando para ser implementados e a oferta global limitada.
-      - Incertezas geopolíticas, como o **conflito na Ucrânia**, que impactam as cadeias de fornecimento.
-""")
-
-
 # Tabela de dados
-st.write("### Tabela de Preço de Urânio Utilizada")
+st.write(f"### {t['tabela_titulo']}")
 st.dataframe(filtered_data)
 
 # Botão para download da tabela
 csv_data = filtered_data.to_csv(index=False).encode("utf-8")
 st.download_button(
-    label="📥 Baixar dados como CSV",
+    label=t["baixar_dados"],
     data=csv_data,
     file_name="preco_uranio.csv",
     mime="text/csv"
