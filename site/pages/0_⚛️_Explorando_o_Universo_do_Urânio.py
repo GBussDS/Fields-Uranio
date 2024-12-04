@@ -384,7 +384,7 @@ else:
                     </ul>
                 </p>
                 <p>
-                    After extraction, the ore undergoes stages such as crushing, leaching, and concentration, resulting in the production of uranium concentrate, known as **yellowcake**, which is used as nuclear fuel.
+                    After extraction, the ore undergoes stages such as crushing, leaching, and concentration, resulting in the production of uranium concentrate, known as <b>yellowcake</b>, which is used as nuclear fuel.
                 </p>
             </div>
         </div>
