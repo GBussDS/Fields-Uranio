@@ -13,6 +13,37 @@ def get_uranium_data():
 # Configuração da página
 st.set_page_config(page_title="Produção e Exportação de Urânio", page_icon="⛏️")
 
+# Idiomas disponíveis
+idiomas = {"Português": "pt", "English": "en"}
+idioma_selecionado = st.sidebar.selectbox("🌐 Escolha o idioma / Select Language:", idiomas.keys())
+lang = idiomas[idioma_selecionado]
+
+# Textos em diferentes idiomas
+textos = {
+    "pt": {
+        "titulo": "Produção de Urânio por Ano",
+        "descricao": "Nesta página, você pode explorar a produção anual de urânio por país, de 1998 a 2022. A visualização abaixo mostra a quantidade de urânio produzido em toneladas (tU) ao longo dos anos.",
+        "slider": "Escolha o intervalo de anos",
+        "pais": "Escolha os países para exibir:",
+        "producao_total": "Produção Total de Urânio de {0} a {1} por Países Selecionados",
+        "mapa": "Mapa 3D de Produção de Urânio por País",
+        "producao_anual": "Produção Anual de Urânio por País (Interativo)",
+        "dados": "Dados usados:",
+        "download": "📥 Baixar tabela como CSV",
+    },
+    "en": {
+        "titulo": "Uranium Production by Year",
+        "descricao": "On this page, you can explore the annual uranium production by country from 1998 to 2022. The visualization below shows the amount of uranium produced in tons (tU) over the years.",
+        "slider": "Select year range",
+        "pais": "Choose countries to display:",
+        "producao_total": "Total Uranium Production from {0} to {1} by Selected Countries",
+        "mapa": "3D Map of Uranium Production by Country",
+        "producao_anual": "Annual Uranium Production by Country (Interactive)",
+        "dados": "Data used:",
+        "download": "📥 Download table as CSV",
+    }
+}
+
 # Definindo a animação CSS para o efeito de slide da direita para a esquerda
 st.markdown("""
     <style>
@@ -29,21 +60,15 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Corpo da página
-st.write("# Produção de Urânio por Ano")
-
-st.write(
-    """
-    Nesta página, você pode explorar a produção anual de urânio por país, de 1998 a 2022. A visualização abaixo 
-    mostra a quantidade de urânio produzido em toneladas (tU) ao longo dos anos.
-    """
-)
+st.write(f"# {textos[lang]['titulo']}")
+st.write(textos[lang]['descricao'])
 
 # Obter os dados
 df = get_uranium_data()
 
 # Selecionar o intervalo de anos
 anos = list(map(int, df.columns))
-years = st.slider("Escolha o intervalo de anos", min(anos), max(anos), (min(anos), max(anos)))
+years = st.slider(textos[lang]['slider'], min(anos), max(anos), (min(anos), max(anos)))
 
 # Filtrar dados por ano selecionado
 filtered_df = df.loc[:, str(years[0]):str(years[1])]
@@ -62,17 +87,17 @@ initial_countries = [
 ]
 
 # Adicionar a opção "Todos"
-all_option = "Todos"
+all_option = "Todos" if lang == "pt" else "All"
 country_options = [all_option] + filtered_df.index.tolist()
 
 # Seleção de países
 selected_countries = st.multiselect(
-    "Escolha os países para exibir:",
+    textos[lang]['pais'],
     options=country_options,
-    default=[all_option]  # "Todos" selecionado por padrão
+    default=[all_option]  # "Todos/All" selecionado por padrão
 )
 
-# Se "Todos" for selecionado, inclui todos os países
+# Se "Todos/All" for selecionado, inclui todos os países
 if all_option in selected_countries:
     selected_countries = filtered_df.index.tolist()
 
@@ -80,13 +105,13 @@ if all_option in selected_countries:
 filtered_df = filtered_df.loc[selected_countries]
 
 # Mostrar produção total de urânio
-st.write(f"### Produção Total de Urânio de {years[0]} a {years[1]} por Países Selecionados")
+st.write(f"### {textos[lang]['producao_total'].format(years[0], years[1])}")
 
 # Calcular a produção total para o intervalo selecionado
 total_production = filtered_df.drop("Global", axis=0, errors='ignore').sum(axis=1)
 
 # Criar o mapa 3D com Plotly
-st.write("### Mapa 3D de Produção de Urânio por País")
+st.write(f"### {textos[lang]['mapa']}")
 
 # Dados geográficos (usaremos Plotly para mapear os países)
 fig = go.Figure(go.Choropleth(
@@ -95,7 +120,7 @@ fig = go.Figure(go.Choropleth(
     hoverinfo="location+z",  # Exibe o nome do país e a produção
     locationmode="country names",  # Usa os nomes dos países
     colorscale="Viridis",  # Escolhe uma paleta de cores
-    colorbar_title="Produção (tU)"
+    colorbar_title="Produção (tU)" if lang == "pt" else "Production (tU)"
 ))
 
 # Layout do gráfico 3D
@@ -106,7 +131,7 @@ fig.update_layout(
         projection_type="orthographic",  # Estilo de projeção 3D
         projection_scale=0.8  # Ajustando o zoom inicial (aumente o valor para zoom out)
     ),
-    title=f"Produção de Urânio por País (Total de {years[0]} a {years[1]})",
+    title=f"{textos[lang]['mapa']} ({years[0]} - {years[1]})",
     template="plotly_white",
     height=700,  # Ajuste o tamanho vertical do gráfico
     width=1000,  # Ajuste o tamanho horizontal do gráfico
@@ -116,7 +141,7 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 # Criar o gráfico interativo com Plotly para produção anual
-st.write("### Produção Anual de Urânio por País (Interativo)")
+st.write(f"### {textos[lang]['producao_anual']}")
 
 # Transformar o dataframe para o formato adequado ao Plotly
 filtered_df_reset = filtered_df.reset_index()
@@ -128,16 +153,16 @@ line_fig = px.line(
     x="Ano",
     y="Produção (tU)",
     color="Country",
-    labels={"Produção (tU)": "Produção de Urânio (tU)", "Ano": "Ano"},
-    title=f"Produção de Urânio por País ({years[0]} - {years[1]})",
+    labels={"Produção (tU)": "Produção de Urânio (tU)" if lang == "pt" else "Uranium Production (tU)", "Ano": "Ano" if lang == "pt" else "Year"},
+    title=f"{textos[lang]['producao_anual']} ({years[0]} - {years[1]})",
     hover_name="Country",
 )
 
 # Ajustar o layout do gráfico de linha
 line_fig.update_layout(
-    xaxis_title="Ano",
-    yaxis_title="Produção de Urânio (tU)",
-    legend_title="País",
+    xaxis_title="Ano" if lang == "pt" else "Year",
+    yaxis_title="Produção de Urânio (tU)" if lang == "pt" else "Uranium Production (tU)",
+    legend_title="País" if lang == "pt" else "Country",
     template="plotly_white",
 )
 
@@ -145,7 +170,7 @@ line_fig.update_layout(
 st.plotly_chart(line_fig, use_container_width=True)
 
 # Exibir dados usados
-st.write("### Dados usados:")
+st.write(f"### {textos[lang]['dados']}")
 st.dataframe(filtered_df.T)  # Transposto para facilitar visualização por ano
 
 # Converter o DataFrame para CSV
@@ -153,8 +178,8 @@ csv_data = filtered_df.T.to_csv(index=False).encode("utf-8")
 
 # Botão para download
 st.download_button(
-    label="📥 Baixar tabela como CSV",
+    label=textos[lang]['download'],
     data=csv_data,
-    file_name="dados_uranio.csv",
+    file_name="dados_uranio.csv" if lang == "pt" else "uranium_data.csv",
     mime="text/csv",
 )
