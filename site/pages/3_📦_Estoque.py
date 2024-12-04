@@ -134,7 +134,11 @@ fig_prod_demand = px.line(
     x="Year",
     y="Valor",
     color="Variável",
-    labels={"Valor": "Toneladas de Urânio", "Year": "Ano", "Variável": "Tipo"},
+    labels = {
+        "Valor": "Toneladas de Urânio" if lang == "pt" else "Uranium Tonnes",
+        "Year": "Ano" if lang == "pt" else "Year",
+        "Variável": "Tipo" if lang == "pt" else "Type"
+    },
     title="Produção e Demanda por Ano" if lang == "pt" else "Production and Demand by Year"
 )
 st.plotly_chart(fig_prod_demand, use_container_width=True)
@@ -153,7 +157,10 @@ fig_stock = px.area(
     stock_filtered,
     x="Year",
     y="Stock",
-    labels={"Stock": "Estoque (Toneladas)", "Year": "Ano"},
+    labels = {
+        "Stock": "Estoque (Toneladas)" if lang == "pt" else "Stock (Tonnes)",
+        "Year": "Ano" if lang == "pt" else "Year"
+    },
     title="Estoque por Ano" if lang == "pt" else "Stock by Year"
 )
 st.plotly_chart(fig_stock, use_container_width=True)
@@ -172,7 +179,10 @@ fig_acc_stock = px.area(
     acc_stock_filtered,
     x="Year",
     y="Accumulated Stock",
-    labels={"Accumulated Stock": "Estoque Acumulado (Toneladas)", "Year": "Ano"},
+    labels = {
+    "Accumulated Stock": "Estoque Acumulado (Toneladas)" if lang == "pt" else "Accumulated Stock (Tonnes)",
+    "Year": "Ano" if lang == "pt" else "Year"
+    },
     title="Estoque Acumulado por Ano" if lang == "pt" else "Accumulated Stock by Year"
 )
 st.plotly_chart(fig_acc_stock, use_container_width=True)
@@ -191,7 +201,10 @@ fig_years_stock = px.line(
     years_stock_filtered,
     x="Year",
     y="Years of Stock",
-    labels={"Years of Stock": "Anos Restantes de Estoque", "Year": "Ano"},
+    labels = {
+        "Years of Stock": "Anos Restantes de Estoque" if lang == "pt" else "Years of Stock",
+        "Year": "Ano" if lang == "pt" else "Year"
+    },
     title="Anos Restantes de Estoque (Sem Produção)" if lang == "pt" else "Remaining Years of Stock (Without Production)"
 )
 st.plotly_chart(fig_years_stock, use_container_width=True)
@@ -211,7 +224,10 @@ fig_years_stock_prod = px.line(
     years_stock_prod_filtered,
     x="Year",
     y="Years of Stock(w/Production)",
-    labels={"Years of Stock(w/Production)": "Anos Restantes de Estoque (Com Produção)", "Year": "Ano"},
+    labels = {
+        "Years of Stock(w/Production)": "Anos Restantes de Estoque (Com Produção)" if lang == "pt" else "Years of Stock (w/ Production)",
+        "Year": "Ano" if lang == "pt" else "Year"
+    },
     title="Anos Restantes de Estoque (Com Produção)" if lang == "pt" else "Remaining Years of Stock (With Production)"
 )
 st.plotly_chart(fig_years_stock_prod, use_container_width=True)
