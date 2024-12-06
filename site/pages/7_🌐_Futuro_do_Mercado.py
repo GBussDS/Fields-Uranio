@@ -69,9 +69,9 @@ st.markdown("""
 # Carregar dados com cache para não carregar repetidamente
 @st.cache_data
 def load_data():
-    construction_data = pd.read_csv("../csvs/Tempo_Construção_País.csv")
-    reactor_completion_data = pd.read_csv("../csvs/Reatores_Finalização.csv")
-    historical_demand_data = pd.read_csv("../csvs/Demanda_Completa.csv")
+    construction_data = pd.read_csv("csvs/Tempo_Construção_País.csv")
+    reactor_completion_data = pd.read_csv("csvs/Reatores_Finalização.csv")
+    historical_demand_data = pd.read_csv("csvs/Demanda_Completa.csv")
 
     historical_demand_long = historical_demand_data.melt(
         id_vars="Country", var_name="Year", value_name="Demand"
@@ -87,7 +87,7 @@ st.markdown(f"<h1 style='text-align: center; font-size: 3em;'>{translate('main_h
 st.markdown(translate("intro_text", lang))
 
 # Gráfico da demanda por país
-file_path = '../csvs/Demand(WNA).csv'
+file_path = 'csvs/Demand(WNA).csv'
 uranium_data = pd.read_csv(file_path)
 
 selected_countries = st.multiselect(

@@ -97,7 +97,7 @@ else:
     choose_option = "Choose what you want to visualize"
 
 # Carregar os dados
-data = pd.read_csv("../csvs/RedBook/Anos_Estoque.csv")
+data = pd.read_csv("csvs/RedBook/Anos_Estoque.csv")
 
 # Título
 st.write(texto_intro)

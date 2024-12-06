@@ -33,10 +33,10 @@ if lang == 'pt':
     @st.cache_data
     def load_data():
         # Carregar os dados dos reatores
-        df = pd.read_csv('../csvs/Reatores_Info.csv')
+        df = pd.read_csv('csvs/Reatores_Info.csv')
         
         # Carregar os dados de contagem de reatores por país
-        reactor_counts_by_country = pd.read_csv('../csvs/Outros/Country_Count_Location.csv')
+        reactor_counts_by_country = pd.read_csv('csvs/Outros/Country_Count_Location.csv')
         
         return df, reactor_counts_by_country
 
@@ -193,10 +193,10 @@ else:
     @st.cache_data
     def load_data():
         # Load reactor data
-        df = pd.read_csv('../csvs/Reatores_Info.csv')
+        df = pd.read_csv('csvs/Reatores_Info.csv')
         
         # Load reactor count data by country
-        reactor_counts_by_country = pd.read_csv('../csvs/Outros/Country_Count_Location.csv')
+        reactor_counts_by_country = pd.read_csv('csvs/Outros/Country_Count_Location.csv')
         
         return df, reactor_counts_by_country
 

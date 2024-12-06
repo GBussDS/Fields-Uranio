@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # Carregar os dados do CSV
 @st.cache_data
 def get_uranium_data():
-    file_path = "../csvs/Produção/UraniumProductionHistorical.csv"  # caminho relativo ao script do Streamlit
+    file_path = "csvs/Produção/UraniumProductionHistorical.csv"  # caminho relativo ao script do Streamlit
     df = pd.read_csv(file_path, index_col="Country")
     return df
 

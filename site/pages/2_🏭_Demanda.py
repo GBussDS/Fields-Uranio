@@ -29,7 +29,7 @@ st.markdown("""
 # Função para carregar os dados e calcular a demanda global
 @st.cache_data
 def load_and_prepare_data():
-    demand_data = pd.read_csv("../csvs/Demand(WNA).csv")
+    demand_data = pd.read_csv("csvs/Demand(WNA).csv")
     # Garantir que a coluna "Year" é tratada como numérica
     demand_data["Year"] = demand_data["Year"].astype(int)
     # Filtrar países com dados reais (demanda não-zero)

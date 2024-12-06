@@ -73,10 +73,10 @@ st.markdown("""
 @st.cache_data
 def load_data():
     # Carregar dados
-    data = pd.read_csv("../csvs/Depósitos(RAR-Infered)/Minas.csv")
+    data = pd.read_csv("csvs/Depósitos(RAR-Infered)/Minas.csv")
     
     # Carregar o shapefile
-    path_to_shapefile = "geopandas/ne_110m_admin_0_countries.shp"
+    path_to_shapefile = "site/geopandas/ne_110m_admin_0_countries.shp"
     world = gpd.read_file(path_to_shapefile)
     
     # Dicionário de correspondência para ajustar nomes de países

@@ -96,7 +96,7 @@ def disponibilizar_csv(path, descricao, nome_arquivo):
 categorias = {
     "Minas / Mines": [
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/identified_in_situ_resources.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/identified_in_situ_resources.csv",
             "descricao": {
                 "pt": "Este arquivo contém dados sobre recursos de urânio identificados **in situ**, ou seja, localizados no local de origem antes de qualquer processo de extração.",
                 "en": "This file contains data on **in situ** uranium resources, i.e., located at the site of origin before any extraction process.",
@@ -107,7 +107,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/identified_recoverable_resources.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/identified_recoverable_resources.csv",
             "descricao": {
                 "pt": "Este arquivo apresenta recursos de urânio identificados que podem ser extraídos e recuperados economicamente, considerando a viabilidade técnica.",
                 "en": "This file presents identified uranium resources that can be extracted and recovered economically, considering technical feasibility.",
@@ -118,7 +118,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/inferred_in_situ_resources.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/inferred_in_situ_resources.csv",
             "descricao": {
                 "pt": "Contém dados sobre recursos de urânio inferidos **in situ**, estimados com base em levantamentos preliminares e com menor grau de confiança.",
                 "en": "Contains data on **inferred in situ** uranium resources, estimated based on preliminary surveys with a lower confidence level.",
@@ -129,7 +129,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/inferred_recoverable_resources.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/inferred_recoverable_resources.csv",
             "descricao": {
                 "pt": "Apresenta recursos de urânio inferidos que são economicamente recuperáveis, baseados em estimativas preliminares e dados indiretos.",
                 "en": "Presents inferred uranium resources that are economically recoverable, based on preliminary estimates and indirect data.",
@@ -140,7 +140,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/reasonably_assured_in_situ_resources_complete.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/reasonably_assured_in_situ_resources_complete.csv",
             "descricao": {
                 "pt": "Contém dados completos sobre recursos de urânio **in situ** razoavelmente assegurados, baseados em levantamentos detalhados e confiáveis.",
                 "en": "Contains complete data on **reasonably assured in situ** uranium resources, based on detailed and reliable surveys.",
@@ -151,7 +151,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/reasonably_assured_recoverable_resources_complete.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/reasonably_assured_recoverable_resources_complete.csv",
             "descricao": {
                 "pt": "Apresenta dados completos sobre recursos de urânio recuperáveis que são razoavelmente assegurados, indicando alta viabilidade econômica e técnica.",
                 "en": "Presents complete data on recoverable uranium resources that are reasonably assured, indicating high economic and technical feasibility.",
@@ -162,7 +162,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/Minas-Intervalo.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/Minas-Intervalo.csv",
             "descricao": {
                 "pt": "Este arquivo contém dados sobre minas de urânio, incluindo intervalos de produção, seus países e características gerais.",
                 "en": "This file contains data on uranium mines, including production intervals, their countries, and general characteristics.",
@@ -173,7 +173,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos(RAR-Infered)/Minas.csv",
+            "path": "csvs/Depósitos(RAR-Infered)/Minas.csv",
             "descricao": {
                 "pt": "Apresenta informações completas sobre as minas de urânio, como seus países, sua produção acumulada e disponibilidade.",
                 "en": "Presents complete information on uranium mines, such as their countries, accumulated production, and availability.",
@@ -186,7 +186,7 @@ categorias = {
     ],
     "Produção (Urânio) / Production (Uranium)": [
         {
-            "path": "../csvs/Produção/UraniumProductionHistorical.csv",
+            "path": "csvs/Produção/UraniumProductionHistorical.csv",
             "descricao": {
                 "pt": "Dados sobre a produção de urânio, desde 1998, por país.",
                 "en": "Data on uranium production since 1998, by country.",
@@ -197,7 +197,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/RedBook/Produção(RedBook).csv",
+            "path": "csvs/RedBook/Produção(RedBook).csv",
             "descricao": {
                 "pt": "Dados sobre a produção de urânio por ano.",
                 "en": "Data on uranium production by year.",
@@ -208,7 +208,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Outros/Gasto_Exploração.csv",
+            "path": "csvs/Outros/Gasto_Exploração.csv",
             "descricao": {
                 "pt": "Dados sobre quanto cada país gastou com a exploração de urânio, por ano.",
                 "en": "Data on how much each country spent on uranium exploration, by year.",
@@ -221,7 +221,7 @@ categorias = {
     ],
     "Demanda / Demand": [
         {
-            "path": "../csvs/RedBook/Demanda(RedBook).csv",
+            "path": "csvs/RedBook/Demanda(RedBook).csv",
             "descricao": {
                 "pt": "Dados sobre a demanda mundial de urânio por ano.",
                 "en": "Data on the global uranium demand by year.",
@@ -232,7 +232,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Demand(WNA).csv",
+            "path": "csvs/Demand(WNA).csv",
             "descricao": {
                 "pt": "Dados sobre a demanda de urânio por país por ano.",
                 "en": "Data on uranium demand by country per year.",
@@ -243,7 +243,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Demanda_Completa.csv",
+            "path": "csvs/Demanda_Completa.csv",
             "descricao": {
                 "pt": "Previsão sobre a demanda de urânio por país por ano até 2050, feita por regressão polinomial.",
                 "en": "Forecast of uranium demand by country per year until 2050, made using polynomial regression.",
@@ -256,7 +256,7 @@ categorias = {
     ],
     "Depósitos e Estoques / Deposits and Stocks": [
         {
-            "path": "../csvs/Depósitos.csv",
+            "path": "csvs/Depósitos.csv",
             "descricao": {
                 "pt": "Todos depósitos de urânio com informações gerais.",
                 "en": "All uranium deposits with general information.",
@@ -267,7 +267,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Depósitos_Aquisição.csv",
+            "path": "csvs/Depósitos_Aquisição.csv",
             "descricao": {
                 "pt": "Capacidade de todos depósitos de urânio com seus custos de aquisição.",
                 "en": "Capacity of all uranium deposits with their acquisition costs.",
@@ -278,7 +278,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Predição_Custo_Aquisição.csv",
+            "path": "csvs/Predição_Custo_Aquisição.csv",
             "descricao": {
                 "pt": "Predição do custo de aquisição por depósito de urânio, feito por modelos de Machine Learning.",
                 "en": "Prediction of acquisition cost per uranium deposit, made using Machine Learning models.",
@@ -289,7 +289,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/RedBook/Estoque(RedBook).csv",
+            "path": "csvs/RedBook/Estoque(RedBook).csv",
             "descricao": {
                 "pt": "Dados sobre o estoque mundial de urânio por ano.",
                 "en": "Data on global uranium stock by year.",
@@ -302,7 +302,7 @@ categorias = {
     ],
     "Produção (Energia) / Production (Energy)": [
         {
-            "path": "../csvs/Diff_Produção.csv",
+            "path": "csvs/Diff_Produção.csv",
             "descricao": {
                 "pt": "Diferença entre o ano atual e o anterior na produção de energia por país.",
                 "en": "Difference between the current and previous year in energy production by country.",
@@ -315,7 +315,7 @@ categorias = {
     ],
     "Reatores Nucleares / Nuclear Reactors": [
         {
-            "path": "../csvs/Energia_Tipo.csv",
+            "path": "csvs/Energia_Tipo.csv",
             "descricao": {
                 "pt": "Predição da produção de GWh/tU por tipo de reator, feito por modelos de Machine Learning.",
                 "en": "Prediction of GWh/tU production by reactor type, made using Machine Learning models.",
@@ -326,7 +326,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Reatores_Info.csv",
+            "path": "csvs/Reatores_Info.csv",
             "descricao": {
                 "pt": "Informações gerais sobre todos reatores do mundo.",
                 "en": "General information about all reactors in the world.",
@@ -337,7 +337,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Reatores_Ano.csv",
+            "path": "csvs/Reatores_Ano.csv",
             "descricao": {
                 "pt": "Dados sobre todos reatores e sua produção por ano, estejam eles operando, desativados ou até mesmo apenas planejados.",
                 "en": "Data on all reactors and their production by year, whether they are operating, decommissioned, or even just planned.",
@@ -348,7 +348,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Tempo_Construção_País.csv",
+            "path": "csvs/Tempo_Construção_País.csv",
             "descricao": {
                 "pt": "Média do tempo que um país leva para construir um reator nuclear.",
                 "en": "Average time a country takes to build a nuclear reactor.",
@@ -359,7 +359,7 @@ categorias = {
             },
         },
         {
-            "path": "../csvs/Reatores_Finalização.csv",
+            "path": "csvs/Reatores_Finalização.csv",
             "descricao": {
                 "pt": "Previsão da finalização da construção dos reatores que estão atualmente em construção.",
                 "en": "Forecast of the completion of reactors currently under construction.",

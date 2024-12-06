@@ -26,7 +26,7 @@ idioma_selecionado = st.sidebar.selectbox("🌐 Escolha o idioma / Select Langua
 lang = idiomas[idioma_selecionado]
 
 # Carregar os dados
-data = pd.read_csv("../csvs/Preço_Urânio.csv")
+data = pd.read_csv("csvs/Preço_Urânio.csv")
 
 # Convertendo a coluna 'DATE' para datetime
 data["DATE"] = pd.to_datetime(data["DATE"])
