@@ -1,7 +1,5 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
 import pandas as pd
-from urllib.error import URLError
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -28,15 +26,11 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-conn = st.connection("gsheets", type=GSheetsConnection)
-
 @st.cache_data
 def get_reactor_data():
-    df = conn.read(
-        worksheet="Reatores/Ano",
-        ttl="10m",
-        usecols=[0,1,2,3,4,5,6,7,8,9,10],
-    ) 
+    # Read the data from the local CSV file
+    file_path = "csvs/Reatores_Ano.csv"
+    df = pd.read_csv(file_path)
     return df
 
 # Tradução de títulos e mensagens
@@ -49,8 +43,8 @@ if lang == "pt":
     chart_title = "Energia produzida por ano"
     data_title = "Dados usados:"
     error_message = """
-        **Erro ao conectar aos dados online.**
-        Erro de conexão: %s
+        **Erro ao carregar os dados.**
+        Detalhes do erro: %s
     """
 else:
     title = "Reactors by Year"
@@ -61,8 +55,8 @@ else:
     chart_title = "Energy Produced by Year"
     data_title = "Data Used:"
     error_message = """
-        **Error connecting to online data.**
-        Connection error: %s
+        **Error loading the data.**
+        Error details: %s
     """
 
 # Body
@@ -74,7 +68,7 @@ try:
     # Filtrando os dados por ano:
     df = get_reactor_data()
     years = st.slider(
-        "Escolha os anos" if lang == "pt" else "Select years", df['Year'].min(), df['Year'].max(), (df['Year'].min(), df['Year'].max())
+        "Escolha os anos" if lang == "pt" else "Select years", int(df['Year'].min()), int(df['Year'].max()), (int(df['Year'].min()), int(df['Year'].max()))
     )
 
     data = df[(df['Year'] >= years[0]) & (df['Year'] <= years[1])]
