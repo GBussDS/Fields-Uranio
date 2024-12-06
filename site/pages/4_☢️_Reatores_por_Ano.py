@@ -160,16 +160,26 @@ try:
     # Obter a lista de países disponíveis
     countries_available = energy_by_country.index.tolist()
     
-    # Verificar se 'Brasil' ou 'Brazil' está na lista, dependendo do idioma
+    # Definir o país padrão com base no idioma selecionado
     default_country = "Brasil" if lang == "pt" else "Brazil"
-    if default_country not in countries_available:
-        default_country = all_option
-
-    # Adicionar uma opção para selecionar um país, iniciando com Brasil
+    
+    # Verificar se o país padrão está na lista
+    if default_country in countries_available:
+        # Encontrar o índice do país padrão na lista de opções
+        # +1 porque 'all_option' está no índice 0
+        default_index = countries_available.index(default_country) + 1
+    else:
+        # Se o país padrão não estiver disponível, selecionar o primeiro país da lista
+        default_index = 1 if len(countries_available) > 0 else 0
+    
+    # Adicionar 'Todos' ou 'All' à lista de opções
+    options = [all_option] + countries_available
+    
+    # Adicionar uma opção para selecionar um país, iniciando com o país padrão
     selected_country = st.selectbox(
         select_country_label,
-        options=[all_option] + countries_available,
-        index= [0] + [i for i, country in enumerate(countries_available) if country == default_country][0:1] if default_country in countries_available else 0
+        options=options,
+        index=default_index
     )
     
     if selected_country != all_option:
@@ -195,7 +205,7 @@ try:
         )
         st.plotly_chart(fig_country, use_container_width=True)
     else:
-        # Se "Todos" for selecionado, mostrar o gráfico original com múltiplos países
+        # Se "Todos"/"All" for selecionado, mostrar o gráfico original com múltiplos países
         # Limitar a quantidade de países para evitar sobrecarga visual
         top_n = 10
         top_countries = energy_by_country.head(top_n).index.tolist()
